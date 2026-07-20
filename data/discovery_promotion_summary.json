@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-07-20T11:59:49+03:00",
+  "candidates_total": 127,
+  "ready_for_manual_confirmation": 57,
+  "status_counts": {
+    "ready_for_manual_confirmation": 57,
+    "needs_extraction_or_review": 70
+  },
+  "policy": "Discovery candidates remain outside open vacancies until manually reviewed. This file is a promotion workbench, not an open-role feed."
+}

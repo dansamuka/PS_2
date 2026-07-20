@@ -1,6 +1,6 @@
 {
   "version": "3C.1",
-  "role_count": 44,
+  "role_count": 43,
   "roles": [
     {
       "canonical_key": "rid_0271cb5e6c25",
@@ -82,11 +82,11 @@
     },
     {
       "canonical_key": "rid_1b9452aa9789",
-      "title": "Airtisan I (RAC Techhnician)",
+      "title": "Artisan I (RAC Technician)",
       "institution": "Kenya School of Government",
       "deadline": "2026-08-04T23:59:00+03:00",
       "current_ids": [
-        "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0"
+        "ksg_artisan_i_rac_technician_2026_08_04_d841e5d9348b"
       ],
       "source_ids": [
         "ksg_jobapplications"
@@ -277,11 +277,11 @@
     },
     {
       "canonical_key": "rid_763ff2d7f0c9",
-      "title": "Manager Facilities Management & Maintainance",
+      "title": "Manager Facilities Management & Maintenance",
       "institution": "Kenya School of Government",
       "deadline": "2026-08-04T23:59:00+03:00",
       "current_ids": [
-        "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf"
+        "ksg_manager_facilities_management_maintenance_2026_08_04_31b035b48a65"
       ],
       "source_ids": [
         "ksg_jobapplications"
@@ -386,19 +386,6 @@
       "deadline": "2026-08-04T23:59:00+03:00",
       "current_ids": [
         "ksg_hospitality_officer_i_2026_08_04_60b9c8740ed5"
-      ],
-      "source_ids": [
-        "ksg_jobapplications"
-      ],
-      "row_count": 1
-    },
-    {
-      "canonical_key": "rid_ac40d97d32e7",
-      "title": "Advertised Vacancies",
-      "institution": "Kenya School of Government",
-      "deadline": "2026-08-04T23:59:00+03:00",
-      "current_ids": [
-        "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6"
       ],
       "source_ids": [
         "ksg_jobapplications"
@@ -575,5 +562,5 @@
       "row_count": 1
     }
   ],
-  "generated_at": "2026-07-20T10:56:30+03:00"
+  "generated_at": "2026-07-20T11:59:49+03:00"
 }

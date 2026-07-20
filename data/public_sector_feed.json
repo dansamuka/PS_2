@@ -1,11 +1,11 @@
 {
   "meta": {
-    "feed_version": "3.2-role-identity-reconciliation-phase3c",
-    "generated_at": "2026-07-20T10:56:30+03:00",
-    "next_expected_update": "2026-07-21T10:56:48+03:00",
+    "feed_version": "3.3-discovery-promotion-phase3d",
+    "generated_at": "2026-07-20T11:59:49+03:00",
+    "next_expected_update": "2026-07-21T12:00:02+03:00",
     "is_sample_data": false,
-    "coverage_note": "Phase 3C reconciles refreshed roles by canonical identity, keeps KSG/PSCIMS live ingestion, filters generic listing rows, and prepares MyGov/GAA discovery items for manual review.",
-    "vacancy_count": 44,
+    "coverage_note": "Phase 3D fixes KSG import reliability, preserves role-identity reconciliation, and turns MyGov/GAA discovery items into structured promotion candidates for manual confirmation.",
+    "vacancy_count": 43,
     "source_count": 239,
     "accuracy_policy": "Only official/official-like national government and government-related sources are included in open roles. Gmail/WhatsApp/payment-request adverts are rejected into the watchlist, not shown as open roles.",
     "limitations": [
@@ -138,12 +138,14 @@
       "national_registry_phase3_sources": 239,
       "central_collectors_enabled": 5,
       "expired_roles": 0,
-      "latest_ingestion_phase": "3C",
+      "latest_ingestion_phase": "3D",
       "new_roles_last_run": 0,
-      "updated_roles_last_run": 0,
+      "updated_roles_last_run": 2,
       "discovery_items_last_run": 120,
-      "identity_reconciled_roles_last_run": 0,
-      "genuine_new_roles_last_run": 0
+      "identity_reconciled_roles_last_run": 2,
+      "genuine_new_roles_last_run": 0,
+      "promotion_candidates_last_run": 127,
+      "promotion_ready_for_review_last_run": 57
     },
     "scope": "national_government_mdas_parastatals_public_institutions_only_no_counties",
     "role_scope": "all_role_families",
@@ -153,28 +155,46 @@
       "county_assemblies",
       "ward_or_sub_county_roles"
     ],
-    "phase": "Phase 3C — Role identity reconciliation",
-    "implementation_phase": "Phase 3C — Role identity reconciliation",
+    "phase": "Phase 3D — Discovery promotion workbench",
+    "implementation_phase": "Phase 3D — Discovery promotion workbench",
     "scope_detail": "national_government_mdas_parastatals_public_institutions_only_no_counties",
     "change_summary": {
       "new_roles": 0,
-      "updated_roles": 0,
-      "removed_roles": 0,
+      "updated_roles": 2,
+      "removed_roles": 1,
       "expired_roles": 0,
       "county_rows_dropped": 0,
-      "unchanged_roles": 44,
+      "unchanged_roles": 41,
       "new_role_ids": [],
-      "updated_role_ids": [],
-      "removed_role_ids": [],
+      "updated_role_ids": [
+        "ksg_artisan_i_rac_technician_2026_08_04_d841e5d9348b",
+        "ksg_manager_facilities_management_maintenance_2026_08_04_31b035b48a65"
+      ],
+      "removed_role_ids": [
+        "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6"
+      ],
       "expired_role_ids": [],
       "genuine_new_roles": 0,
-      "genuine_removed_roles": 0,
-      "identity_reconciled_roles": 0,
-      "refreshed_existing_roles": 44,
-      "row_id_replacements": 0,
+      "genuine_removed_roles": 1,
+      "identity_reconciled_roles": 2,
+      "refreshed_existing_roles": 43,
+      "row_id_replacements": 2,
       "canonical_roles_before": 44,
-      "canonical_roles_after": 44,
-      "reconciled_role_pairs": []
+      "canonical_roles_after": 43,
+      "reconciled_role_pairs": [
+        {
+          "canonical_key": "rid_1b9452aa9789",
+          "old_id": "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0",
+          "new_id": "ksg_artisan_i_rac_technician_2026_08_04_d841e5d9348b",
+          "title": "Artisan I (RAC Technician)"
+        },
+        {
+          "canonical_key": "rid_763ff2d7f0c9",
+          "old_id": "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf",
+          "new_id": "ksg_manager_facilities_management_maintenance_2026_08_04_31b035b48a65",
+          "title": "Manager Facilities Management & Maintenance"
+        }
+      ]
     }
   },
   "vacancies": [
@@ -192,7 +212,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:56:31+03:00",
+        "last_checked_at": "2026-07-20T11:59:51+03:00",
         "http_status": 200
       },
       "advert": {
@@ -264,7 +284,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:56:31+03:00",
+          "seen_at": "2026-07-20T11:59:51+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -297,7 +317,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:56:31+03:00",
+        "last_checked_at": "2026-07-20T11:59:51+03:00",
         "http_status": 200
       },
       "advert": {
@@ -367,7 +387,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:56:31+03:00",
+          "seen_at": "2026-07-20T11:59:51+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -400,7 +420,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:56:31+03:00",
+        "last_checked_at": "2026-07-20T11:59:51+03:00",
         "http_status": 200
       },
       "advert": {
@@ -471,7 +491,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:56:31+03:00",
+          "seen_at": "2026-07-20T11:59:51+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -504,7 +524,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:56:31+03:00",
+        "last_checked_at": "2026-07-20T11:59:51+03:00",
         "http_status": 200
       },
       "advert": {
@@ -574,7 +594,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:56:31+03:00",
+          "seen_at": "2026-07-20T11:59:51+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -607,7 +627,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -679,7 +699,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -712,7 +732,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -784,7 +804,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -804,8 +824,8 @@
       }
     },
     {
-      "id": "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6",
-      "title": "Advertised Vacancies",
+      "id": "ksg_artisan_i_rac_technician_2026_08_04_d841e5d9348b",
+      "title": "Artisan I (RAC Technician)",
       "institution": {
         "name": "Kenya School of Government",
         "hiring_body": "Kenya School of Government",
@@ -817,113 +837,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
-        "http_status": 200
-      },
-      "advert": {
-        "advert_number": null,
-        "job_scale": null,
-        "number_of_vacancies": 8,
-        "advert_date": null,
-        "deadline": "2026-08-04T23:59:00+03:00",
-        "deadline_confidence": "explicit"
-      },
-      "location": {
-        "raw": "Mombasa, Tsavo East, Tsavo West",
-        "county": null,
-        "region": "national",
-        "duty_station": "Mombasa, Tsavo East, Tsavo West"
-      },
-      "employment": {
-        "type": "contract",
-        "terms": "Contract",
-        "department": "ALL"
-      },
-      "requirements": {
-        "education_minimum": null,
-        "kcse_minimum": null,
-        "years_experience_minimum": 3,
-        "professional_body": null,
-        "computer_proficiency_required": true,
-        "chapter_six_required": true,
-        "mandatory_text": "Advertised Vacancies Find a position that matches your skills and apply today. Showing 39 vacancyies Reset Filters ALL Kitchen Attendant III New Mombasa, Tsavo East, Tsavo West Contract 8 positions Open Deadline: 04 August 2026 Details Apply Now Kitchen Attendant III Department: ALL Location: Mombasa, Tsavo East, Tsavo West Positions: 8 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, a candidate must have: - (i) Kenya Certificate of Secondary Education mean grade of D (Plain) or its equivalent qualification from a recognized institution; (ii) Valid Food Handlers Medical Certificate; and (iii) Proficiency in computer applications. Apply Now Close ALL Driver III New Mombasa, Tsavo East Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now Driver III Department: ALL Location: Mombasa, Tsavo East Positions: 3 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade a candidate must have: - (i) Two years driving experience; (ii) Kenya Certificate of Secondary Education mean grade of D (Plain) or its equivalent qualification from a recognized institution; (iii) Valid driving license free from any current endorsements and valid for any of the classes of vehicles which the officer is required to drive; (iv) First-Aid Certificate Course lasting not less than one (1) week from St. John Ambulance or Kenya Institute of Highway and Building Technology (KIHBT) or any other recognized institution; (v) Certificate in Defensive Driving from Automobile Association (AA) of Kenya or its equivalent qualification from a recognized institution; (vi) Passed the Suitability Test for Drivers Grade III; (vii) Valid Certificate of Good Conduct from the Kenya police; and (viii) Proficiency in computer applications. Apply Now Close ALL House Keeper III (Room steward) New Tsavo East, Tsavo West, Mombasa Contract 7 positions Open Deadline: 04 August 2026 Details Apply Now House Keeper III (Room steward) Department: ALL Location: Tsavo East, Tsavo West, Mombasa Positions: 7 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, a candidate must have: - (i) Certificate in Housekeeping &amp; Laundry or a related qualification from a recognized institution; and (ii) Proficiency in computer applications. Apply Now Close ALL Public Area Attendant 1 New Tsavo West, Mombasa Contract 4 positions Open Deadline: 04 August 2026 Details Apply Now Public Area Attendant 1 Department: ALL Location: Tsavo West, Mombasa Positions: 4 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, a candidate must have: (i) Certificate in Housekeeping &amp; Laundry or a related qualification from a recognized institution; and (ii) Proficiency in computer applications. Apply Now Close ALL Waiter 1 New Tsavo East, Tsavo West, Mombasa Contract 16 positions Open Deadline: 04 August 2026 Details Apply Now Waiter 1 Department: ALL Location: Tsavo East, Tsavo West, Mombasa Positions: 16 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of six (6) years relevant work experience three (3) of which should have been in the grade of Waiter II or in a comparable position; (ii) Certificate in Food and Beverage Service &amp; Sales, Banqueting and Events or a related qualification from a recognized institution; (iii) Valid Food Handlers Medical Certificate. (iv) Certificate in food safety/HACCP from a recognized institution; (v) Proficiency in computer applications; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Hotel Attendant (Receptionist /Cashier) New Tsavo East, Tsavo West, Mombasa Contract 9 positions Open Deadline: 04 August 2026 Details Apply Now Senior Hotel Attendant (Receptionist /Cashier) Department: ALL Location: Tsavo East, Tsavo West, Mombasa Positions: 9 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an Officer must have: - (i) Cumulative service period of Nine (9) years relevant work experience three (3) of which should have been in the grade of Hotel Attendant I or in a comparable position; (ii) KCSE Mean Grade D (Plain) or its equivalent from a recognised institution. (iii) Proficiency in computer applications; and (iv) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Cook I New Mombasa, Tsavo West, Tsavo East Contract 17 positions Open Deadline: 04 August 2026 Details Apply Now Cook I Department: ALL Location: Mombasa, Tsavo West, Tsavo East Positions: 17 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of six (6) years relevant work experience three (3) of which should have been in the grade of Cook II or in a comparable position; (ii) Certificate in Food Production, Food and Beverage Production, Pastry and Bakery or a related qualification from a recognized institution; (iii) Valid Food Handlers Medical Certificate; (iv) Certificate in food safety/HACCP from a recognized institution; (v) Proficiency in computer applications; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Accountant II New Tsavo East, Tsavo West, Mombasa Contract 6 positions Open Deadline: 04 August 2026 Details Apply Now Accountant II Department: ALL Location: Tsavo East, Tsavo West, Mombasa Positions: 6 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade a candidate must have: - (i) Bachelor’s degree in any of the following disciplines: - Commerce, Accounting, Finance, or a related field from a recognized institution; and (ii) Proficiency in computer applications. Apply Now Close ALL Supply Chain Management Assistant 1 New Mombasa, Tsavo East, Tsavo East Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now Supply Chain Management Assistant 1 Department: ALL Location: Mombasa, Tsavo East, Tsavo East Positions: 3 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) Cumulative service period of six (6) years relevant work experience three (3) of which should have been at the grade of Supply Chain Management Assistant II or in a comparable position; (ii) Diploma in any of the following disciplines: Procurement, Procurement and Logistics, Procurement and Supply Chain Management, Purchasing and Supplies Chain Management or related field from a from a recognized institution; (iii) Proficiency in computer applications; and (iv) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Cook New Tsavo East, Tsavo West, Mombasa Contract 4 positions Open Deadline: 04 August 2026 Details Apply Now Senior Cook Department: ALL Location: Tsavo East, Tsavo West, Mombasa Positions: 4 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of nine (9) years relevant work experience three (3) of which should have been in the grade of Cook I or in a comparable position; (ii) Certificate in Food Production, Food and Beverage Production, Pastry and Bakery or a related qualification from a recognized institution; (iii) Valid Food Handlers Medical Certificate; (iv) Certificate in food safety/HACCP from a recognized institution; (v) Proficiency in computer applications; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Accountant I New Tsavo West, Mombasa Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now Accountant I Department: ALL Location: Tsavo West, Mombasa Positions: 3 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) At least three (3) years relevant work experience at the grade of Accountant II or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: - Commerce, Accounting, Finance, or a related field from a recognized institution; (iii) Proficiency in computer applications; and (iv) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Artisan III (Plumber) New Tsavo East Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Artisan III (Plumber) Department: ALL Location: Tsavo East Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements (i) KCSE Mean Grade D (Plain) or equivalent. (ii) Government Trade Test Certificate Grade III in Plumbing/Pipe Fitting or equivalent from a recognized institution. (iii) Certificate in Plumbing and Drainage is an added advantage. (iv) Knowledge of occupational health and safety practices. (v) At least 3 years of relevant experience in a similar industry (vi) Computer Proficiency will be an added advantage Apply Now Close ALL Artisan III (Electrician) New Mombasa,, Tsavo East Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now Artisan III (Electrician) Department: ALL Location: Mombasa,, Tsavo East Positions: 2 Type: Contract Deadline: 04 August 2026 Mandatory Requirements (i) KCSE Mean Grade D (Plain) or equivalent. (ii) Government Trade Test Certificate Grade III in Electrical Installation or equivalent from a recognized institution. (iii) Knowledge of electrical safety regulations. (iv) At least 3 years of relevant experience in a similar industry (v) Computer Proficiency will be an added advantage Apply Now Close ALL Artisan III (Animator) New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Artisan III (Animator) Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements (i) KCSE Mean Grade D (Plain) or equivalent. (ii) Certificate in Hospitality Entertainment, Recreation, Performing Arts, Music, Dance, Events Management or related field. (iii) Basic customer care or hospitality training is an added advantage. (iv) Basic First Aid certification is an added advantage. (v) Good communication and interpersonal skills. (vi) Ability to work flexible hours. (vii) Computer Proficiency, videography and photography certifications will be an added advantage (viii) At least 3 years of relevant experience in a similar industry Apply Now Close ALL Swimming Pool Attendant III New Mombasa, Tsavi East Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now Swimming Pool Attendant III Department: ALL Location: Mombasa, Tsavi East Positions: 2 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an Officer must have: - (i) At least three (3) years relevant work experience in the grade of Swimming Pool Attendant III or in a comparable position; (ii) Certificate in Lifeguarding and Swimming Instructor, Swimming Pool Treatment or equivalent qualification from a recognized institution. (iii) CPR/First Aid Certificate Course lasting at least one week from a recognized institution; (iv) Proficiency in computer applications; and (v) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Hotel Attendant 1 New Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now Hotel Attendant 1 Department: ALL Location: Mombasa Positions: 2 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an Officer must have: - (i) Cumulative service period of Six (6) years relevant work experience three (3) of which should have been in the grade of Hotel Attendant II or in a comparable position; (ii) KCSE Mean Grade D (Plain) or its equivalent from a recognised institution. (iii) Proficiency in computer applications; and (iv) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Airtisan I (RAC Techhnician) New Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now Airtisan I (RAC Techhnician) Department: ALL Location: Mombasa Positions: 2 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an Officer must have: - (i) Cumulative service period of Six (6) years relevant work experience three (3) of which should have been in the grade of Artisan II or in a comparable position; (ii) Kenya Certificate of Secondary Education (KCSE) mean grade D (Plain) or its equivalent qualification; (iii) National Trade Test II Certificate in any of the following areas of specialization: Carpentry &amp; Joinery, Masonry, Tailoring, Plumbing, Welding &amp; Fabricating, Electrical or its equivalent qualification from a recognized Institution; (iv) Proficiency in computer applications; and Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Laundry Operator New Mombasa Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now Laundry Operator Department: ALL Location: Mombasa Positions: 3 Type: Contract Deadline: 04 August 2026 Mandatory Requirements Person Specification For appointment to this grade, a candidate must have; i. Diploma in Housekeeping ii. Fulfil the requirements of Chapter 6 of the Constitution OR i. At least four (4) years Relevant Experience ii. ii. Craft/relevant refresher course Apply Now Close ALL Information Communication Technology Assistant II New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Information Communication Technology Assistant II Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) At least three (3) years relevant work experience at the grade of Information Communication Technology Assistant III or in a comparable position; (ii) Diploma in any of the following disciplines: - Information Technology, Computer Science, Business IT or any other relevant and equivalent qualification from a recognized Institution; and (iii) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Human Resource Management Officer II New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Human Resource Management Officer II Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade a candidate must have: - (i) Bachelor’s degree in any of the following disciplines: - Human Resource Management, Industrial Relations, Labor Relations or a related field from a recognized institution; OR Bachelor’s degree in any of the following disciplines: - Economics, Sociology, Business Administration, Public Administration, Commerce Plus a Post Graduate Diploma in Human Resource Management/Development or a related field from a recognized Institution; and (ii) Proficiency in computer applications. Apply Now Close ALL Senior Waiter New Tsavo East, Tsavo West Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now Senior Waiter Department: ALL Location: Tsavo East, Tsavo West Positions: 2 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of nine (9) years relevant work experience three (3) of which should have been in the grade of Waiter I or in a comparable position; (ii) Certificate in Food and Beverage Service &amp; Sales, Banqueting and Events or a related qualification from a recognized institution; (iii) Valid Food Handlers Medical Certificate. (iv) Certificate in food safety/HACCP from a recognized institution; (v) Proficiency in computer applications; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior House Keeper (Public Area Supervisor) New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Senior House Keeper (Public Area Supervisor) Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of nine (9) years relevant work experience three (3) of which should have been in the grade of Housekeeper I or in a comparable position; (ii) Certificate in Housekeeping &amp; Laundry or a related qualification from a recognized institution; (iii) Proficiency in computer applications; and Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Hospitality Officer I New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Hospitality Officer I Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) At least three (3) years relevant work experience at the grade of Hospitality Officer II or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: Hotel and Hospitality Management; Event Management, Catering/Accommodation Management, Institutional Management, Hotel and Restaurant Management, Food and Beverage Production/Management and Service; Food and Beverage Management; or a related qualification from a recognized institution; (iii) Proficiency in computer applications; and (iv) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Security Officer New Tsave East, Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now Senior Security Officer Department: ALL Location: Tsave East, Mombasa Positions: 2 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) Cumulative service period of six (6) years relevant work experience three (3) of which should have been at the grade of Security Officer I or in a comparable position; (ii) Bachelor’s degree in Security Studies /Criminology or any other relevant qualification from a recognised institution; and (iii) Membership to a relevant professional body and in good standing where applicable; (iv) Proficiency in computer applications; and (v) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Sales and Marketing Officer, New Nairobi, Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now Senior Sales and Marketing Officer, Department: ALL Location: Nairobi, Mombasa Positions: 2 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an Officer must have: - (i) Cumulative service period of Six (6) years relevant work experience three (3) of which should have been in the grade of Sales and Marketing Officer I or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: Marketing, Business Administration/Management, Finance, Commerce or equivalent qualification from a recognized institution; (iii) Membership to a relevant professional body and in good standing where applicable; (iv) Proficiency in computer applications; and (v) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Internal Auditor New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Senior Internal Auditor Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements Person Specifications For appointment to this grade an officer must have: - (i) Cumulative service period of Six (6) years relevant work experience three (3) of which should have been at the grade of Internal Auditor I or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: Finance, Accounting, Business Administration, Mathematics, Actuarial Science, Statistics or related field from a recognized institution; (iii) Relevant professional qualification in Certified Public Accountant (CPA), Association of Chartered Certified Accountants (ACCA), Certified Internal Auditor (CIA), Certified Information Systems Auditor (CISA), Certified Information Security Manager (CISM), Certified Risk and Information Systems Control (CRISC) or equivalent qualification from an accredited examinations body; (iv) Membership to a relevant professional body and in good standing where applicable; (v) Proficiency in computer applications; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Hospitality Officer New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Senior Hospitality Officer Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of six (6) years relevant work experience three (3) of which should have been in the grade of Hospitality Officer I or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: Hotel and Hospitality Management; Event Management, Catering/Accommodation Management, Institutional Management, Hotel and Restaurant Management, Food and Beverage Production/Management and Service; Food and Beverage Management; or a related qualification from a recognized institution; (iii) Membership to a relevant professional body and in good standing where applicable; (iv) Proficiency in computer applications; and (v) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Hospitality Assistant New Tsavo West Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Senior Hospitality Assistant Department: ALL Location: Tsavo West Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements which should have been in the grade of Hospitality Assistant I or in a comparable position; (ii) Diploma in any of the following disciplines: Hotel Management; Housekeeping and Front Office Management, Housekeeping and laundry operations, Hospitality Management or a related qualification from a recognized institution; (iii) Membership to a relevant professional body and in good standing where applicable; (iv) Proficiency in computer applications; and (v) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Chef New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Senior Chef Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of nine (9) years relevant work experience three (3) of which should have been in the grade of Chef I or in a comparable position; (ii) Diploma in Culinary Arts, Hotel and Restaurant Management or a related qualification from a recognized institution; (iii) Valid Food Handlers Medical Certificate. (iv) Certificate in food safety/HACCP from a recognized institution; (v) Membership to a relevant professional body and in good standing where applicable; (vi) Proficiency in computer applications; and (vii) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Senior Account New Tsavo East Contract 4 positions Open Deadline: 04 August 2026 Details Apply Now Senior Account Department: ALL Location: Tsavo East Positions: 4 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) Cumulative service period of six (6) years relevant work experience three (3) of which should have been at the grade of Accountant I or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: - Commerce, Accounting, Finance, or a related field from a recognized institution; (iii) Certified Public Accountant (K) or equivalent qualification from an accredited examination body; (iv) Membership to the Institute of Certified Public Accountants of Kenya (ICPAK) or relevant professional body and in good standing; (v) Proficiency in computer applications; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Principal Information Communication Technology Assistant New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Principal Information Communication Technology Assistant Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) Cumulative service period of twelve (12) years relevant work experience three (3) of which should have been in the grade of Senior Information Communication Technology Assistant or in a comparable position; (ii) Diploma in any of the following disciplines: - Information Technology, Computer Science, Business IT or any other relevant and equivalent qualification from a recognized Institution; (iii) Membership to a relevant professional body and in good standing where applicable. (iv) Professional certification in: - CCNP, CDCP, CCNA Cloud, CCNA Industrial/IoT, CCNA, MCSE, MCSA, MCSD, N+, A+ OCA, CISSP, Linux+, Network+, Microsoft Certified IT Professional (MCITP) or their equivalent; (v) Certificate in Supervisory course lasting not less than two (2) weeks from a recognized institution; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Principal Hospitality Assistant New Mombasa Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now Principal Hospitality Assistant Department: ALL Location: Mombasa Positions: 3 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of twelve (12) years relevant work experience three (3) of which should have been in the grade of Senior Hospitality Assistant or in a comparable position; (ii) Diploma in any of the following disciplines: Hotel Management; Housekeeping and Front Office Management, Housekeeping and laundry operations, Hospitality Management or a related qualification from a recognized institution; (iii) Membership to a relevant professional body and in good standing where applicable; (iv) Certificate in Supervisory Course lasting not less than two (2) weeks from a recognised Institution; (v) Proficiency in computer applications; and (vi) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Assistant Manager Supply Chain Management New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Assistant Manager Supply Chain Management Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements Person Specifications For appointment to this grade an officer must have: - (i) Cumulative service period of Twelve (12) years relevant work experience three (3) of which should have been at the grade of Principal Supply Chain Management Officer or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: - Supply Chain Management and Logistics, Purchasing and Supplies Management, Procurement and Supplies Chain Management, Procurement, Commerce (Supplies Management Option), Business Administration (Supplies Management option) or related field from a recognized and institution; (iii) Master’s degree in any of the following disciplines: - Supply Chain Management, Logistics and Supply Chain Management, Procurement, Business Administration (Supplies Chain Management Option), Commerce (Supply Chain Management Option) or related field from a recognized institution; (iv) Relevant technical and professional certification from a recognized institution; (v) A member of the Kenya Institute of Supplies Management (KISM) or Chartered Institute of Supplies and in good standing; (vi) Leadership course certificate lasting not less than four (4) weeks from a recognised institution; (vii) Proficiency in computer applications; and (viii) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Assistant Manager Finance New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Assistant Manager Finance Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) Cumulative service period of twelve (12) years relevant work experience three (3) of which should have been at the grade of Principal Finance Officer or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: - Commerce, Accounting, Finance, or a related field from a recognized institution; (iii) Master’s degree in any of the following disciplines: Commerce, Accounting, Finance, Business Management, Business Administration or related field from a recognized institution; (iv) Certified Public Accountant (K) or equivalent qualification from an accredited examination body; (v) Membership to the Institute of Certified Public Accountants of Kenya (ICPAK) or relevant professional body and in good standing; (vi) Leadership course certificate lasting not less than four (4) weeks from a recognised institution; (vii) Proficiency in computer applications; and (viii) Shown merit and ability as reflected in work performance and results Apply Now Close ALL Manager Internal Audit New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Manager Internal Audit Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an officer must have: - (i) Cumulative service period of fifteen (15) years relevant work experience three (3) of which should have been at the grade of Assistant Manager, Internal Audit or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: Finance, Accounting, Business Administration, Mathematics, Actuarial Science, Statistics or related field from a recognized institution; (iii) Master’s degree in any of the following disciplines: Finance, Accounting, Business Administration, Mathematics, Statistics or relevant field from a recognized institution; (iv) Relevant professional qualification in Certified Public Accountant (CPA), Association of Chartered Certified Accountants (ACCA), Certified Internal Auditor (CIA), Certified Information Systems Auditor (CISA), Certified Information Security Manager (CISM), Certified Risk and Information Systems Control (CRISC) or equivalent qualification from an accredited examinations body; (v) Membership to a relevant professional body and in good standing where applicable; (vi) Leadership course certificate lasting not less than four (4) weeks from a recognised institution; (vii) Proficiency in computer applications; and (viii) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Manager Hospitality Services New Tsavo East Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Manager Hospitality Services Department: ALL Location: Tsavo East Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade, an Officer must have: - (i) Cumulative service period of fifteen (15) years relevant work experience three (3) of which should have been in the grade of Assistant Manager Hospitality Services or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: Hotel and Hospitality Management; Event Management, Catering/Accommodation Management, Institutional Management, Hotel and Restaurant Management, Food and Beverage Production/Management and Service; Food and Beverage Management; or a related qualification from a recognized institution; (iii) Master’s Degree from in any of the following disciplines: Hotel and Hospitality Management; Event Management, Catering/Accommodation Management, Institutional Management, Hotel and Restaurant Management, Food and Beverage Production/Management and Service; Food and Beverage Management; Business Administration; Strategic Management or a related qualification from a recognized institution; (iv) Membership to a relevant professional body and in good standing where applicable; (v) A valid practising certificate where applicable; (vi) Certificate in leadership Course lasting not less than four (4) weeks from a recognised Institution; (vii) Proficiency in computer applications; and (viii) Shown merit and ability as reflected in work performance and results. Apply Now Close ALL Manager Facilities Management & Maintainance New Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Manager Facilities Management & Maintainance Department: ALL Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements Duties and responsibilities at this level will entail: - (i) Providing strategic leadership and direction on facilities management; (ii) Designing and enforcing policies for maintenance, safety, and sustainability; (iii) Managing budgets, procurement, and vendor contracts; (iv) Developing strategic energy and resource efficiency initiatives; (v) Advising executive management on facility-related investments and risks; (vi) Leading disaster preparedness and emergency response planning for facilities; and (vii) Representing the organization in regulatory and industry forums related to infrastructure and maintenance; Apply Now Close ALL Manager Sales & Marketing New Nairobi Contract 1 position Open Deadline: 04 August 2026 Details Apply Now Manager Sales & Marketing Department: ALL Location: Nairobi Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this grade an Officer must have: - (i) Cumulative service period of Fifteen (15) years relevant work experience three (3) of which should have been in the grade of Assistant Manager, Sales and Marketing or in a comparable position; (ii) Bachelor’s degree in any of the following disciplines: Marketing, Business Administration/Management, Finance, Commerce or equivalent qualification from a recognized institution; (iii) Master’s degree in any of the following disciplines: Marketing, Business Administration/Management, Finance, Commerce, Project Management or equivalent qualification from a recognized institution; (iv) Membership to a relevant professional body and in good standing where applicable; (v) Certificate in Leadership Course lasting not less than four (4) weeks from a recognized institution; (vi) A valid practising certificate where applicable; (vii) Proficiency in computer applications; and (viii) Shown merit and ability as reflected in work performance and results. Apply Now Close General Manager General Manager Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now General Manager Department: General Manager Location: Mombasa Positions: 1 Type: Contract Deadline: 04 August 2026 Mandatory Requirements For appointment to this level an officer must have: - (i) Served for a cumulative period of fifteen (15) years, five (5) of which must have been at the grade of General Manager or in a comparable position; (ii) Bachelor’s Degree in any of the following disciplines: Hotel Management, Hospitality Management, Business Administration or a related qualification from a recognized institution; (iii) Master’s Degree from in any of the following disciplines: Hotel Management, Hospitality Management, Business Administration, Strategic Management or a related qualification from a recognized institution; (iv) Leadership course lasting not less than four (4) weeks from a recognized institution; (v) Membership with a relevant professional body, where applicable and be in good standing; (vi) Valid practicing certificate where applicable; (vii) Proficiency in computer applications; (viii) Demonstrated outstanding managerial and professional competence as reflected in work performance and results; (ix) Exhibited a thorough understanding of national goals, policies, objectives and ability to relate them to the institution’s mandate; and (x) Fulfilled the requirements of Chapter Six (6) of the Constitution of Kenya. Apply Now Close New applicant? Register to receive your security key, sign in, and start applying for open positions. Register Sign In"
-      },
-      "job_family": [
-        "public_service_general"
-      ],
-      "keywords": [
-        "advertised",
-        "kenya",
-        "school",
-        "government",
-        "public",
-        "service",
-        "general"
-      ],
-      "application": {
-        "mode": "online_portal",
-        "apply_url": "https://jobapplications.ke/client/login",
-        "requires_login": false,
-        "requires_email_submission": false,
-        "email": null,
-        "fee_required": false
-      },
-      "verification": {
-        "status": "needs_review",
-        "risk_flags": [
-          "external_portal_confirm_institution_linkage"
-        ],
-        "notes": "Captured from KSG application portal. Cross-check KSG official channels before submitting sensitive documents."
-      },
-      "raw": {
-        "html_hash": null,
-        "pdf_url": null,
-        "screenshot_path": null
-      },
-      "links": {
-        "view_original_url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-        "view_original_label": "View role on original site",
-        "view_source_url": "https://jobapplications.ke/",
-        "view_apply_url": "https://jobapplications.ke/client/login"
-      },
-      "provenance": [
-        {
-          "source_id": "ksg_jobapplications",
-          "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
-          "evidence_type": "institutional_portal_listing"
-        }
-      ],
-      "scope": "national_government_or_government_related",
-      "identity": {
-        "canonical_key": "rid_ac40d97d32e7",
-        "canonical_fields": {
-          "source_id": "ksg_jobapplications",
-          "institution": "kenya school of government",
-          "title": "advertised vacancies",
-          "deadline": "2026-08-04",
-          "location": "east mombasa tsavo west",
-          "advert_number": ""
-        },
-        "row_id": "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6",
-        "reconciliation_version": "3C.1"
-      }
-    },
-    {
-      "id": "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0",
-      "title": "Airtisan I (RAC Techhnician)",
-      "institution": {
-        "name": "Kenya School of Government",
-        "hiring_body": "Kenya School of Government",
-        "type": "public_institution",
-        "official_domain": "ksg.ac.ke"
-      },
-      "source": {
-        "name": "KSG Job Application Portal",
-        "url": "https://jobapplications.ke/",
-        "source_type": "institutional_portal",
-        "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -955,18 +869,17 @@
         "mandatory_text": "ALL Airtisan I (RAC Techhnician) New Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
-        "public_service_general"
+        "engineering_technical"
       ],
       "keywords": [
-        "airtisan",
+        "artisan",
         "rac",
-        "techhnician",
+        "technician",
         "kenya",
         "school",
         "government",
-        "public",
-        "service",
-        "general"
+        "engineering",
+        "technical"
       ],
       "application": {
         "mode": "online_portal",
@@ -998,7 +911,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1013,7 +926,7 @@
           "location": "kenya",
           "advert_number": ""
         },
-        "row_id": "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0",
+        "row_id": "ksg_artisan_i_rac_technician_2026_08_04_d841e5d9348b",
         "reconciliation_version": "3C.1"
       }
     },
@@ -1031,7 +944,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1105,7 +1018,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1138,7 +1051,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1212,7 +1125,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1245,7 +1158,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1319,7 +1232,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1352,7 +1265,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1428,7 +1341,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1461,7 +1374,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1538,7 +1451,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1571,7 +1484,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1642,7 +1555,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1675,7 +1588,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1747,7 +1660,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1780,7 +1693,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1853,7 +1766,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1886,7 +1799,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1960,7 +1873,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1993,7 +1906,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2065,7 +1978,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2098,7 +2011,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2175,7 +2088,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2208,7 +2121,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2281,7 +2194,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2314,7 +2227,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2391,7 +2304,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2424,7 +2337,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2497,7 +2410,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2530,7 +2443,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2604,7 +2517,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2624,8 +2537,8 @@
       }
     },
     {
-      "id": "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf",
-      "title": "Manager Facilities Management & Maintainance",
+      "id": "ksg_manager_facilities_management_maintenance_2026_08_04_31b035b48a65",
+      "title": "Manager Facilities Management & Maintenance",
       "institution": {
         "name": "Kenya School of Government",
         "hiring_body": "Kenya School of Government",
@@ -2637,7 +2550,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2675,7 +2588,7 @@
         "manager",
         "facilities",
         "management",
-        "maintainance",
+        "maintenance",
         "kenya",
         "school",
         "government",
@@ -2711,7 +2624,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2726,7 +2639,7 @@
           "location": "kenya",
           "advert_number": ""
         },
-        "row_id": "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf",
+        "row_id": "ksg_manager_facilities_management_maintenance_2026_08_04_31b035b48a65",
         "reconciliation_version": "3C.1"
       }
     },
@@ -2744,7 +2657,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2818,7 +2731,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2851,7 +2764,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2929,7 +2842,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2962,7 +2875,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3036,7 +2949,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3069,7 +2982,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3144,7 +3057,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3177,7 +3090,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3255,7 +3168,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3288,7 +3201,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3361,7 +3274,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3394,7 +3307,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3468,7 +3381,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3501,7 +3414,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3575,7 +3488,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3608,7 +3521,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3680,7 +3593,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3713,7 +3626,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3788,7 +3701,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3821,7 +3734,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3896,7 +3809,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3929,7 +3842,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4007,7 +3920,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4040,7 +3953,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4117,7 +4030,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4150,7 +4063,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4226,7 +4139,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4259,7 +4172,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4335,7 +4248,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4368,7 +4281,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4440,7 +4353,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4473,7 +4386,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4547,7 +4460,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4580,7 +4493,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4654,7 +4567,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4687,7 +4600,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4761,7 +4674,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4794,7 +4707,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-20T10:37:38+03:00",
+        "last_checked_at": "2026-07-20T11:59:53+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4867,7 +4780,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-20T10:37:38+03:00",
+          "seen_at": "2026-07-20T11:59:53+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4899,8 +4812,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:56:30+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
+      "last_checked_at": "2026-07-20T11:59:49+03:00",
+      "last_successful_fetch_at": "2026-07-20T11:59:49+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4918,8 +4831,8 @@
       "collector_type": "pscims_active_adverts_html_table",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:56:30+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
+      "last_checked_at": "2026-07-20T11:59:49+03:00",
+      "last_successful_fetch_at": "2026-07-20T11:59:49+03:00",
       "active_roles": 4,
       "discovery_items": 0,
       "last_error": null,
@@ -4937,8 +4850,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:56:30+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
+      "last_checked_at": "2026-07-20T11:59:49+03:00",
+      "last_successful_fetch_at": "2026-07-20T11:59:49+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4956,8 +4869,8 @@
       "collector_type": "official_page_monitor",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:56:30+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
+      "last_checked_at": "2026-07-20T11:59:49+03:00",
+      "last_successful_fetch_at": "2026-07-20T11:59:49+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -5203,8 +5116,8 @@
       "collector_type": "mygov_job_adverts_discovery",
       "coverage_priority": 1,
       "status": "discovery_items_found_requires_review",
-      "last_checked_at": "2026-07-20T10:56:30+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
+      "last_checked_at": "2026-07-20T11:59:49+03:00",
+      "last_successful_fetch_at": "2026-07-20T11:59:49+03:00",
       "active_roles": 0,
       "discovery_items": 120,
       "last_error": null,
@@ -6248,12 +6161,12 @@
       "collector_type": "html_cards",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:56:30+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
-      "active_roles": 40,
+      "last_checked_at": "2026-07-20T11:59:49+03:00",
+      "last_successful_fetch_at": "2026-07-20T11:59:49+03:00",
+      "active_roles": 39,
       "discovery_items": 0,
-      "last_error": "import failed: No module named '_common'",
-      "http_status": null,
+      "last_error": null,
+      "http_status": 200,
       "notes": "KSG live institutional portal collector enabled. Records remain needs_review until official linkage is reconfirmed before sensitive submissions."
     },
     {
