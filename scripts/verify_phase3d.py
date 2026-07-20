@@ -70,9 +70,9 @@ def main():
     promo = load(DATA / "discovery_promotion_candidates.json")
     promo_summary = load(DATA / "discovery_promotion_summary.json")
     reviewed = load(DATA / "reviewed_promotions.json")
-    if "Phase 3D" not in str(feed.get("meta", {}).get("implementation_phase", "")):
+    if not any(x in str(feed.get("meta", {}).get("implementation_phase", "")) for x in ["Phase 3D", "Phase 3E"]):
         return fail("feed meta does not identify Phase 3D")
-    if "Phase 3D" not in str(report.get("implementation_phase", "")):
+    if not any(x in str(report.get("implementation_phase", "")) for x in ["Phase 3D", "Phase 3E"]):
         return fail("last_run_report does not identify Phase 3D")
     if promo.get("version") != "3D.1":
         return fail("discovery_promotion_candidates version must be 3D.1")

@@ -52,6 +52,16 @@ try:
 except Exception:  # pragma: no cover - local script execution fallback
     from discovery_promoter import build_promotion_workbench, reviewed_promotions_template, write_json as write_promotion_json
 
+try:
+    from scripts.promotion_importer import apply_reviewed_promotions, template as reviewed_promotions_template_3e
+except Exception:  # pragma: no cover - local script execution fallback
+    from promotion_importer import apply_reviewed_promotions, template as reviewed_promotions_template_3e
+
+try:
+    from scripts.review_batch import build_batch as build_manual_review_batch, write_csv as write_review_batch_csv, write_markdown as write_review_batch_markdown
+except Exception:  # pragma: no cover - local script execution fallback
+    from review_batch import build_batch as build_manual_review_batch, write_csv as write_review_batch_csv, write_markdown as write_review_batch_markdown
+
 
 def load(path, default=None):
     p = pathlib.Path(path)
@@ -163,7 +173,7 @@ def _replace_source(vacancies, source_id, new_rows):
 
 def merge_central_collections(feed, collect_live=False, include_mygov_discovery=True):
     """Return feed with live central rows merged and discovery/source-health reports."""
-    central_report = {"phase": "Phase 3D — Discovery promotion workbench", "collect_live": collect_live, "collectors": []}
+    central_report = {"phase": "Phase 3E — Reviewed promotion importer", "collect_live": collect_live, "collectors": []}
     discovery_items = []
     health_items = []
     vacancies = list(feed.get("vacancies", []))
@@ -380,11 +390,37 @@ def main():
     })
     reviewed_path = DATA / "reviewed_promotions.json"
     if not reviewed_path.exists():
-        write_promotion_json(reviewed_path, reviewed_promotions_template())
+        write_promotion_json(reviewed_path, reviewed_promotions_template_3e())
+    reviewed_payload = load(reviewed_path, reviewed_promotions_template_3e())
+    if reviewed_payload.get("version") == "3D.1" and not reviewed_payload.get("reviewed"):
+        # Upgrade the empty template in-place without touching user-reviewed records.
+        reviewed_payload = reviewed_promotions_template_3e()
+        write_promotion_json(reviewed_path, reviewed_payload)
+    promotion_import_report = apply_reviewed_promotions(feed, reviewed_payload, now=NOW)
+    write_promotion_json(DATA / "promotion_import_report.json", {"generated_at": NOW, **promotion_import_report})
+
+    manual_batch = build_manual_review_batch(promotion_workbench, limit=25)
+    write_promotion_json(DATA / "manual_review_batch_1.json", manual_batch)
+    write_review_batch_csv(DATA / "manual_review_batch_1.csv", manual_batch)
+    write_review_batch_markdown(DATA / "manual_review_batch_1.md", manual_batch)
+    write_promotion_json(DATA / "manual_review_batch_summary.json", {
+        "generated_at": manual_batch.get("generated_at"),
+        "items_total": manual_batch.get("items_total", 0),
+        "status_counts": manual_batch.get("status_counts", {}),
+        "policy": manual_batch.get("policy"),
+    })
+
+    # Re-annotate, rebuild source counts, and recompute changes after any reviewed promotions enter the feed.
+    changed_links += ensure_links(feed)
+    counts, source_count = apply_registry(feed, central_report, discovery_items, health_items)
+    annotate_vacancies(feed.get("vacancies", []))
+    change_summary = build_reconciled_change_summary(before_vacancies, feed.get("vacancies", []), expired_ids=expired_ids, dropped_county=dropped_county)
+    role_map = identity_map(feed.get("vacancies", []))
+    write_identity_json(DATA / "role_identity_map.json", {**role_map, "generated_at": NOW})
 
     feed.setdefault("meta", {})
     feed["meta"].update({
-        "feed_version": "3.3-discovery-promotion-phase3d",
+        "feed_version": "3.4-reviewed-promotion-importer-phase3e",
         "schema_version": "1.3-public-sector-national-only",
         "generated_at": NOW,
         "next_expected_update": (dt.datetime.now(EAT) + dt.timedelta(days=1)).isoformat(timespec="seconds"),
@@ -393,15 +429,15 @@ def main():
         "is_sample_data": False,
         "scope": "national_government_mdas_parastatals_public_institutions_only_no_counties",
         "role_scope": "all_role_families",
-        "implementation_phase": "Phase 3D — Discovery promotion workbench",
-        "phase": "Phase 3D — Discovery promotion workbench",
-        "coverage_note": "Phase 3D fixes KSG import reliability, preserves role-identity reconciliation, and turns MyGov/GAA discovery items into structured promotion candidates for manual confirmation.",
+        "implementation_phase": "Phase 3E — Reviewed promotion importer",
+        "phase": "Phase 3E — Reviewed promotion importer",
+        "coverage_note": "Phase 3E adds a reviewed-promotion importer and manual review batch so confirmed discovery candidates can enter the open feed safely.",
         "change_summary": change_summary,
     })
     q = feed.setdefault("meta", {}).setdefault("quality_summary", {})
     q.update({
         "expired_roles": len(expired_ids),
-        "latest_ingestion_phase": "3D",
+        "latest_ingestion_phase": "3E",
         "identity_reconciled_roles_last_run": change_summary.get("identity_reconciled_roles", 0),
         "genuine_new_roles_last_run": change_summary.get("genuine_new_roles", change_summary.get("new_roles", 0)),
         "new_roles_last_run": change_summary["new_roles"],
@@ -409,6 +445,9 @@ def main():
         "discovery_items_last_run": len(discovery_items),
         "promotion_candidates_last_run": promotion_workbench.get("generated_count", 0),
         "promotion_ready_for_review_last_run": promotion_workbench.get("ready_for_manual_confirmation", 0),
+        "reviewed_promotions_total": promotion_import_report.get("reviewed_total", 0),
+        "reviewed_promotions_added_last_run": promotion_import_report.get("added", 0),
+        "manual_review_batch_items_last_run": manual_batch.get("items_total", 0),
     })
     feed.setdefault("rejected_watchlist", load(DATA / "rejected_watchlist.json", {"items": []}).get("items", []))
 
@@ -422,7 +461,7 @@ def main():
         "run_id": NOW,
         "started_at": NOW,
         "finished_at": NOW,
-        "implementation_phase": "Phase 3D — Discovery promotion workbench",
+        "implementation_phase": "Phase 3E — Reviewed promotion importer",
         "collect_central_requested": args.collect_central,
         "vacancies_active": len(feed.get("vacancies", [])),
         "sources_registered": source_count,
@@ -439,13 +478,18 @@ def main():
         "discovery_review_items": discovery_review.get("generated_count", 0),
         "promotion_candidates": promotion_workbench.get("generated_count", 0),
         "promotion_ready_for_manual_confirmation": promotion_workbench.get("ready_for_manual_confirmation", 0),
+        "reviewed_promotions_total": promotion_import_report.get("reviewed_total", 0),
+        "reviewed_promotions_added": promotion_import_report.get("added", 0),
+        "reviewed_promotions_rejected": promotion_import_report.get("rejected", 0),
+        "reviewed_promotions_duplicates": promotion_import_report.get("duplicates", 0),
+        "manual_review_batch_items": manual_batch.get("items_total", 0),
     }
     write(DATA / "last_run_report.json", report)
     print(
-        "Phase 3D refresh complete. "
+        "Phase 3E refresh complete. "
         f"Vacancies: {len(feed.get('vacancies', []))}; registered sources: {source_count}; "
         f"genuine_new: {change_summary.get('genuine_new_roles', change_summary['new_roles'])}; updated: {change_summary['updated_roles']}; reconciled: {change_summary.get('identity_reconciled_roles', 0)}; "
-        f"expired: {change_summary['expired_roles']}; discovery: {len(discovery_items)}; promotion_candidates: {promotion_workbench.get('generated_count', 0)}"
+        f"expired: {change_summary['expired_roles']}; discovery: {len(discovery_items)}; promotion_candidates: {promotion_workbench.get('generated_count', 0)}; reviewed_added: {promotion_import_report.get('added',0)}; review_batch: {manual_batch.get('items_total',0)}"
     )
     return 0
 

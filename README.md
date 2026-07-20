@@ -175,3 +175,27 @@ Then push and run the GitHub Action.
 ## Phase 3D dependency hotfix
 
 `VERIFY_PHASE_3D.cmd` now checks for required scraper dependencies (`beautifulsoup4` and `requests`) and installs `requirements.txt` automatically if they are missing. This prevents the local Windows verification failure `ModuleNotFoundError: No module named 'bs4'`.
+
+## Phase 3E — Reviewed promotion importer
+
+Phase 3E adds the safe bridge from discovery to open roles:
+
+- `scripts/promotion_importer.py` validates manually reviewed discovery candidates.
+- `scripts/review_batch.py` builds a high-priority review batch from promotion candidates.
+- `data/reviewed_promotions.json` is the only file that can promote discovery items into the open feed.
+- `data/promotion_import_report.json` records added/rejected/duplicate reviewed promotions.
+- `data/manual_review_batch_1.json/.csv/.md` provide the next review pack.
+
+Run:
+
+```bat
+VERIFY_PHASE_3E.cmd
+```
+
+To prepare a review pack from the latest GitHub-generated promotion candidates:
+
+```bat
+REVIEW_PROMOTION_BATCH.cmd
+```
+
+The system still blocks automatic promotion: GAA/MyGov discovery candidates enter Open roles only after a reviewed record is added with all manual checks passed.

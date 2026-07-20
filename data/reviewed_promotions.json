@@ -1,5 +1,29 @@
 {
-  "version": "3D.1",
-  "instructions": "Add manually confirmed discovery records here. The refresh script will not auto-promote GAA/MyGov discovery items without reviewed records.",
-  "reviewed": []
+  "version": "3E.1",
+  "instructions": "Add manually confirmed discovery candidates here. Only records with decision='promote' and all manual_checks true will enter the open feed.",
+  "reviewed": [],
+  "example_reviewed_record": {
+    "decision": "promote",
+    "candidate_id": "promo_example_from_discovery_promotion_candidates",
+    "discovery_id": "mygovdisc_example",
+    "title": "Example Officer",
+    "institution": "Example Public Body",
+    "official_source_url": "https://example.go.ke/vacancies/example.pdf",
+    "application_url": "https://example.go.ke/careers",
+    "deadline": "2030-12-31T23:59:00+03:00",
+    "number_of_vacancies": 1,
+    "location": "Kenya",
+    "job_family": [
+      "administration"
+    ],
+    "requirements_text": "Paste the reviewed mandatory requirements here.",
+    "manual_checks": {
+      "hiring_institution_confirmed": true,
+      "deadline_confirmed": true,
+      "application_channel_confirmed": true,
+      "no_fee_or_payment_required": true
+    },
+    "reviewed_by": "human-reviewer",
+    "review_notes": "Confirmed from official PDF/source before promotion."
+  }
 }

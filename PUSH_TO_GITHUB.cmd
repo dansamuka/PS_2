@@ -17,7 +17,7 @@ echo.
 
 set DEFAULT_REMOTE=https://github.com/dansamuka/PS_2.git
 set DEFAULT_BRANCH=main
-set DEFAULT_COMMIT=Implement Phase 3D discovery promotion workbench
+set DEFAULT_COMMIT=Implement Phase 3E reviewed promotion importer
 
 set /p REMOTE_URL=Existing GitHub repo URL [%DEFAULT_REMOTE%]: 
 if "%REMOTE_URL%"=="" set REMOTE_URL=%DEFAULT_REMOTE%
@@ -113,6 +113,12 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
+python scripts\verify_phase3e.py
+if errorlevel 1 (
+  echo ERROR: Phase 3E reviewed promotion verification failed. Fix errors before pushing.
+  pause
+  exit /b 1
+)
 
 echo.
 echo [2/5] Preparing clean update worktree...
@@ -140,7 +146,8 @@ robocopy "%CD%" "%WORK_REPO%" /MIR ^
   /XF ".DS_Store" "Thumbs.db" "*.tmp" "*.log" ^
   "public_sector_feed.json" "source_status.json" "last_run_report.json" "central_collector_report.json" ^
   "central_source_health.json" "discovery_queue.json" "discovery_review_queue.json" "discovery_review_summary.json" "role_identity_map.json" ^
-  "discovery_promotion_candidates.json" "discovery_promotion_summary.json"
+  "discovery_promotion_candidates.json" "discovery_promotion_summary.json" ^
+  "promotion_import_report.json" "manual_review_batch_1.json" "manual_review_batch_1.csv" "manual_review_batch_1.md" "manual_review_batch_summary.json"
 
 REM Robocopy returns 0-7 for success/no-op/copy differences; 8+ is a real error.
 if %ERRORLEVEL% GEQ 8 (
