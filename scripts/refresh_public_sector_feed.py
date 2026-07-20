@@ -47,6 +47,11 @@ except Exception:  # pragma: no cover - local script execution fallback
         write_json as write_identity_json,
     )
 
+try:
+    from scripts.discovery_promoter import build_promotion_workbench, reviewed_promotions_template, write_json as write_promotion_json
+except Exception:  # pragma: no cover - local script execution fallback
+    from discovery_promoter import build_promotion_workbench, reviewed_promotions_template, write_json as write_promotion_json
+
 
 def load(path, default=None):
     p = pathlib.Path(path)
@@ -158,7 +163,7 @@ def _replace_source(vacancies, source_id, new_rows):
 
 def merge_central_collections(feed, collect_live=False, include_mygov_discovery=True):
     """Return feed with live central rows merged and discovery/source-health reports."""
-    central_report = {"phase": "Phase 3C — Role identity reconciliation", "collect_live": collect_live, "collectors": []}
+    central_report = {"phase": "Phase 3D — Discovery promotion workbench", "collect_live": collect_live, "collectors": []}
     discovery_items = []
     health_items = []
     vacancies = list(feed.get("vacancies", []))
@@ -364,10 +369,22 @@ def main():
     write_identity_json(DATA / "role_identity_map.json", {**role_map, "generated_at": NOW})
     write_identity_json(DATA / "discovery_review_queue.json", {**discovery_review, "generated_at": NOW})
     write_identity_json(DATA / "discovery_review_summary.json", {"generated_at": NOW, "items_total": discovery_review.get("generated_count", 0), "priority_counts": discovery_review.get("priority_counts", {}), "promotion_policy": discovery_review.get("promotion_policy")})
+    promotion_workbench = build_promotion_workbench(discovery_review, feed.get("vacancies", []))
+    write_promotion_json(DATA / "discovery_promotion_candidates.json", {**promotion_workbench, "generated_at": NOW})
+    write_promotion_json(DATA / "discovery_promotion_summary.json", {
+        "generated_at": NOW,
+        "candidates_total": promotion_workbench.get("generated_count", 0),
+        "ready_for_manual_confirmation": promotion_workbench.get("ready_for_manual_confirmation", 0),
+        "status_counts": promotion_workbench.get("status_counts", {}),
+        "policy": promotion_workbench.get("policy"),
+    })
+    reviewed_path = DATA / "reviewed_promotions.json"
+    if not reviewed_path.exists():
+        write_promotion_json(reviewed_path, reviewed_promotions_template())
 
     feed.setdefault("meta", {})
     feed["meta"].update({
-        "feed_version": "3.2-role-identity-reconciliation-phase3c",
+        "feed_version": "3.3-discovery-promotion-phase3d",
         "schema_version": "1.3-public-sector-national-only",
         "generated_at": NOW,
         "next_expected_update": (dt.datetime.now(EAT) + dt.timedelta(days=1)).isoformat(timespec="seconds"),
@@ -376,20 +393,22 @@ def main():
         "is_sample_data": False,
         "scope": "national_government_mdas_parastatals_public_institutions_only_no_counties",
         "role_scope": "all_role_families",
-        "implementation_phase": "Phase 3C — Role identity reconciliation",
-        "phase": "Phase 3C — Role identity reconciliation",
-        "coverage_note": "Phase 3C reconciles refreshed roles by canonical identity, keeps KSG/PSCIMS live ingestion, filters generic listing rows, and prepares MyGov/GAA discovery items for manual review.",
+        "implementation_phase": "Phase 3D — Discovery promotion workbench",
+        "phase": "Phase 3D — Discovery promotion workbench",
+        "coverage_note": "Phase 3D fixes KSG import reliability, preserves role-identity reconciliation, and turns MyGov/GAA discovery items into structured promotion candidates for manual confirmation.",
         "change_summary": change_summary,
     })
     q = feed.setdefault("meta", {}).setdefault("quality_summary", {})
     q.update({
         "expired_roles": len(expired_ids),
-        "latest_ingestion_phase": "3C",
+        "latest_ingestion_phase": "3D",
         "identity_reconciled_roles_last_run": change_summary.get("identity_reconciled_roles", 0),
         "genuine_new_roles_last_run": change_summary.get("genuine_new_roles", change_summary.get("new_roles", 0)),
         "new_roles_last_run": change_summary["new_roles"],
         "updated_roles_last_run": change_summary["updated_roles"],
         "discovery_items_last_run": len(discovery_items),
+        "promotion_candidates_last_run": promotion_workbench.get("generated_count", 0),
+        "promotion_ready_for_review_last_run": promotion_workbench.get("ready_for_manual_confirmation", 0),
     })
     feed.setdefault("rejected_watchlist", load(DATA / "rejected_watchlist.json", {"items": []}).get("items", []))
 
@@ -403,7 +422,7 @@ def main():
         "run_id": NOW,
         "started_at": NOW,
         "finished_at": NOW,
-        "implementation_phase": "Phase 3C — Role identity reconciliation",
+        "implementation_phase": "Phase 3D — Discovery promotion workbench",
         "collect_central_requested": args.collect_central,
         "vacancies_active": len(feed.get("vacancies", [])),
         "sources_registered": source_count,
@@ -415,16 +434,18 @@ def main():
         "quality_gate_status": "pending_validation",
         "central_collectors": central_report.get("collectors", []),
         "change_summary": change_summary,
-        "note": "Phase 3C reconciles refreshed PSCIMS/KSG roles by canonical identity and prepares MyGov/GAA discovery items for manual review, not automatic promotion.",
+        "note": "Phase 3D fixes KSG GitHub import reliability and prepares MyGov/GAA discovery records as promotion candidates. Discovery records still require manual confirmation before entering open vacancies.",
         "role_identity_map_count": role_map.get("role_count", 0),
         "discovery_review_items": discovery_review.get("generated_count", 0),
+        "promotion_candidates": promotion_workbench.get("generated_count", 0),
+        "promotion_ready_for_manual_confirmation": promotion_workbench.get("ready_for_manual_confirmation", 0),
     }
     write(DATA / "last_run_report.json", report)
     print(
-        "Phase 3C refresh complete. "
+        "Phase 3D refresh complete. "
         f"Vacancies: {len(feed.get('vacancies', []))}; registered sources: {source_count}; "
         f"genuine_new: {change_summary.get('genuine_new_roles', change_summary['new_roles'])}; updated: {change_summary['updated_roles']}; reconciled: {change_summary.get('identity_reconciled_roles', 0)}; "
-        f"expired: {change_summary['expired_roles']}; discovery: {len(discovery_items)}"
+        f"expired: {change_summary['expired_roles']}; discovery: {len(discovery_items)}; promotion_candidates: {promotion_workbench.get('generated_count', 0)}"
     )
     return 0
 

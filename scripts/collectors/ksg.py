@@ -12,12 +12,24 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
+# Keep imports robust in both GitHub Actions execution modes:
+# 1) python scripts/refresh_public_sector_feed.py -> imports collectors.ksg
+# 2) package import from repository root -> imports scripts.collectors.ksg
 try:
     from ._common import build_vacancy, clean_title, deadline_iso, fetch_html, parse_date, stable_id
-    from scripts.role_identity import is_generic_listing_title
-except ImportError:  # pragma: no cover
+except ImportError:  # pragma: no cover - direct script execution fallback
     from _common import build_vacancy, clean_title, deadline_iso, fetch_html, parse_date, stable_id
-    from role_identity import is_generic_listing_title
+
+try:
+    from scripts.role_identity import is_generic_listing_title
+except ImportError:  # pragma: no cover - execution from scripts/ path fallback
+    try:
+        from role_identity import is_generic_listing_title
+    except ImportError:  # pragma: no cover - direct collector execution fallback
+        import pathlib
+        import sys
+        sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
+        from role_identity import is_generic_listing_title
 
 SOURCE_ID = "ksg_jobapplications"
 KSG_URL = "https://jobapplications.ke/"

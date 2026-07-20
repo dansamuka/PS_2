@@ -25,9 +25,9 @@ def main():
     role_map = load(DATA / "role_identity_map.json") if (DATA / "role_identity_map.json").exists() else None
     review = load(DATA / "discovery_review_queue.json") if (DATA / "discovery_review_queue.json").exists() else None
     meta = feed.get("meta", {})
-    if "Phase 3C" not in str(meta.get("implementation_phase", "")):
+    if not any(x in str(meta.get("implementation_phase", "")) for x in ["Phase 3C", "Phase 3D"]):
         return fail("feed meta does not identify Phase 3C")
-    if "Phase 3C" not in str(report.get("implementation_phase", "")):
+    if not any(x in str(report.get("implementation_phase", "")) for x in ["Phase 3C", "Phase 3D"]):
         return fail("last_run_report does not identify Phase 3C")
     vacancies = feed.get("vacancies", [])
     if not vacancies:

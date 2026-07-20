@@ -17,7 +17,7 @@ echo.
 
 set DEFAULT_REMOTE=https://github.com/dansamuka/PS_2.git
 set DEFAULT_BRANCH=main
-set DEFAULT_COMMIT=Implement Phase 3C role identity reconciliation
+set DEFAULT_COMMIT=Implement Phase 3D discovery promotion workbench
 
 set /p REMOTE_URL=Existing GitHub repo URL [%DEFAULT_REMOTE%]: 
 if "%REMOTE_URL%"=="" set REMOTE_URL=%DEFAULT_REMOTE%
@@ -63,6 +63,26 @@ if not exist "data\public_sector_feed.json" (
 )
 
 echo [1/5] Validating feed and Phase 3 scope...
+echo Checking required Python packages...
+python -c "import bs4, requests" >nul 2>nul
+if errorlevel 1 (
+  echo Required packages are missing. Installing requirements now...
+  python -m pip install -r requirements.txt
+  if errorlevel 1 (
+    echo ERROR: Could not install required Python packages.
+    echo Try running manually: python -m pip install -r requirements.txt
+    pause
+    exit /b 1
+  )
+)
+python -c "import bs4, requests" >nul 2>nul
+if errorlevel 1 (
+  echo ERROR: Required packages are still missing after install.
+  echo Try running manually: python -m pip install beautifulsoup4 requests
+  pause
+  exit /b 1
+)
+
 python scripts\validate_public_sector_feed.py data\public_sector_feed.json --registry data\source_registry.json
 if errorlevel 1 (
   echo ERROR: Feed validation failed. Fix errors before pushing.
@@ -84,6 +104,12 @@ if errorlevel 1 (
 python scripts\verify_phase3c.py
 if errorlevel 1 (
   echo ERROR: Phase 3C role identity reconciliation verification failed. Fix errors before pushing.
+  pause
+  exit /b 1
+)
+python scripts\verify_phase3d.py
+if errorlevel 1 (
+  echo ERROR: Phase 3D discovery promotion verification failed. Fix errors before pushing.
   pause
   exit /b 1
 )
@@ -113,7 +139,8 @@ robocopy "%CD%" "%WORK_REPO%" /MIR ^
   /XD ".git" ".push_worktree" ".gradle" "build" "node_modules" "__pycache__" ^
   /XF ".DS_Store" "Thumbs.db" "*.tmp" "*.log" ^
   "public_sector_feed.json" "source_status.json" "last_run_report.json" "central_collector_report.json" ^
-  "central_source_health.json" "discovery_queue.json" "discovery_review_queue.json" "discovery_review_summary.json" "role_identity_map.json"
+  "central_source_health.json" "discovery_queue.json" "discovery_review_queue.json" "discovery_review_summary.json" "role_identity_map.json" ^
+  "discovery_promotion_candidates.json" "discovery_promotion_summary.json"
 
 REM Robocopy returns 0-7 for success/no-op/copy differences; 8+ is a real error.
 if %ERRORLEVEL% GEQ 8 (

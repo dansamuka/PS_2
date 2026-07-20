@@ -45,7 +45,7 @@
       <button data-view="rejected">Rejected <span class="count" id="countRejected">0</span></button>
       <button data-view="verification">Verification <span class="count" id="countVerification">0</span></button>
       <button data-view="coverage">Coverage <span class="count" id="countCoverage">0</span></button>
-      <button data-view="discovery">Discovery review <span class="count" id="countDiscovery">0</span></button>
+      <button data-view="discovery">Discovery & promotion <span class="count" id="countDiscovery">0</span></button>
       <button data-view="watchlist">Scam watch <span class="count" id="countWatchlist">0</span></button>
     </nav>
 
@@ -8731,11 +8731,13 @@
   const DEFAULT_WATCHLIST = 'data/rejected_watchlist.json';
   const DEFAULT_RUN_REPORT = 'data/last_run_report.json';
   const DEFAULT_DISCOVERY_REVIEW = 'data/discovery_review_queue.json';
+  const DEFAULT_PROMOTION_CANDIDATES = 'data/discovery_promotion_candidates.json';
   let feed = {meta:{is_sample_data:true}, vacancies:[]};
   let sourceStatus = {sources:[]};
   let watchlist = {items:[]};
   let runReport = {summary:{}, warnings:[]};
   let discoveryReview = {items:[]};
+  let promotionCandidates = {candidates:[]};
   let view = 'open';
   let selectedId = null;
   let autoTimer = null;
@@ -8967,7 +8969,7 @@
     $('countRejected').textContent=roles.filter(v=>v.verification?.status==='rejected').length + Object.keys(state.rejected).length;
     $('countVerification').textContent=roles.filter(v=>v.verification?.status!=='verified' || hasHighRisk(v)).length;
     $('countCoverage').textContent=(sourceStatus.sources||[]).length;
-    $('countDiscovery').textContent=(discoveryReview.items||[]).length;
+    $('countDiscovery').textContent=(discoveryReview.items||[]).length + (promotionCandidates.candidates||[]).length;
     $('countWatchlist').textContent=(watchlist.items||[]).length;
   }
 
@@ -8982,7 +8984,9 @@
   function renderDiscoveryReview(main){
     const items=discoveryReview.items||[];
     const counts=discoveryReview.priority_counts||{};
-    main.innerHTML=`<div class="card" style="padding:18px"><h3>Discovery review queue</h3><p class="hint">GAA/MyGov discovery items are not open roles yet. Review each original item/PDF, confirm the hiring institution, then promote only verified vacancies.</p><div class="statusRow"><span class="pill purple">${items.length} items</span><span class="pill warn">${Number(counts.high||0)} high</span><span class="pill blue">${Number(counts.medium||0)} medium</span><span class="pill dark">${Number(counts.low||0)} low</span></div><div class="tableWrap"><table class="table"><thead><tr><th>Discovery item</th><th>Institution</th><th>Priority</th><th>Status</th><th>Original</th><th>Manual checks</th></tr></thead><tbody>${items.map(i=>`<tr><td><strong>${escapeHtml(i.title)}</strong><br><small>${escapeHtml(i.source_id||'')}</small></td><td>${escapeHtml(i.institution||'—')}</td><td>${statusBadge(i.review_priority)}</td><td>${escapeHtml(i.promotion_status||'needs review')}</td><td>${i.view_original_url?`<a href="${escapeHtml(i.view_original_url)}" target="_blank" rel="noopener">Open</a>`:'—'}</td><td>${(i.manual_checks_required||[]).slice(0,3).map(escapeHtml).join('<br>')}</td></tr>`).join('') || '<tr><td colspan="6">No discovery review items loaded. Run the GitHub refresh workflow to populate GAA/MyGov discovery.</td></tr>'}</tbody></table></div></div>`;
+    const candidates=promotionCandidates.candidates||[];
+    const ready=Number(promotionCandidates.ready_for_manual_confirmation||0);
+    main.innerHTML=`<div class="card" style="padding:18px"><h3>Discovery review & promotion workbench</h3><p class="hint">GAA/MyGov discovery items are not open roles yet. Phase 3D turns them into promotion candidates for manual confirmation; nothing enters Open roles automatically.</p><div class="statusRow"><span class="pill purple">${items.length} discovery items</span><span class="pill good">${ready} ready for manual confirmation</span><span class="pill warn">${Number(counts.high||0)} high-priority discovery</span><span class="pill blue">${candidates.length} promotion candidates</span></div><div class="tableWrap"><table class="table"><thead><tr><th>Candidate role</th><th>Institution</th><th>Status</th><th>Missing fields</th><th>Original</th><th>Review actions</th></tr></thead><tbody>${candidates.map(i=>`<tr><td><strong>${escapeHtml(i.title)}</strong><br><small>${escapeHtml(i.discovery_id||'')}</small></td><td>${escapeHtml(i.institution||'—')}</td><td>${escapeHtml(i.promotion_status||'needs review')}</td><td>${(i.missing_fields||[]).map(escapeHtml).join(', ')||'—'}</td><td>${i.original_url?`<a href="${escapeHtml(i.original_url)}" target="_blank" rel="noopener">Open</a>`:'—'}</td><td>${(i.review_actions||[]).slice(0,3).map(escapeHtml).join('<br>')}</td></tr>`).join('') || '<tr><td colspan="6">No promotion candidates loaded. Run the GitHub refresh workflow to populate GAA/MyGov discovery.</td></tr>'}</tbody></table></div><div class="detailSection"><h4>Raw discovery queue</h4><div class="tableWrap"><table class="table"><thead><tr><th>Discovery item</th><th>Institution</th><th>Priority</th><th>Status</th><th>Original</th></tr></thead><tbody>${items.slice(0,120).map(i=>`<tr><td><strong>${escapeHtml(i.title)}</strong><br><small>${escapeHtml(i.source_id||'')}</small></td><td>${escapeHtml(i.institution||'—')}</td><td>${statusBadge(i.review_priority)}</td><td>${escapeHtml(i.promotion_status||'needs review')}</td><td>${i.view_original_url?`<a href="${escapeHtml(i.view_original_url)}" target="_blank" rel="noopener">Open</a>`:'—'}</td></tr>`).join('') || '<tr><td colspan="5">No discovery review items loaded.</td></tr>'}</tbody></table></div></div></div>`;
   }
 
   function renderWatchlist(main){
@@ -8997,6 +9001,7 @@
     try { watchlist = await fetchJson(DEFAULT_WATCHLIST); } catch(e){ watchlist = {items:[]}; }
     try { runReport = await fetchJson(DEFAULT_RUN_REPORT); } catch(e){ runReport = {summary:{},warnings:[]}; }
     try { discoveryReview = await fetchJson(DEFAULT_DISCOVERY_REVIEW); } catch(e){ discoveryReview = {items:[]}; }
+    try { promotionCandidates = await fetchJson(DEFAULT_PROMOTION_CANDIDATES); } catch(e){ promotionCandidates = {candidates:[]}; }
     populateFilters(); selectedId=activeVacancies()[0]?.id || null; render();
   }
   function normalizeFeed(f){ f = f || {}; if(!Array.isArray(f.vacancies)) f.vacancies = f.roles || f.opportunities || []; return f; }

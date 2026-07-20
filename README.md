@@ -146,3 +146,32 @@ VERIFY_PHASE_3C.cmd
 ```
 
 Important push behaviour: `PUSH_TO_GITHUB.cmd` now avoids overwriting live-generated feed/report files from GitHub Actions with stale local snapshots. Push the code, then run the GitHub Action to refresh data.
+
+
+## Phase 3D — KSG import reliability and discovery promotion workbench
+
+Phase 3D adds:
+
+- a GitHub Actions-safe KSG collector import path;
+- `scripts/__init__.py` so package imports are stable;
+- a workflow import smoke test for KSG;
+- `scripts/discovery_promoter.py`;
+- `data/discovery_promotion_candidates.json`;
+- `data/discovery_promotion_summary.json`;
+- `data/reviewed_promotions.json` template;
+- a viewer upgrade so the Discovery tab shows promotion candidates as well as raw discovery rows.
+
+Discovery candidates remain outside the Open roles feed until manually reviewed and confirmed.
+
+Run locally:
+
+```bat
+VERIFY_PHASE_3D.cmd
+```
+
+Then push and run the GitHub Action.
+
+
+## Phase 3D dependency hotfix
+
+`VERIFY_PHASE_3D.cmd` now checks for required scraper dependencies (`beautifulsoup4` and `requests`) and installs `requirements.txt` automatically if they are missing. This prevents the local Windows verification failure `ModuleNotFoundError: No module named 'bs4'`.

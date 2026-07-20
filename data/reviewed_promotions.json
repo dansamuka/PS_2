@@ -1,0 +1,5 @@
+{
+  "version": "3D.1",
+  "instructions": "Add manually confirmed discovery records here. The refresh script will not auto-promote GAA/MyGov discovery items without reviewed records.",
+  "reviewed": []
+}
