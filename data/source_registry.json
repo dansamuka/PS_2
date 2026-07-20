@@ -576,10 +576,10 @@
       "owner_type": "central_government",
       "institution_type": "government_advertising_discovery",
       "parent_ministry": null,
-      "official_url": "https://www.mygov.go.ke/job-adverts",
-      "domain": "mygov.go.ke",
+      "official_url": "https://gaa.go.ke/index.php/node/445",
+      "domain": "gaa.go.ke",
       "careers_url": null,
-      "vacancies_url": "https://www.mygov.go.ke/job-adverts",
+      "vacancies_url": "https://gaa.go.ke/index.php/node/445",
       "application_portal_url": null,
       "collector_type": "mygov_job_adverts_discovery",
       "confidence_default": "official_discovery",
@@ -593,12 +593,13 @@
         "gaa.go.ke"
       ],
       "status": "phase3_discovery_collector_active",
-      "notes": "Phase 3 central discovery source. Items are written to discovery_queue.json until the hiring institution/application source is verified.",
-      "registry_source_url": "https://www.mygov.go.ke/",
+      "notes": "Phase 3B central discovery source. Collector tries current GAA job-adverts node and legacy MyGov paths; items go to discovery_queue.json until verified.",
+      "registry_source_url": "https://gaa.go.ke/index.php/node/445",
       "exact_url_verified": true,
       "aliases": [],
       "phase2_status": "new_phase2_registry_entry",
-      "phase3_status": "central_discovery_collector_enabled"
+      "phase3_status": "central_discovery_collector_enabled",
+      "phase3b_status": "url_discovery_collector_enabled"
     },
     {
       "source_id": "source_higher_education_loans_board",
@@ -2069,14 +2070,15 @@
         "ksg.ac.ke"
       ],
       "status": "collector_active_needs_review",
-      "notes": "Institutional portal snapshot. Cross-check linkage to KSG before submitting sensitive documents.",
+      "notes": "KSG live institutional portal collector enabled. Records remain needs_review until official linkage is reconfirmed before sensitive submissions.",
       "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
       "careers_url": null,
       "vacancies_url": null,
       "application_portal_url": null,
       "registry_source_url": "https://jobapplications.ke/",
       "exact_url_verified": true,
-      "phase2_status": "retained_from_phase1_active_source"
+      "phase2_status": "retained_from_phase1_active_source",
+      "phase3b_status": "live_collector_enabled_needs_review"
     },
     {
       "source_id": "source_kenya_school_of_government",

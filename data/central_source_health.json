@@ -1,35 +1,4 @@
 {
-  "generated_at": "2026-07-20T10:06:31+03:00",
-  "items": [
-    {
-      "source_id": "public_service_commission_website",
-      "name": "Public Service Commission Website",
-      "url": "https://www.publicservice.go.ke/",
-      "http_status": 0,
-      "error": "ConnectTimeout: HTTPSConnectionPool(host='www.publicservice.go.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.publicservice.go.ke', port=443) at 0x7fd857591190>, 'Connection to www.publicservice.go.ke timed out. (connect timeout=20)'))",
-      "reachable": false,
-      "content_length": 0,
-      "collector_type": "official_page_monitor"
-    },
-    {
-      "source_id": "psckjobs_portal",
-      "name": "Public Service Commission Jobs Portal",
-      "url": "https://www.psckjobs.go.ke/",
-      "http_status": 200,
-      "error": null,
-      "reachable": true,
-      "content_length": 15876,
-      "collector_type": "official_page_monitor"
-    },
-    {
-      "source_id": "pscims_login_portal",
-      "name": "PSCIMS Login / Application Portal",
-      "url": "https://pscims.publicservice.go.ke/puio/",
-      "http_status": 200,
-      "error": null,
-      "reachable": true,
-      "content_length": 17633,
-      "collector_type": "official_page_monitor"
-    }
-  ]
+  "generated_at": "2026-07-20T10:26:58+03:00",
+  "items": []
 }

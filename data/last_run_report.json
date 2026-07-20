@@ -1,42 +1,29 @@
 {
-  "run_id": "2026-07-20T10:06:31+03:00",
-  "started_at": "2026-07-20T10:06:31+03:00",
-  "finished_at": "2026-07-20T10:06:31+03:00",
-  "implementation_phase": "Phase 3 — Central government collectors",
-  "collect_central_requested": true,
+  "run_id": "2026-07-20T10:26:58+03:00",
+  "started_at": "2026-07-20T10:26:58+03:00",
+  "finished_at": "2026-07-20T10:26:58+03:00",
+  "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
+  "collect_central_requested": false,
   "vacancies_active": 43,
   "sources_registered": 239,
   "sources_with_roles": 2,
   "discovery_items": 0,
-  "source_health_checks": 3,
+  "source_health_checks": 0,
   "county_rows_dropped": 0,
   "links_added_or_confirmed": 0,
   "quality_gate_status": "pending_validation",
-  "central_collectors": [
-    {
-      "source_id": "pscims_active_adverts",
-      "source_name": "Public Service Commission Active Adverts",
-      "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-      "http_status": 200,
-      "error": null,
-      "records_seen": 4,
-      "records_emitted": 4
-    },
-    {
-      "source_id": "mygov_government_advertising_agency",
-      "source_name": "Government Advertising Agency / MyGov Job Adverts",
-      "url": "https://www.mygov.go.ke/job-adverts",
-      "http_status": 0,
-      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.mygov.go.ke/job-adverts",
-      "records_seen": 0,
-      "records_emitted": 0
-    },
-    {
-      "source_id": "official_page_monitor",
-      "records_seen": 3,
-      "records_emitted": 3,
-      "error": null
-    }
-  ],
-  "note": "PSCIMS official rows can replace prior PSCIMS rows when reachable. MyGov/GAA items are stored in discovery_queue.json for review, not added to open vacancies by default."
+  "central_collectors": [],
+  "change_summary": {
+    "new_roles": 0,
+    "updated_roles": 0,
+    "removed_roles": 0,
+    "expired_roles": 0,
+    "county_rows_dropped": 0,
+    "unchanged_roles": 43,
+    "new_role_ids": [],
+    "updated_role_ids": [],
+    "removed_role_ids": [],
+    "expired_role_ids": []
+  },
+  "note": "Phase 3B refreshes PSCIMS and KSG when reachable. MyGov/GAA items remain in discovery_queue.json for review, not open vacancies by default."
 }

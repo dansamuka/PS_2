@@ -1,10 +1,10 @@
 {
   "meta": {
-    "feed_version": "3.0-central-government-collectors-phase3",
-    "generated_at": "2026-07-20T10:06:31+03:00",
-    "next_expected_update": "2026-07-21T10:06:59+03:00",
+    "feed_version": "3.1-latest-role-ingestion-phase3b",
+    "generated_at": "2026-07-20T10:26:58+03:00",
+    "next_expected_update": "2026-07-21T10:26:58+03:00",
     "is_sample_data": false,
-    "coverage_note": "Phase 3 runs PSCIMS official vacancies, MyGov/GAA discovery queue, and central source-health checks. County sources remain excluded.",
+    "coverage_note": "Phase 3B refreshes PSCIMS and KSG live where reachable, fixes MyGov/GAA discovery URL fallback, marks expired roles, and reports role changes.",
     "vacancy_count": 43,
     "source_count": 239,
     "accuracy_policy": "Only official/official-like national government and government-related sources are included in open roles. Gmail/WhatsApp/payment-request adverts are rejected into the watchlist, not shown as open roles.",
@@ -136,7 +136,12 @@
       "all_role_families_included": true,
       "county_source_coverage_removed": true,
       "national_registry_phase3_sources": 239,
-      "central_collectors_enabled": 5
+      "central_collectors_enabled": 5,
+      "expired_roles": 0,
+      "latest_ingestion_phase": "3B",
+      "new_roles_last_run": 0,
+      "updated_roles_last_run": 0,
+      "discovery_items_last_run": 0
     },
     "scope": "national_government_mdas_parastatals_public_institutions_only_no_counties",
     "role_scope": "all_role_families",
@@ -146,26 +151,38 @@
       "county_assemblies",
       "ward_or_sub_county_roles"
     ],
-    "phase": "Phase 3 — Central government collectors",
-    "implementation_phase": "Phase 3 — Central government collectors",
-    "scope_detail": "national_government_mdas_parastatals_public_institutions_only_no_counties"
+    "phase": "Phase 3B — Latest-role ingestion hardening",
+    "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
+    "scope_detail": "national_government_mdas_parastatals_public_institutions_only_no_counties",
+    "change_summary": {
+      "new_roles": 0,
+      "updated_roles": 0,
+      "removed_roles": 0,
+      "expired_roles": 0,
+      "county_rows_dropped": 0,
+      "unchanged_roles": 43,
+      "new_role_ids": [],
+      "updated_role_ids": [],
+      "removed_role_ids": [],
+      "expired_role_ids": []
+    }
   },
   "vacancies": [
     {
-      "id": "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29",
+      "id": "pscims_d88_2026_artisan_iii",
       "title": "Artisan III",
       "institution": {
         "name": "State Department for Correctional Services",
         "hiring_body": "State Department for Correctional Services",
-        "type": "national_government_or_public_body",
-        "official_domain": "pscims.publicservice.go.ke"
+        "type": "ministry",
+        "official_domain": "publicservice.go.ke"
       },
       "source": {
         "name": "PSCIMS Active Adverts",
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:06:33+03:00",
+        "last_checked_at": "2026-07-20T07:30:00+03:00",
         "http_status": 200
       },
       "advert": {
@@ -194,24 +211,19 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "PSCIMS active-advert row: D88/2026; job scale E; 19 vacancies; 0 years of experience required. Review Advert Details on PSCIMS before applying."
+        "mandatory_text": "PSCIMS active-advert row: D88/2026; job scale E; 19 vacancies; 0 years of experience required. Open advert. Review Advert Details on PSCIMS before applying."
       },
       "job_family": [
-        "engineering_technical"
+        "artisan_technical"
       ],
       "keywords": [
         "artisan",
         "iii",
-        "state",
-        "department",
-        "correctional",
-        "services",
-        "engineering",
-        "technical"
+        "artisan_technical"
       ],
       "application": {
         "mode": "online_portal",
-        "apply_url": "https://pscims.publicservice.go.ke/puio/",
+        "apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "requires_login": true,
         "requires_email_submission": false,
         "email": null,
@@ -220,7 +232,7 @@
       "verification": {
         "status": "verified",
         "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "notes": "Official PSCIMS active-advert row captured from Public Service Commission active adverts table."
       },
       "raw": {
         "html_hash": null,
@@ -229,35 +241,35 @@
       },
       "links": {
         "view_original_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_original_label": "View original role",
+        "view_original_label": "View role on original site",
         "view_source_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_apply_url": "https://pscims.publicservice.go.ke/puio/"
+        "view_apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx"
       },
       "provenance": [
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:06:33+03:00",
+          "seen_at": "2026-07-20T07:30:00+03:00",
           "evidence_type": "official_table"
         }
       ],
       "scope": "national_government_or_government_related"
     },
     {
-      "id": "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
-      "title": "Cook",
+      "id": "pscims_d85_2026_cook_3",
+      "title": "Cook[3]",
       "institution": {
         "name": "State Department for Correctional Services",
         "hiring_body": "State Department for Correctional Services",
-        "type": "national_government_or_public_body",
-        "official_domain": "pscims.publicservice.go.ke"
+        "type": "ministry",
+        "official_domain": "publicservice.go.ke"
       },
       "source": {
         "name": "PSCIMS Active Adverts",
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:06:33+03:00",
+        "last_checked_at": "2026-07-20T07:30:00+03:00",
         "http_status": 200
       },
       "advert": {
@@ -286,22 +298,20 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "PSCIMS active-advert row: D85/2026; job scale E; 18 vacancies; 0 years of experience required. Review Advert Details on PSCIMS before applying."
+        "mandatory_text": "PSCIMS active-advert row: D85/2026; job scale E; 18 vacancies; 0 years of experience required. Open advert. Review Advert Details on PSCIMS before applying."
       },
       "job_family": [
-        "hospitality"
+        "hospitality",
+        "public_service_entry"
       ],
       "keywords": [
         "cook",
-        "state",
-        "department",
-        "correctional",
-        "services",
-        "hospitality"
+        "hospitality",
+        "public_service_entry"
       ],
       "application": {
         "mode": "online_portal",
-        "apply_url": "https://pscims.publicservice.go.ke/puio/",
+        "apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "requires_login": true,
         "requires_email_submission": false,
         "email": null,
@@ -310,7 +320,7 @@
       "verification": {
         "status": "verified",
         "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "notes": "Official PSCIMS active-advert row captured from Public Service Commission active adverts table."
       },
       "raw": {
         "html_hash": null,
@@ -319,35 +329,35 @@
       },
       "links": {
         "view_original_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_original_label": "View original role",
+        "view_original_label": "View role on original site",
         "view_source_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_apply_url": "https://pscims.publicservice.go.ke/puio/"
+        "view_apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx"
       },
       "provenance": [
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:06:33+03:00",
+          "seen_at": "2026-07-20T07:30:00+03:00",
           "evidence_type": "official_table"
         }
       ],
       "scope": "national_government_or_government_related"
     },
     {
-      "id": "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
-      "title": "Housekeeping Assistant",
+      "id": "pscims_d86_2026_housekeeping_assistant_3",
+      "title": "Housekeeping Assistant[3]",
       "institution": {
         "name": "State Department for Correctional Services",
         "hiring_body": "State Department for Correctional Services",
-        "type": "national_government_or_public_body",
-        "official_domain": "pscims.publicservice.go.ke"
+        "type": "ministry",
+        "official_domain": "publicservice.go.ke"
       },
       "source": {
         "name": "PSCIMS Active Adverts",
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:06:33+03:00",
+        "last_checked_at": "2026-07-20T07:30:00+03:00",
         "http_status": 200
       },
       "advert": {
@@ -376,23 +386,18 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "PSCIMS active-advert row: D86/2026; job scale E; 5 vacancies; 0 years of experience required. Review Advert Details on PSCIMS before applying."
+        "mandatory_text": "PSCIMS active-advert row: D86/2026; job scale E; 5 vacancies; 0 years of experience required. Open advert. Review Advert Details on PSCIMS before applying."
       },
       "job_family": [
-        "hospitality"
+        "housekeeping"
       ],
       "keywords": [
         "housekeeping",
-        "assistant",
-        "state",
-        "department",
-        "correctional",
-        "services",
-        "hospitality"
+        "assistant"
       ],
       "application": {
         "mode": "online_portal",
-        "apply_url": "https://pscims.publicservice.go.ke/puio/",
+        "apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "requires_login": true,
         "requires_email_submission": false,
         "email": null,
@@ -401,7 +406,7 @@
       "verification": {
         "status": "verified",
         "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "notes": "Official PSCIMS active-advert row captured from Public Service Commission active adverts table."
       },
       "raw": {
         "html_hash": null,
@@ -410,35 +415,35 @@
       },
       "links": {
         "view_original_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_original_label": "View original role",
+        "view_original_label": "View role on original site",
         "view_source_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_apply_url": "https://pscims.publicservice.go.ke/puio/"
+        "view_apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx"
       },
       "provenance": [
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:06:33+03:00",
+          "seen_at": "2026-07-20T07:30:00+03:00",
           "evidence_type": "official_table"
         }
       ],
       "scope": "national_government_or_government_related"
     },
     {
-      "id": "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704",
-      "title": "Security Warden",
+      "id": "pscims_d87_2026_security_warden_2",
+      "title": "Security Warden[2]",
       "institution": {
         "name": "State Department for Correctional Services",
         "hiring_body": "State Department for Correctional Services",
-        "type": "national_government_or_public_body",
-        "official_domain": "pscims.publicservice.go.ke"
+        "type": "ministry",
+        "official_domain": "publicservice.go.ke"
       },
       "source": {
         "name": "PSCIMS Active Adverts",
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:06:33+03:00",
+        "last_checked_at": "2026-07-20T07:30:00+03:00",
         "http_status": 200
       },
       "advert": {
@@ -467,22 +472,20 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "PSCIMS active-advert row: D87/2026; job scale E; 25 vacancies; 0 years of experience required. Review Advert Details on PSCIMS before applying."
+        "mandatory_text": "PSCIMS active-advert row: D87/2026; job scale E; 25 vacancies; 0 years of experience required. Open advert. Review Advert Details on PSCIMS before applying."
       },
       "job_family": [
-        "security"
+        "security",
+        "public_service_entry"
       ],
       "keywords": [
         "security",
         "warden",
-        "state",
-        "department",
-        "correctional",
-        "services"
+        "public_service_entry"
       ],
       "application": {
         "mode": "online_portal",
-        "apply_url": "https://pscims.publicservice.go.ke/puio/",
+        "apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "requires_login": true,
         "requires_email_submission": false,
         "email": null,
@@ -491,7 +494,7 @@
       "verification": {
         "status": "verified",
         "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "notes": "Official PSCIMS active-advert row captured from Public Service Commission active adverts table."
       },
       "raw": {
         "html_hash": null,
@@ -500,15 +503,15 @@
       },
       "links": {
         "view_original_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_original_label": "View original role",
+        "view_original_label": "View role on original site",
         "view_source_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-        "view_apply_url": "https://pscims.publicservice.go.ke/puio/"
+        "view_apply_url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx"
       },
       "provenance": [
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:06:33+03:00",
+          "seen_at": "2026-07-20T07:30:00+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -4050,13 +4053,13 @@
       "base_url": "https://pscims.publicservice.go.ke/puio/",
       "collector_type": "portal_reference",
       "coverage_priority": 1,
-      "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:06:31+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:06:31+03:00",
+      "status": "enabled_no_roles_captured",
+      "last_checked_at": "2026-07-20T10:26:58+03:00",
+      "last_successful_fetch_at": null,
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": 200,
+      "http_status": null,
       "notes": "Official PSC application portal reference for roles applied through PSCIMS."
     },
     {
@@ -4070,12 +4073,12 @@
       "collector_type": "pscims_active_adverts_html_table",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:06:31+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:06:31+03:00",
+      "last_checked_at": "2026-07-20T10:26:58+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:26:58+03:00",
       "active_roles": 4,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": 200,
+      "http_status": null,
       "notes": "Primary central public-service recruitment source."
     },
     {
@@ -4088,13 +4091,13 @@
       "base_url": "https://www.psckjobs.go.ke/",
       "collector_type": "portal_reference",
       "coverage_priority": 1,
-      "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:06:31+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:06:31+03:00",
+      "status": "enabled_no_roles_captured",
+      "last_checked_at": "2026-07-20T10:26:58+03:00",
+      "last_successful_fetch_at": null,
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": 200,
+      "http_status": null,
       "notes": ""
     },
     {
@@ -4107,13 +4110,13 @@
       "base_url": "https://www.publicservice.go.ke/",
       "collector_type": "official_page_monitor",
       "coverage_priority": 1,
-      "status": "collector_error",
-      "last_checked_at": "2026-07-20T10:06:31+03:00",
+      "status": "enabled_no_roles_captured",
+      "last_checked_at": "2026-07-20T10:26:58+03:00",
       "last_successful_fetch_at": null,
       "active_roles": 0,
       "discovery_items": 0,
-      "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.publicservice.go.ke', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.publicservice.go.ke', port=443) at 0x7fd857591190>, 'Connection to www.publicservice.go.ke timed out. (connect timeout=20)'))",
-      "http_status": 0,
+      "last_error": null,
+      "http_status": null,
       "notes": ""
     },
     {
@@ -4351,17 +4354,17 @@
       "source_class": "government_advertising_agency",
       "enabled": true,
       "confidence": "official_discovery",
-      "base_url": "https://www.mygov.go.ke/job-adverts",
+      "base_url": "https://gaa.go.ke/index.php/node/445",
       "collector_type": "mygov_job_adverts_discovery",
       "coverage_priority": 1,
-      "status": "collector_error",
-      "last_checked_at": "2026-07-20T10:06:31+03:00",
+      "status": "enabled_no_roles_captured",
+      "last_checked_at": "2026-07-20T10:26:58+03:00",
       "last_successful_fetch_at": null,
       "active_roles": 0,
       "discovery_items": 0,
-      "last_error": "HTTPError: 404 Client Error: Not Found for url: https://www.mygov.go.ke/job-adverts",
+      "last_error": null,
       "http_status": null,
-      "notes": "Phase 3 central discovery source. Items are written to discovery_queue.json until the hiring institution/application source is verified."
+      "notes": "Phase 3B central discovery source. Collector tries current GAA job-adverts node and legacy MyGov paths; items go to discovery_queue.json until verified."
     },
     {
       "id": "source_higher_education_loans_board",
@@ -5400,13 +5403,13 @@
       "collector_type": "html_cards",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:06:31+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:06:31+03:00",
+      "last_checked_at": "2026-07-20T10:26:58+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:26:58+03:00",
       "active_roles": 39,
       "discovery_items": 0,
       "last_error": null,
       "http_status": null,
-      "notes": "Institutional portal snapshot. Cross-check linkage to KSG before submitting sensitive documents."
+      "notes": "KSG live institutional portal collector enabled. Records remain needs_review until official linkage is reconfirmed before sensitive submissions."
     },
     {
       "id": "source_kenya_school_of_government",

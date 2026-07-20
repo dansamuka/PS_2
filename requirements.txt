@@ -2,3 +2,5 @@
 # Viewer itself is static HTML. These packages are for scraper/collector refresh scripts.
 requests>=2.31.0
 beautifulsoup4>=4.12.0
+
+pytest>=8.0.0

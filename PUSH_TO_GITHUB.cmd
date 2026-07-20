@@ -17,7 +17,7 @@ echo.
 
 set DEFAULT_REMOTE=https://github.com/dansamuka/PS_2.git
 set DEFAULT_BRANCH=main
-set DEFAULT_COMMIT=Implement Phase 3 central government collectors
+set DEFAULT_COMMIT=Implement Phase 3B latest-role ingestion hardening
 
 set /p REMOTE_URL=Existing GitHub repo URL [%DEFAULT_REMOTE%]: 
 if "%REMOTE_URL%"=="" set REMOTE_URL=%DEFAULT_REMOTE%
@@ -72,6 +72,12 @@ if errorlevel 1 (
 python scripts\verify_phase3.py
 if errorlevel 1 (
   echo ERROR: Phase 3 scope verification failed. Fix errors before pushing.
+  pause
+  exit /b 1
+)
+python scripts\verify_phase3b.py
+if errorlevel 1 (
+  echo ERROR: Phase 3B latest-role ingestion verification failed. Fix errors before pushing.
   pause
   exit /b 1
 )

@@ -1,29 +1,33 @@
 #!/usr/bin/env python3
 """Kazi Sasa public-sector feed refresh / normalization runner.
 
-Phase 3 adds central-government collectors:
-- PSCIMS active adverts -> official live vacancies when reachable.
-- MyGov/GAA job adverts -> discovery queue only, not live vacancies until institution/source is verified.
-- PSC/public-service reference pages -> source-health monitoring.
+Phase 3B adds latest-role ingestion hardening:
+- PSCIMS remains the official central public-service collector.
+- MyGov/GAA discovery tries current and legacy URLs rather than failing on one 404.
+- KSG is refreshed as a live institutional-portal source when reachable.
+- Expired roles are marked as expired so the viewer hides them from Open roles by default.
+- Each run writes a change summary: new, updated, removed, expired and unchanged roles.
 
 Accuracy-first behaviour:
 - If a live collector fails, existing validated vacancies are preserved.
 - The script never overwrites a good feed with an empty result.
+- Discovery-only items stay in discovery_queue.json until reviewed.
 - County coverage remains out of scope.
 """
 from __future__ import annotations
 
 import argparse
+import copy
 import datetime as dt
 import json
 import pathlib
-import sys
 from collections import Counter
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 EAT = dt.timezone(dt.timedelta(hours=3))
-NOW = dt.datetime.now(EAT).isoformat(timespec="seconds")
+NOW_DT = dt.datetime.now(EAT)
+NOW = NOW_DT.isoformat(timespec="seconds")
 
 
 def load(path, default=None):
@@ -80,12 +84,45 @@ def ensure_links(feed):
     return changed
 
 
+def _source_id(v):
+    return (v.get("provenance") or [{}])[0].get("source_id")
+
+
+def _is_expired(v, now_dt=NOW_DT):
+    deadline = v.get("advert", {}).get("deadline")
+    if not deadline:
+        return False
+    try:
+        d = dt.datetime.fromisoformat(str(deadline).replace("Z", "+00:00"))
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=EAT)
+        return d.astimezone(EAT) < now_dt
+    except Exception:
+        return False
+
+
+def mark_expired_roles(feed):
+    expired = []
+    for v in feed.get("vacancies", []):
+        if not _is_expired(v):
+            continue
+        verification = v.setdefault("verification", {})
+        if verification.get("status") != "expired":
+            verification["status"] = "expired"
+            notes = verification.get("notes") or ""
+            verification["notes"] = (notes + " Expired by automated deadline check.").strip()
+        flags = verification.setdefault("risk_flags", [])
+        if "expired_deadline" not in flags:
+            flags.append("expired_deadline")
+        expired.append(v.get("id"))
+    return expired
+
+
 def remove_county_scope(feed):
     kept = []
     dropped = []
     for v in feed.get("vacancies", []):
-        prov = (v.get("provenance") or [{}])[0]
-        sid = str(prov.get("source_id") or "")
+        sid = str(_source_id(v) or "")
         inst_type = str(v.get("institution", {}).get("type") or "").lower()
         if sid.startswith("county_") or "county_government" in inst_type:
             dropped.append(v.get("id"))
@@ -95,14 +132,21 @@ def remove_county_scope(feed):
     return dropped
 
 
+def _replace_source(vacancies, source_id, new_rows):
+    if not new_rows:
+        return vacancies
+    return [v for v in vacancies if _source_id(v) != source_id] + list(new_rows)
+
+
 def merge_central_collections(feed, collect_live=False, include_mygov_discovery=True):
-    """Return feed with live PSCIMS rows merged and discovery/source-health reports."""
-    central_report = {"phase": "Phase 3 — Central government collectors", "collect_live": collect_live, "collectors": []}
+    """Return feed with live central rows merged and discovery/source-health reports."""
+    central_report = {"phase": "Phase 3B — Latest-role ingestion hardening", "collect_live": collect_live, "collectors": []}
     discovery_items = []
     health_items = []
     vacancies = list(feed.get("vacancies", []))
 
     if collect_live:
+        # PSCIMS official live vacancies.
         try:
             from scripts.collectors import pscims
         except Exception:
@@ -115,12 +159,28 @@ def merge_central_collections(feed, collect_live=False, include_mygov_discovery=
             pscims_vacancies, meta = pscims.collect()
             central_report["collectors"].append(meta)
             if pscims_vacancies:
-                # Replace prior PSCIMS rows with freshly collected PSCIMS rows.
-                vacancies = [v for v in vacancies if not (v.get("provenance") or [{}])[0].get("source_id") == "pscims_active_adverts"]
-                vacancies.extend(pscims_vacancies)
+                vacancies = _replace_source(vacancies, "pscims_active_adverts", pscims_vacancies)
             else:
                 meta["preserved_existing_rows"] = True
 
+        # KSG live institutional portal, kept as needs_review.
+        try:
+            from scripts.collectors import ksg
+        except Exception:
+            try:
+                from collectors import ksg
+            except Exception as exc:
+                ksg = None
+                central_report["collectors"].append({"source_id": "ksg_jobapplications", "error": f"import failed: {exc}"})
+        if ksg:
+            ksg_vacancies, meta = ksg.collect()
+            central_report["collectors"].append(meta)
+            if ksg_vacancies:
+                vacancies = _replace_source(vacancies, "ksg_jobapplications", ksg_vacancies)
+            else:
+                meta["preserved_existing_rows"] = True
+
+        # MyGov/GAA discovery only.
         if include_mygov_discovery:
             try:
                 from scripts.collectors import mygov
@@ -129,11 +189,12 @@ def merge_central_collections(feed, collect_live=False, include_mygov_discovery=
                     from collectors import mygov
                 except Exception as exc:
                     mygov = None
-                    central_report["collectors"].append({"source_id": "mygov_job_adverts", "error": f"import failed: {exc}"})
+                    central_report["collectors"].append({"source_id": "mygov_government_advertising_agency", "error": f"import failed: {exc}"})
             if mygov:
                 discovery_items, meta = mygov.collect()
                 central_report["collectors"].append(meta)
 
+        # Central source-health.
         try:
             from scripts.collectors import official_page_monitor
         except Exception:
@@ -158,6 +219,42 @@ def merge_central_collections(feed, collect_live=False, include_mygov_discovery=
     return central_report, discovery_items, health_items
 
 
+def _stable_compare_projection(v):
+    """Projection used for change detection, excluding volatile fetch timestamps."""
+    return {
+        "title": v.get("title"),
+        "institution": v.get("institution", {}).get("name"),
+        "deadline": v.get("advert", {}).get("deadline"),
+        "vacancies": v.get("advert", {}).get("number_of_vacancies"),
+        "verification": v.get("verification", {}).get("status"),
+        "source_id": _source_id(v),
+        "view_original_url": v.get("links", {}).get("view_original_url"),
+    }
+
+
+def build_change_summary(before_vacancies, after_vacancies, expired_ids=None, dropped_county=None):
+    before = {v.get("id"): v for v in before_vacancies if v.get("id")}
+    after = {v.get("id"): v for v in after_vacancies if v.get("id")}
+    before_ids = set(before)
+    after_ids = set(after)
+    new_ids = sorted(after_ids - before_ids)
+    removed_ids = sorted(before_ids - after_ids)
+    common = before_ids & after_ids
+    updated_ids = sorted(i for i in common if _stable_compare_projection(before[i]) != _stable_compare_projection(after[i]))
+    return {
+        "new_roles": len(new_ids),
+        "updated_roles": len(updated_ids),
+        "removed_roles": len(removed_ids),
+        "expired_roles": len(expired_ids or []),
+        "county_rows_dropped": len(dropped_county or []),
+        "unchanged_roles": max(0, len(after_ids) - len(new_ids) - len(updated_ids)),
+        "new_role_ids": new_ids[:50],
+        "updated_role_ids": updated_ids[:50],
+        "removed_role_ids": removed_ids[:50],
+        "expired_role_ids": list(expired_ids or [])[:50],
+    }
+
+
 def apply_registry(feed, central_report=None, discovery_items=None, health_items=None):
     reg = load(DATA / "source_registry.json", {"sources": []})
     sources = reg.get("sources", [])
@@ -166,8 +263,7 @@ def apply_registry(feed, central_report=None, discovery_items=None, health_items
     health_meta = {h.get("source_id"): h for h in (health_items or []) if isinstance(h, dict)}
 
     for v in feed.get("vacancies", []):
-        prov = (v.get("provenance") or [{}])[0]
-        sid = prov.get("source_id")
+        sid = _source_id(v)
         if not sid:
             sid = "pscims_active_adverts" if "PSCIMS" in v.get("source", {}).get("name", "") else "ksg_jobapplications"
             v["provenance"] = [{"source_id": sid, "url": v.get("links", {}).get("view_original_url") or v.get("source", {}).get("url"), "seen_at": NOW}]
@@ -211,9 +307,9 @@ def apply_registry(feed, central_report=None, discovery_items=None, health_items
             "discovery_items": discovery_count,
             "last_error": error,
             "http_status": cm.get("http_status") or hm.get("http_status"),
-            "notes": s.get("notes")
+            "notes": s.get("notes"),
         })
-    write(DATA / "source_status.json", {"generated_at": NOW, "version": "phase3-central-government", "sources": status})
+    write(DATA / "source_status.json", {"generated_at": NOW, "version": "phase3b-latest-role-ingestion", "sources": status})
     feed["source_status"] = status
     return counts, len(sources)
 
@@ -223,7 +319,7 @@ def main():
     ap.add_argument("--input", default=str(DATA / "public_sector_feed.json"))
     ap.add_argument("--out", default=str(DATA / "public_sector_feed.json"))
     ap.add_argument("--root-out", default=str(ROOT / "public_sector_feed.json"))
-    ap.add_argument("--collect-central", action="store_true", help="Run Phase 3 central collectors. Fallback preserves existing feed if sources fail.")
+    ap.add_argument("--collect-central", action="store_true", help="Run central/latest collectors. Fallback preserves existing feed if sources fail.")
     ap.add_argument("--no-mygov-discovery", action="store_true", help="Do not write MyGov/GAA discovery queue.")
     args = ap.parse_args()
 
@@ -232,6 +328,7 @@ def main():
         print("No input feed found; aborting rather than writing empty feed.")
         return 2
 
+    before_vacancies = copy.deepcopy(feed.get("vacancies", []))
     dropped_county = remove_county_scope(feed)
     changed_links = ensure_links(feed)
     central_report, discovery_items, health_items = merge_central_collections(
@@ -240,11 +337,13 @@ def main():
         include_mygov_discovery=not args.no_mygov_discovery,
     )
     changed_links += ensure_links(feed)
+    expired_ids = mark_expired_roles(feed)
     counts, source_count = apply_registry(feed, central_report, discovery_items, health_items)
+    change_summary = build_change_summary(before_vacancies, feed.get("vacancies", []), expired_ids=expired_ids, dropped_county=dropped_county)
 
     feed.setdefault("meta", {})
     feed["meta"].update({
-        "feed_version": "3.0-central-government-collectors-phase3",
+        "feed_version": "3.1-latest-role-ingestion-phase3b",
         "schema_version": "1.3-public-sector-national-only",
         "generated_at": NOW,
         "next_expected_update": (dt.datetime.now(EAT) + dt.timedelta(days=1)).isoformat(timespec="seconds"),
@@ -253,8 +352,18 @@ def main():
         "is_sample_data": False,
         "scope": "national_government_mdas_parastatals_public_institutions_only_no_counties",
         "role_scope": "all_role_families",
-        "implementation_phase": "Phase 3 — Central government collectors",
-        "coverage_note": "Phase 3 runs PSCIMS official vacancies, MyGov/GAA discovery queue, and central source-health checks. County sources remain excluded.",
+        "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
+        "phase": "Phase 3B — Latest-role ingestion hardening",
+        "coverage_note": "Phase 3B refreshes PSCIMS and KSG live where reachable, fixes MyGov/GAA discovery URL fallback, marks expired roles, and reports role changes.",
+        "change_summary": change_summary,
+    })
+    q = feed.setdefault("meta", {}).setdefault("quality_summary", {})
+    q.update({
+        "expired_roles": len(expired_ids),
+        "latest_ingestion_phase": "3B",
+        "new_roles_last_run": change_summary["new_roles"],
+        "updated_roles_last_run": change_summary["updated_roles"],
+        "discovery_items_last_run": len(discovery_items),
     })
     feed.setdefault("rejected_watchlist", load(DATA / "rejected_watchlist.json", {"items": []}).get("items", []))
 
@@ -268,7 +377,7 @@ def main():
         "run_id": NOW,
         "started_at": NOW,
         "finished_at": NOW,
-        "implementation_phase": "Phase 3 — Central government collectors",
+        "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
         "collect_central_requested": args.collect_central,
         "vacancies_active": len(feed.get("vacancies", [])),
         "sources_registered": source_count,
@@ -279,10 +388,16 @@ def main():
         "links_added_or_confirmed": changed_links,
         "quality_gate_status": "pending_validation",
         "central_collectors": central_report.get("collectors", []),
-        "note": "PSCIMS official rows can replace prior PSCIMS rows when reachable. MyGov/GAA items are stored in discovery_queue.json for review, not added to open vacancies by default.",
+        "change_summary": change_summary,
+        "note": "Phase 3B refreshes PSCIMS and KSG when reachable. MyGov/GAA items remain in discovery_queue.json for review, not open vacancies by default.",
     }
     write(DATA / "last_run_report.json", report)
-    print(f"Phase 3 refresh complete. Vacancies: {len(feed.get('vacancies', []))}; registered sources: {source_count}; discovery items: {len(discovery_items)}; health checks: {len(health_items)}")
+    print(
+        "Phase 3B refresh complete. "
+        f"Vacancies: {len(feed.get('vacancies', []))}; registered sources: {source_count}; "
+        f"new: {change_summary['new_roles']}; updated: {change_summary['updated_roles']}; "
+        f"expired: {change_summary['expired_roles']}; discovery: {len(discovery_items)}"
+    )
     return 0
 
 

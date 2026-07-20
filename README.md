@@ -1,6 +1,6 @@
-# Kazi Sasa Public Sector Viewer — PS_2 Phase 3
+# Kazi Sasa Public Sector Viewer — PS_2 Phase 3B
 
-This package implements **Phase 3 — Central government collectors** for the existing `PS_2` GitHub Pages repo.
+This package implements **Phase 3B — Latest-role ingestion hardening** for the existing `PS_2` GitHub Pages repo.
 
 The project remains:
 
@@ -93,3 +93,32 @@ Phase 4 should implement ministry and state-department monitors using the offici
 ## Phase 3A hotfix
 
 A PSCIMS live refresh exposed ASP.NET `javascript:__doPostBack(...)` detail links. These are now sanitised and replaced with the official PSCIMS active-adverts page before validation. See `docs/PHASE_3A_PSCIMS_POSTBACK_HOTFIX.md`.
+
+
+## Phase 3B — Latest-role ingestion hardening
+
+Phase 3B keeps `PS_2` as the canonical repo and focuses on yielding visible progress from each refresh:
+
+- PSCIMS official active adverts are refreshed live.
+- KSG portal roles are refreshed live when reachable and remain `needs_review` until official linkage is reconfirmed.
+- MyGov/GAA discovery tries the current GAA job-adverts node and legacy MyGov paths instead of failing on a single 404.
+- Expired roles are marked `expired`, so they are hidden from Open roles by default.
+- `last_run_report.json` and feed `meta.change_summary` now show new, updated, expired and unchanged role counts.
+
+Run locally:
+
+```bat
+VERIFY_PHASE_3B.cmd
+```
+
+Run refresh:
+
+```bat
+python scripts
+efresh_public_sector_feed.py --collect-central
+```
+
+
+## Phase 3B local verification note
+
+`VERIFY_PHASE_3B.cmd` treats `pytest` as optional on Windows. Core feed and scope checks remain strict. If `pytest` is not installed, parser tests are skipped locally; install dependencies with `python -m pip install -r requirements.txt` to run them.
