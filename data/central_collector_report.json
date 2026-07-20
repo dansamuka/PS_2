@@ -1,8 +1,50 @@
 {
   "phase": "Phase 3B — Latest-role ingestion hardening",
-  "collect_live": false,
-  "collectors": [],
-  "generated_at": "2026-07-20T10:26:58+03:00",
-  "discovery_items": 0,
-  "health_items": 0
+  "collect_live": true,
+  "collectors": [
+    {
+      "source_id": "pscims_active_adverts",
+      "source_name": "Public Service Commission Active Adverts",
+      "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
+      "http_status": 200,
+      "error": null,
+      "records_seen": 4,
+      "records_emitted": 4
+    },
+    {
+      "source_id": "ksg_jobapplications",
+      "source_name": "Kenya School of Government Job Application Portal",
+      "url": "https://jobapplications.ke/",
+      "http_status": 200,
+      "error": null,
+      "records_seen": 40,
+      "records_emitted": 40
+    },
+    {
+      "source_id": "mygov_government_advertising_agency",
+      "source_name": "Government Advertising Agency / MyGov Job Adverts",
+      "url": "https://gaa.go.ke/index.php/node/445",
+      "candidate_urls_tried": [
+        {
+          "url": "https://gaa.go.ke/index.php/node/445",
+          "http_status": 200,
+          "error": null
+        }
+      ],
+      "selected_url": "https://gaa.go.ke/index.php/node/445",
+      "http_status": 200,
+      "error": null,
+      "records_seen": 120,
+      "records_emitted": 120
+    },
+    {
+      "source_id": "official_page_monitor",
+      "records_seen": 3,
+      "records_emitted": 3,
+      "error": null
+    }
+  ],
+  "generated_at": "2026-07-20T10:37:33+03:00",
+  "discovery_items": 120,
+  "health_items": 3
 }

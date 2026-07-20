@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T10:26:58+03:00",
+  "generated_at": "2026-07-20T10:37:33+03:00",
   "version": "phase3b-latest-role-ingestion",
   "sources": [
     {
@@ -12,13 +12,13 @@
       "base_url": "https://pscims.publicservice.go.ke/puio/",
       "collector_type": "portal_reference",
       "coverage_priority": 1,
-      "status": "enabled_no_roles_captured",
-      "last_checked_at": "2026-07-20T10:26:58+03:00",
-      "last_successful_fetch_at": null,
+      "status": "reachable_no_structured_roles_captured",
+      "last_checked_at": "2026-07-20T10:37:33+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": null,
+      "http_status": 200,
       "notes": "Official PSC application portal reference for roles applied through PSCIMS."
     },
     {
@@ -32,12 +32,12 @@
       "collector_type": "pscims_active_adverts_html_table",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:26:58+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:26:58+03:00",
+      "last_checked_at": "2026-07-20T10:37:33+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
       "active_roles": 4,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": null,
+      "http_status": 200,
       "notes": "Primary central public-service recruitment source."
     },
     {
@@ -50,13 +50,13 @@
       "base_url": "https://www.psckjobs.go.ke/",
       "collector_type": "portal_reference",
       "coverage_priority": 1,
-      "status": "enabled_no_roles_captured",
-      "last_checked_at": "2026-07-20T10:26:58+03:00",
-      "last_successful_fetch_at": null,
+      "status": "reachable_no_structured_roles_captured",
+      "last_checked_at": "2026-07-20T10:37:33+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": null,
+      "http_status": 200,
       "notes": ""
     },
     {
@@ -69,13 +69,13 @@
       "base_url": "https://www.publicservice.go.ke/",
       "collector_type": "official_page_monitor",
       "coverage_priority": 1,
-      "status": "enabled_no_roles_captured",
-      "last_checked_at": "2026-07-20T10:26:58+03:00",
-      "last_successful_fetch_at": null,
+      "status": "reachable_no_structured_roles_captured",
+      "last_checked_at": "2026-07-20T10:37:33+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": null,
+      "http_status": 200,
       "notes": ""
     },
     {
@@ -316,13 +316,13 @@
       "base_url": "https://gaa.go.ke/index.php/node/445",
       "collector_type": "mygov_job_adverts_discovery",
       "coverage_priority": 1,
-      "status": "enabled_no_roles_captured",
-      "last_checked_at": "2026-07-20T10:26:58+03:00",
-      "last_successful_fetch_at": null,
+      "status": "discovery_items_found_requires_review",
+      "last_checked_at": "2026-07-20T10:37:33+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
       "active_roles": 0,
-      "discovery_items": 0,
+      "discovery_items": 120,
       "last_error": null,
-      "http_status": null,
+      "http_status": 200,
       "notes": "Phase 3B central discovery source. Collector tries current GAA job-adverts node and legacy MyGov paths; items go to discovery_queue.json until verified."
     },
     {
@@ -1362,12 +1362,12 @@
       "collector_type": "html_cards",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:26:58+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:26:58+03:00",
-      "active_roles": 39,
+      "last_checked_at": "2026-07-20T10:37:33+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
+      "active_roles": 40,
       "discovery_items": 0,
       "last_error": null,
-      "http_status": null,
+      "http_status": 200,
       "notes": "KSG live institutional portal collector enabled. Records remain needs_review until official linkage is reconfirmed before sensitive submissions."
     },
     {
