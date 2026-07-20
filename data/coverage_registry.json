@@ -1,200 +1,123 @@
 {
-  "generated_at": "2026-07-20T08:56:35+03:00",
-  "version": "1.0",
-  "coverage": [
-    {
-      "group": "central_psc",
-      "target_sources": 2,
-      "registered_sources": 2,
-      "enabled_sources": 2,
-      "working_sources": 2,
-      "status": "active",
-      "notes": ""
+  "generated_at": "2026-07-20T09:30:40+03:00",
+  "version": "2.0-national-source-registry-phase2",
+  "scope": "national_government_and_government_related_only",
+  "role_scope": "all_job_families",
+  "coverage": {
+    "central_psc": {
+      "registered": 4,
+      "enabled": 2,
+      "working": 1,
+      "pending_url_confirmation": 0
     },
-    {
-      "group": "government_advertising_agency",
-      "target_sources": 1,
-      "registered_sources": 1,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "constitutional_commissions": {
+      "registered": 12,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 12
     },
-    {
-      "group": "source_registry",
-      "target_sources": 1,
-      "registered_sources": 1,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "government_advertising_agency": {
+      "registered": 1,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 1
     },
-    {
-      "group": "ministries",
-      "target_sources": 0,
-      "registered_sources": 0,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "not_started",
-      "notes": ""
+    "government_funds_authorities": {
+      "registered": 7,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 7
     },
-    {
-      "group": "state_departments",
-      "target_sources": 0,
-      "registered_sources": 0,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "not_started",
-      "notes": ""
+    "government_linked_companies": {
+      "registered": 3,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 3
     },
-    {
-      "group": "constitutional_commissions",
-      "target_sources": 6,
-      "registered_sources": 6,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "independent_offices": {
+      "registered": 4,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 4
     },
-    {
-      "group": "independent_offices",
-      "target_sources": 3,
-      "registered_sources": 3,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "judiciary_parliament": {
+      "registered": 4,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 4
     },
-    {
-      "group": "judiciary_parliament",
-      "target_sources": 3,
-      "registered_sources": 3,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "ministries": {
+      "registered": 23,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 23
     },
-    {
-      "group": "sagas_state_corporations",
-      "target_sources": 20,
-      "registered_sources": 20,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "national_health_agencies": {
+      "registered": 3,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 3
     },
-    {
-      "group": "county_psbs",
-      "target_sources": 47,
-      "registered_sources": 47,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": "All 47 counties listed as placeholders requiring URL confirmation."
+    "public_hospitals": {
+      "registered": 5,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 5
     },
-    {
-      "group": "county_assemblies",
-      "target_sources": 0,
-      "registered_sources": 0,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "not_started",
-      "notes": ""
+    "public_training_and_tvet": {
+      "registered": 5,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 5
     },
-    {
-      "group": "public_universities",
-      "target_sources": 7,
-      "registered_sources": 7,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "public_training_institution": {
+      "registered": 2,
+      "enabled": 1,
+      "working": 1,
+      "pending_url_confirmation": 2
     },
-    {
-      "group": "public_hospitals",
-      "target_sources": 3,
-      "registered_sources": 3,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "registry_seeded",
-      "notes": ""
+    "public_universities": {
+      "registered": 38,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 38
     },
-    {
-      "group": "tvet_institutions",
-      "target_sources": 0,
-      "registered_sources": 0,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "not_started",
-      "notes": ""
+    "regulators": {
+      "registered": 24,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 24
     },
-    {
-      "group": "research_training_institutions",
-      "target_sources": 0,
-      "registered_sources": 0,
-      "enabled_sources": 0,
-      "working_sources": 0,
-      "status": "not_started",
-      "notes": ""
+    "research_institutions": {
+      "registered": 4,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 4
     },
-    {
-      "group": "public_training_institution",
-      "target_sources": 1,
-      "registered_sources": 1,
-      "enabled_sources": 1,
-      "working_sources": 1,
-      "status": "active",
-      "notes": ""
+    "sagas_state_corporations": {
+      "registered": 50,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 50
+    },
+    "source_registry": {
+      "registered": 3,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 0
+    },
+    "state_departments": {
+      "registered": 47,
+      "enabled": 0,
+      "working": 0,
+      "pending_url_confirmation": 47
     }
+  },
+  "excluded_coverage": [
+    "county_public_service_boards",
+    "county_governments",
+    "county_assemblies",
+    "ward_or_sub_county_roles"
   ],
-  "county_count": 47,
-  "county_names": [
-    "Baringo",
-    "Bomet",
-    "Bungoma",
-    "Busia",
-    "Elgeyo Marakwet",
-    "Embu",
-    "Garissa",
-    "Homa Bay",
-    "Isiolo",
-    "Kajiado",
-    "Kakamega",
-    "Kericho",
-    "Kiambu",
-    "Kilifi",
-    "Kirinyaga",
-    "Kisii",
-    "Kisumu",
-    "Kitui",
-    "Kwale",
-    "Laikipia",
-    "Lamu",
-    "Machakos",
-    "Makueni",
-    "Mandera",
-    "Marsabit",
-    "Meru",
-    "Migori",
-    "Mombasa",
-    "Murang’a",
-    "Nairobi",
-    "Nakuru",
-    "Nandi",
-    "Narok",
-    "Nyamira",
-    "Nyandarua",
-    "Nyeri",
-    "Samburu",
-    "Siaya",
-    "Taita Taveta",
-    "Tana River",
-    "Tharaka Nithi",
-    "Trans Nzoia",
-    "Turkana",
-    "Uasin Gishu",
-    "Vihiga",
-    "Wajir",
-    "West Pokot"
-  ]
+  "note": "Phase 2 removes county coverage and expands the national source registry. Registered does not mean live collector-enabled."
 }

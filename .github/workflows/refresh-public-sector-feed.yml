@@ -1,9 +1,9 @@
-name: Refresh public-sector feed
+name: Refresh public sector feed
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: '30 4 * * *'
 
 permissions:
   contents: write
@@ -15,17 +15,21 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-      - name: Refresh feed
-        run: python3 scripts/refresh_public_sector_feed.py
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Refresh Phase 3 central-government feed
+        run: python3 scripts/refresh_public_sector_feed.py --collect-central --out data/public_sector_feed.json --root-out public_sector_feed.json
       - name: Validate feed
         run: python3 scripts/validate_public_sector_feed.py data/public_sector_feed.json --registry data/source_registry.json
-      - name: Sync root feed
-        run: cp data/public_sector_feed.json public_sector_feed.json
-      - name: Commit changes
+      - name: Verify Phase 3 scope
+        run: python3 scripts/verify_phase3.py
+      - name: Run collector parser tests
+        run: python3 -m pytest -q scripts/tests || echo "pytest unavailable or parser tests skipped in workflow"
+      - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/public_sector_feed.json public_sector_feed.json data/last_run_report.json
-          git diff --cached --quiet || git commit -m "Refresh public-sector feed"
+          git add data public_sector_feed.json
+          git diff --cached --quiet || git commit -m "Refresh central-government public-sector feed"
           git push

@@ -1,0 +1,2179 @@
+{
+  "generated_at": "2026-07-20T09:30:40+03:00",
+  "scope": "national_government_and_government_related_only",
+  "total_sources": 239,
+  "sources_by_group": {
+    "central_psc": 4,
+    "constitutional_commissions": 12,
+    "government_advertising_agency": 1,
+    "government_funds_authorities": 7,
+    "government_linked_companies": 3,
+    "independent_offices": 4,
+    "judiciary_parliament": 4,
+    "ministries": 23,
+    "national_health_agencies": 3,
+    "public_hospitals": 5,
+    "public_training_and_tvet": 5,
+    "public_training_institution": 2,
+    "public_universities": 38,
+    "regulators": 24,
+    "research_institutions": 4,
+    "sagas_state_corporations": 50,
+    "source_registry": 3,
+    "state_departments": 47
+  },
+  "note": "Convenience index generated from data/source_registry.json",
+  "sources": [
+    {
+      "source_id": "pscims_login_portal",
+      "name": "PSCIMS Login / Application Portal",
+      "source_group": "central_psc",
+      "institution_type": "central_recruitment_portal",
+      "parent_ministry": null,
+      "enabled": true,
+      "status": "collector_active"
+    },
+    {
+      "source_id": "pscims_active_adverts",
+      "name": "Public Service Commission Active Adverts",
+      "source_group": "central_psc",
+      "institution_type": "central_recruitment_portal",
+      "parent_ministry": null,
+      "enabled": true,
+      "status": "collector_active"
+    },
+    {
+      "source_id": "psckjobs_portal",
+      "name": "Public Service Commission Jobs Portal",
+      "source_group": "central_psc",
+      "institution_type": "central_recruitment_portal",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_candidate_central_source"
+    },
+    {
+      "source_id": "public_service_commission_website",
+      "name": "Public Service Commission Website",
+      "source_group": "central_psc",
+      "institution_type": "central_recruitment_portal",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_candidate_central_source"
+    },
+    {
+      "source_id": "public_body_commission_on_administrative_justice",
+      "name": "Commission on Administrative Justice",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_commission_on_revenue_allocation",
+      "name": "Commission on Revenue Allocation",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_ethics_and_anti_corruption_commission",
+      "name": "Ethics and Anti-Corruption Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_independent_electoral_and_boundaries_commission",
+      "name": "Independent Electoral and Boundaries Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_judicial_service_commission",
+      "name": "Judicial Service Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": "Judiciary",
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_kenya_national_commission_on_human_rights",
+      "name": "Kenya National Commission on Human Rights",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_national_gender_and_equality_commission",
+      "name": "National Gender and Equality Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_national_land_commission",
+      "name": "National Land Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_national_police_service_commission",
+      "name": "National Police Service Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": "Ministry of Interior and National Administration",
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_public_service_commission",
+      "name": "Public Service Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_salaries_and_remuneration_commission",
+      "name": "Salaries and Remuneration Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_teachers_service_commission",
+      "name": "Teachers Service Commission",
+      "source_group": "constitutional_commissions",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "mygov_government_advertising_agency",
+      "name": "MyGov / Government Advertising Agency",
+      "source_group": "government_advertising_agency",
+      "institution_type": "government_advertising_discovery",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_candidate_discovery_source"
+    },
+    {
+      "source_id": "source_higher_education_loans_board",
+      "name": "Higher Education Loans Board",
+      "source_group": "government_funds_authorities",
+      "institution_type": "fund_or_scheme",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_nairobi_international_financial_centre_authority",
+      "name": "Nairobi International Financial Centre Authority",
+      "source_group": "government_funds_authorities",
+      "institution_type": "authority",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_research_fund",
+      "name": "National Research Fund",
+      "source_group": "government_funds_authorities",
+      "institution_type": "fund_or_scheme",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_social_security_fund",
+      "name": "National Social Security Fund",
+      "source_group": "government_funds_authorities",
+      "institution_type": "fund_or_scheme",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_public_service_superannuation_scheme",
+      "name": "Public Service Superannuation Scheme",
+      "source_group": "government_funds_authorities",
+      "institution_type": "fund_or_scheme",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_tourism_fund",
+      "name": "Tourism Fund",
+      "source_group": "government_funds_authorities",
+      "institution_type": "fund_or_scheme",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_unclaimed_financial_assets_authority",
+      "name": "Unclaimed Financial Assets Authority",
+      "source_group": "government_funds_authorities",
+      "institution_type": "authority",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_electricity_generating_company_plc",
+      "name": "Kenya Electricity Generating Company PLC",
+      "source_group": "government_linked_companies",
+      "institution_type": "government_linked_company",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_power_and_lighting_company_plc",
+      "name": "Kenya Power and Lighting Company PLC",
+      "source_group": "government_linked_companies",
+      "institution_type": "government_linked_company",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_seed_company",
+      "name": "Kenya Seed Company",
+      "source_group": "government_linked_companies",
+      "institution_type": "government_linked_company",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_office_of_the_auditor_general",
+      "name": "Office of the Auditor-General",
+      "source_group": "independent_offices",
+      "institution_type": "independent_office",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_office_of_the_controller_of_budget",
+      "name": "Office of the Controller of Budget",
+      "source_group": "independent_offices",
+      "institution_type": "independent_office",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_office_of_the_director_of_public_prosecutions",
+      "name": "Office of the Director of Public Prosecutions",
+      "source_group": "independent_offices",
+      "institution_type": "independent_office",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_office_of_the_data_protection_commissioner",
+      "name": "Office of the Data Protection Commissioner",
+      "source_group": "independent_offices",
+      "institution_type": "independent_office",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_judiciary_of_kenya",
+      "name": "Judiciary of Kenya",
+      "source_group": "judiciary_parliament",
+      "institution_type": "judiciary",
+      "parent_ministry": "Judiciary",
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_national_assembly_service",
+      "name": "National Assembly Service",
+      "source_group": "judiciary_parliament",
+      "institution_type": "parliamentary_body",
+      "parent_ministry": "Parliament",
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_parliamentary_service_commission",
+      "name": "Parliamentary Service Commission",
+      "source_group": "judiciary_parliament",
+      "institution_type": "constitutional_commission",
+      "parent_ministry": "Parliament",
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_body_senate_of_kenya",
+      "name": "Senate of Kenya",
+      "source_group": "judiciary_parliament",
+      "institution_type": "parliamentary_body",
+      "parent_ministry": "Parliament",
+      "enabled": false,
+      "status": "phase2_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "ministry_ministry_of_agriculture_and_livestock_development",
+      "name": "Ministry of Agriculture and Livestock Development",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_cooperatives_and_micro_small_and_medium_enterprises_development",
+      "name": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_defence",
+      "name": "Ministry of Defence",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_east_african_community_the_asals_and_regional_development",
+      "name": "Ministry of East African Community, the ASALs and Regional Development",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_education",
+      "name": "Ministry of Education",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_energy_and_petroleum",
+      "name": "Ministry of Energy and Petroleum",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_environment_climate_change_and_forestry",
+      "name": "Ministry of Environment, Climate Change and Forestry",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_foreign_and_diaspora_affairs",
+      "name": "Ministry of Foreign and Diaspora Affairs",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_health",
+      "name": "Ministry of Health",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_information_communications_and_the_digital_economy",
+      "name": "Ministry of Information, Communications and the Digital Economy",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_interior_and_national_administration",
+      "name": "Ministry of Interior and National Administration",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_investments_trade_and_industry",
+      "name": "Ministry of Investments, Trade and Industry",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_labour_and_social_protection",
+      "name": "Ministry of Labour and Social Protection",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_lands_public_works_housing_and_urban_development",
+      "name": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_mining_blue_economy_and_maritime_affairs",
+      "name": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_public_service_human_capital_development_and_special_programmes",
+      "name": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_roads_and_transport",
+      "name": "Ministry of Roads and Transport",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_tourism_and_wildlife",
+      "name": "Ministry of Tourism and Wildlife",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_water_sanitation_and_irrigation",
+      "name": "Ministry of Water, Sanitation and Irrigation",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_ministry_of_youth_affairs_creative_economy_and_sports",
+      "name": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_office_of_the_prime_cabinet_secretary",
+      "name": "Office of the Prime Cabinet Secretary",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_state_law_office_and_department_of_justice",
+      "name": "State Law Office and Department of Justice",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "ministry_the_national_treasury_and_economic_planning",
+      "name": "The National Treasury and Economic Planning",
+      "source_group": "ministries",
+      "institution_type": "central_ministry",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "source_kenya_biovax_institute",
+      "name": "Kenya Biovax Institute",
+      "source_group": "national_health_agencies",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_medical_supplies_authority",
+      "name": "Kenya Medical Supplies Authority",
+      "source_group": "national_health_agencies",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_social_health_authority",
+      "name": "Social Health Authority",
+      "source_group": "national_health_agencies",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenyatta_national_hospital",
+      "name": "Kenyatta National Hospital",
+      "source_group": "public_hospitals",
+      "institution_type": "national_referral_hospital",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenyatta_university_teaching_referral_and_research_hospital",
+      "name": "Kenyatta University Teaching, Referral and Research Hospital",
+      "source_group": "public_hospitals",
+      "institution_type": "national_referral_hospital",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_mathari_national_teaching_and_referral_hospital",
+      "name": "Mathari National Teaching and Referral Hospital",
+      "source_group": "public_hospitals",
+      "institution_type": "national_referral_hospital",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_moi_teaching_and_referral_hospital",
+      "name": "Moi Teaching and Referral Hospital",
+      "source_group": "public_hospitals",
+      "institution_type": "national_referral_hospital",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_spinal_injury_referral_hospital",
+      "name": "National Spinal Injury Referral Hospital",
+      "source_group": "public_hospitals",
+      "institution_type": "national_referral_hospital",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_medical_training_college",
+      "name": "Kenya Medical Training College",
+      "source_group": "public_training_and_tvet",
+      "institution_type": "training_institution",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_technical_trainers_college",
+      "name": "Kenya Technical Trainers College",
+      "source_group": "public_training_and_tvet",
+      "institution_type": "training_institution",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_utalii_college",
+      "name": "Kenya Utalii College",
+      "source_group": "public_training_and_tvet",
+      "institution_type": "training_institution",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_water_institute",
+      "name": "Kenya Water Institute",
+      "source_group": "public_training_and_tvet",
+      "institution_type": "training_institution",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_industrial_training_authority",
+      "name": "National Industrial Training Authority",
+      "source_group": "public_training_and_tvet",
+      "institution_type": "training_institution",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "ksg_jobapplications",
+      "name": "Kenya School of Government Job Application Portal",
+      "source_group": "public_training_institution",
+      "institution_type": "training_institution",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "enabled": true,
+      "status": "collector_active_needs_review"
+    },
+    {
+      "source_id": "source_kenya_school_of_government",
+      "name": "Kenya School of Government",
+      "source_group": "public_training_institution",
+      "institution_type": "training_institution",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_alupe_university",
+      "name": "Alupe University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_bomet_university_college",
+      "name": "Bomet University College",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_chuka_university",
+      "name": "Chuka University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_cooperative_university_of_kenya",
+      "name": "Cooperative University of Kenya",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_dedan_kimathi_university_of_technology",
+      "name": "Dedan Kimathi University of Technology",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_egerton_university",
+      "name": "Egerton University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_embu_university",
+      "name": "Embu University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_garissa_university",
+      "name": "Garissa University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_jaramogi_oginga_odinga_university_of_science_and_technology",
+      "name": "Jaramogi Oginga Odinga University of Science and Technology",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_jomo_kenyatta_university_of_agriculture_and_technology",
+      "name": "Jomo Kenyatta University of Agriculture and Technology",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_kaimosi_friends_university",
+      "name": "Kaimosi Friends University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_karatina_university",
+      "name": "Karatina University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_kenyatta_university",
+      "name": "Kenyatta University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_kibabii_university",
+      "name": "Kibabii University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_kirinyaga_university",
+      "name": "Kirinyaga University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_kisii_university",
+      "name": "Kisii University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_koitaleel_samoei_university_college",
+      "name": "Koitaleel Samoei University College",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_laikipia_university",
+      "name": "Laikipia University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_maasai_mara_university",
+      "name": "Maasai Mara University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_machakos_university",
+      "name": "Machakos University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_mama_ngina_university_college",
+      "name": "Mama Ngina University College",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_maseno_university",
+      "name": "Maseno University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_masinde_muliro_university_of_science_and_technology",
+      "name": "Masinde Muliro University of Science and Technology",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_meru_university_of_science_and_technology",
+      "name": "Meru University of Science and Technology",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_moi_university",
+      "name": "Moi University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_multimedia_university_of_kenya",
+      "name": "Multimedia University of Kenya",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_murang_a_university_of_technology",
+      "name": "Murang’a University of Technology",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_open_university_of_kenya",
+      "name": "Open University of Kenya",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_pwani_university",
+      "name": "Pwani University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_rongo_university",
+      "name": "Rongo University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_south_eastern_kenya_university",
+      "name": "South Eastern Kenya University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_technical_university_of_kenya",
+      "name": "Technical University of Kenya",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_technical_university_of_mombasa",
+      "name": "Technical University of Mombasa",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_tharaka_university",
+      "name": "Tharaka University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_tom_mboya_university",
+      "name": "Tom Mboya University",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_university_of_eldoret",
+      "name": "University of Eldoret",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_university_of_kabianga",
+      "name": "University of Kabianga",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "public_university_university_of_nairobi",
+      "name": "University of Nairobi",
+      "source_group": "public_universities",
+      "institution_type": "public_university",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "phase2_public_university_registered_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_agriculture_and_food_authority",
+      "name": "Agriculture and Food Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_capital_markets_authority",
+      "name": "Capital Markets Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_central_bank_of_kenya",
+      "name": "Central Bank of Kenya",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_commission_for_university_education",
+      "name": "Commission for University Education",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_communications_authority_of_kenya",
+      "name": "Communications Authority of Kenya",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_competition_authority_of_kenya",
+      "name": "Competition Authority of Kenya",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_energy_and_petroleum_regulatory_authority",
+      "name": "Energy and Petroleum Regulatory Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_insurance_regulatory_authority",
+      "name": "Insurance Regulatory Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_bureau_of_standards",
+      "name": "Kenya Bureau of Standards",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_civil_aviation_authority",
+      "name": "Kenya Civil Aviation Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_dairy_board",
+      "name": "Kenya Dairy Board",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_film_classification_board",
+      "name": "Kenya Film Classification Board",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_industrial_property_institute",
+      "name": "Kenya Industrial Property Institute",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_plant_health_inspectorate_service",
+      "name": "Kenya Plant Health Inspectorate Service",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_commission_for_science_technology_and_innovation",
+      "name": "National Commission for Science, Technology and Innovation",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_construction_authority",
+      "name": "National Construction Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_environment_management_authority",
+      "name": "National Environment Management Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Environment, Climate Change and Forestry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_pest_control_products_board",
+      "name": "Pest Control Products Board",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_pharmacy_and_poisons_board",
+      "name": "Pharmacy and Poisons Board",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_public_procurement_regulatory_authority",
+      "name": "Public Procurement Regulatory Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_retirement_benefits_authority",
+      "name": "Retirement Benefits Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_technical_and_vocational_education_and_training_authority",
+      "name": "Technical and Vocational Education and Training Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_tourism_regulatory_authority",
+      "name": "Tourism Regulatory Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_water_resources_authority",
+      "name": "Water Resources Authority",
+      "source_group": "regulators",
+      "institution_type": "regulator",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_agricultural_and_livestock_research_organization",
+      "name": "Kenya Agricultural and Livestock Research Organization",
+      "source_group": "research_institutions",
+      "institution_type": "research_institution",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_forestry_research_institute",
+      "name": "Kenya Forestry Research Institute",
+      "source_group": "research_institutions",
+      "institution_type": "research_institution",
+      "parent_ministry": "Ministry of Environment, Climate Change and Forestry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_medical_research_institute",
+      "name": "Kenya Medical Research Institute",
+      "source_group": "research_institutions",
+      "institution_type": "research_institution",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_veterinary_vaccines_production_institute",
+      "name": "Kenya Veterinary Vaccines Production Institute",
+      "source_group": "research_institutions",
+      "institution_type": "research_institution",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_athi_water_works_development_agency",
+      "name": "Athi Water Works Development Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "water_works_development_agency",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_bomas_of_kenya",
+      "name": "Bomas of Kenya",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_coast_water_works_development_agency",
+      "name": "Coast Water Works Development Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "water_works_development_agency",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_export_processing_zones_authority",
+      "name": "Export Processing Zones Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "authority",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_geothermal_development_company",
+      "name": "Geothermal Development Company",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_ict_authority",
+      "name": "ICT Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_accountants_and_secretaries_national_examinations_board",
+      "name": "Kenya Accountants and Secretaries National Examinations Board",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "examination_body",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_airports_authority",
+      "name": "Kenya Airports Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_broadcasting_corporation",
+      "name": "Kenya Broadcasting Corporation",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_development_corporation",
+      "name": "Kenya Development Corporation",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_electricity_transmission_company",
+      "name": "Kenya Electricity Transmission Company",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_export_promotion_and_branding_agency",
+      "name": "Kenya Export Promotion and Branding Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_ferry_services",
+      "name": "Kenya Ferry Services",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_film_commission",
+      "name": "Kenya Film Commission",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_forest_service",
+      "name": "Kenya Forest Service",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Environment, Climate Change and Forestry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_industrial_estates",
+      "name": "Kenya Industrial Estates",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_institute_of_curriculum_development",
+      "name": "Kenya Institute of Curriculum Development",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_investment_authority",
+      "name": "Kenya Investment Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "authority",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_literature_bureau",
+      "name": "Kenya Literature Bureau",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_national_examinations_council",
+      "name": "Kenya National Examinations Council",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "examination_body",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_national_highways_authority",
+      "name": "Kenya National Highways Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_pipeline_company",
+      "name": "Kenya Pipeline Company",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_ports_authority",
+      "name": "Kenya Ports Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_railways_corporation",
+      "name": "Kenya Railways Corporation",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_revenue_authority",
+      "name": "Kenya Revenue Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_rural_roads_authority",
+      "name": "Kenya Rural Roads Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_space_agency",
+      "name": "Kenya Space Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Defence",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_tourism_board",
+      "name": "Kenya Tourism Board",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_trade_network_agency",
+      "name": "Kenya Trade Network Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_universities_and_colleges_central_placement_service",
+      "name": "Kenya Universities and Colleges Central Placement Service",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_urban_roads_authority",
+      "name": "Kenya Urban Roads Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_kenya_wildlife_service",
+      "name": "Kenya Wildlife Service",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_konza_technopolis_development_authority",
+      "name": "Konza Technopolis Development Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "authority",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_lapsset_corridor_development_authority",
+      "name": "LAPSSET Corridor Development Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "authority",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_micro_and_small_enterprises_authority",
+      "name": "Micro and Small Enterprises Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "authority",
+      "parent_ministry": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_cereals_and_produce_board",
+      "name": "National Cereals and Produce Board",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_council_for_persons_with_disabilities",
+      "name": "National Council for Persons with Disabilities",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_employment_authority",
+      "name": "National Employment Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_housing_corporation",
+      "name": "National Housing Corporation",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_oil_corporation_of_kenya",
+      "name": "National Oil Corporation of Kenya",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_transport_and_safety_authority",
+      "name": "National Transport and Safety Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_water_harvesting_and_storage_authority",
+      "name": "National Water Harvesting and Storage Authority",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "authority",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_national_youth_service",
+      "name": "National Youth Service",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_northern_water_works_development_agency",
+      "name": "Northern Water Works Development Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "water_works_development_agency",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_nuclear_power_and_energy_agency",
+      "name": "Nuclear Power and Energy Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_postal_corporation_of_kenya",
+      "name": "Postal Corporation of Kenya",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_rural_electrification_and_renewable_energy_corporation",
+      "name": "Rural Electrification and Renewable Energy Corporation",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_sports_kenya",
+      "name": "Sports Kenya",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_corporation",
+      "parent_ministry": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_tana_water_works_development_agency",
+      "name": "Tana Water Works Development Agency",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "water_works_development_agency",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "source_technical_and_vocational_education_and_training_curriculum_development_assessment_and_cert",
+      "name": "Technical and Vocational Education and Training Curriculum Development Assessment and Certification Council",
+      "source_group": "sagas_state_corporations",
+      "institution_type": "state_agency",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_agencies_directory_pending_url_confirmation"
+    },
+    {
+      "source_id": "government_of_kenya_agencies_directory",
+      "name": "Government of Kenya Agencies Directory",
+      "source_group": "source_registry",
+      "institution_type": "official_source_directory",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registry_directory"
+    },
+    {
+      "source_id": "government_of_kenya_ministries_directory",
+      "name": "Government of Kenya Ministries Directory",
+      "source_group": "source_registry",
+      "institution_type": "official_source_directory",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registry_directory"
+    },
+    {
+      "source_id": "scac_state_corporations_directory",
+      "name": "State Corporations Advisory Committee",
+      "source_group": "source_registry",
+      "institution_type": "state_corporations_directory",
+      "parent_ministry": null,
+      "enabled": false,
+      "status": "registry_directory"
+    },
+    {
+      "source_id": "state_department_state_department_for_asals_and_regional_development",
+      "name": "State Department for ASALs and Regional Development",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of East African Community, the ASALs and Regional Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_agriculture",
+      "name": "State Department for Agriculture",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_basic_education",
+      "name": "State Department for Basic Education",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_blue_economy_and_fisheries",
+      "name": "State Department for Blue Economy and Fisheries",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_broadcasting_and_telecommunications",
+      "name": "State Department for Broadcasting and Telecommunications",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_cooperatives",
+      "name": "State Department for Cooperatives",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_correctional_services",
+      "name": "State Department for Correctional Services",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Interior and National Administration",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_crop_development",
+      "name": "State Department for Crop Development",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_defence",
+      "name": "State Department for Defence",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Defence",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_diaspora_affairs",
+      "name": "State Department for Diaspora Affairs",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Foreign and Diaspora Affairs",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_east_african_community_affairs",
+      "name": "State Department for East African Community Affairs",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of East African Community, the ASALs and Regional Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_economic_planning",
+      "name": "State Department for Economic Planning",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_energy",
+      "name": "State Department for Energy",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_environment_and_climate_change",
+      "name": "State Department for Environment and Climate Change",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Environment, Climate Change and Forestry",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_foreign_affairs",
+      "name": "State Department for Foreign Affairs",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Foreign and Diaspora Affairs",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_forestry",
+      "name": "State Department for Forestry",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Environment, Climate Change and Forestry",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_higher_education_and_research",
+      "name": "State Department for Higher Education and Research",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_housing_and_urban_development",
+      "name": "State Department for Housing and Urban Development",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_ict_and_digital_economy",
+      "name": "State Department for ICT and Digital Economy",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_immigration_and_citizen_services",
+      "name": "State Department for Immigration and Citizen Services",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Interior and National Administration",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_industry",
+      "name": "State Department for Industry",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_internal_security_and_national_administration",
+      "name": "State Department for Internal Security and National Administration",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Interior and National Administration",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_investment_promotion",
+      "name": "State Department for Investment Promotion",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_irrigation",
+      "name": "State Department for Irrigation",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_labour_and_skills_development",
+      "name": "State Department for Labour and Skills Development",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_lands_and_physical_planning",
+      "name": "State Department for Lands and Physical Planning",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_livestock_development",
+      "name": "State Department for Livestock Development",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_medical_services",
+      "name": "State Department for Medical Services",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_micro_small_and_medium_enterprises_development",
+      "name": "State Department for Micro, Small and Medium Enterprises Development",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_mining",
+      "name": "State Department for Mining",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_petroleum",
+      "name": "State Department for Petroleum",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_public_health_and_professional_standards",
+      "name": "State Department for Public Health and Professional Standards",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Health",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_public_service",
+      "name": "State Department for Public Service",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_public_works",
+      "name": "State Department for Public Works",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_roads",
+      "name": "State Department for Roads",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_shipping_and_maritime_affairs",
+      "name": "State Department for Shipping and Maritime Affairs",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_social_protection_and_senior_citizen_affairs",
+      "name": "State Department for Social Protection and Senior Citizen Affairs",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_special_programmes",
+      "name": "State Department for Special Programmes",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_sports",
+      "name": "State Department for Sports",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_technical_vocational_education_and_training",
+      "name": "State Department for Technical, Vocational Education and Training",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Education",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_the_national_treasury",
+      "name": "State Department for The National Treasury",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_tourism",
+      "name": "State Department for Tourism",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_trade",
+      "name": "State Department for Trade",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_transport",
+      "name": "State Department for Transport",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_water_and_sanitation",
+      "name": "State Department for Water and Sanitation",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_wildlife",
+      "name": "State Department for Wildlife",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    },
+    {
+      "source_id": "state_department_state_department_for_youth_affairs_and_creative_economy",
+      "name": "State Department for Youth Affairs and Creative Economy",
+      "source_group": "state_departments",
+      "institution_type": "state_department",
+      "parent_ministry": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "enabled": false,
+      "status": "registered_from_official_directory_pending_exact_url"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "generated_at": "2026-07-20T09:30:40+03:00",
+  "source_url": "https://gok.kenya.go.ke/ministries",
+  "scope": "national_only",
+  "ministries": [
+    {
+      "name": "Office of the Prime Cabinet Secretary",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Interior and National Administration",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Defence",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "The National Treasury and Economic Planning",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Foreign and Diaspora Affairs",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Roads and Transport",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Information, Communications and the Digital Economy",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Health",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Education",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Agriculture and Livestock Development",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Investments, Trade and Industry",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Environment, Climate Change and Forestry",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Tourism and Wildlife",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Water, Sanitation and Irrigation",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Energy and Petroleum",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Labour and Social Protection",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of East African Community, the ASALs and Regional Development",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Law Office and Department of Justice",
+      "source_group": "ministries",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    }
+  ],
+  "state_departments": [
+    {
+      "name": "State Department for Internal Security and National Administration",
+      "parent_ministry": "Ministry of Interior and National Administration",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Correctional Services",
+      "parent_ministry": "Ministry of Interior and National Administration",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Immigration and Citizen Services",
+      "parent_ministry": "Ministry of Interior and National Administration",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Defence",
+      "parent_ministry": "Ministry of Defence",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Economic Planning",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for The National Treasury",
+      "parent_ministry": "The National Treasury and Economic Planning",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Diaspora Affairs",
+      "parent_ministry": "Ministry of Foreign and Diaspora Affairs",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Foreign Affairs",
+      "parent_ministry": "Ministry of Foreign and Diaspora Affairs",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Public Service",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Special Programmes",
+      "parent_ministry": "Ministry of Public Service, Human Capital Development and Special Programmes",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Roads",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Transport",
+      "parent_ministry": "Ministry of Roads and Transport",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Shipping and Maritime Affairs",
+      "parent_ministry": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Lands and Physical Planning",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Housing and Urban Development",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Public Works",
+      "parent_ministry": "Ministry of Lands, Public Works, Housing and Urban Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for ICT and Digital Economy",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Broadcasting and Telecommunications",
+      "parent_ministry": "Ministry of Information, Communications and the Digital Economy",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Medical Services",
+      "parent_ministry": "Ministry of Health",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Public Health and Professional Standards",
+      "parent_ministry": "Ministry of Health",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Basic Education",
+      "parent_ministry": "Ministry of Education",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Higher Education and Research",
+      "parent_ministry": "Ministry of Education",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Technical, Vocational Education and Training",
+      "parent_ministry": "Ministry of Education",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Agriculture",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Livestock Development",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Crop Development",
+      "parent_ministry": "Ministry of Agriculture and Livestock Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Trade",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Industry",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Investment Promotion",
+      "parent_ministry": "Ministry of Investments, Trade and Industry",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Micro, Small and Medium Enterprises Development",
+      "parent_ministry": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Cooperatives",
+      "parent_ministry": "Ministry of Cooperatives and Micro, Small and Medium Enterprises Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Youth Affairs and Creative Economy",
+      "parent_ministry": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Sports",
+      "parent_ministry": "Ministry of Youth Affairs, Creative Economy and Sports",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Environment and Climate Change",
+      "parent_ministry": "Ministry of Environment, Climate Change and Forestry",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Forestry",
+      "parent_ministry": "Ministry of Environment, Climate Change and Forestry",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Tourism",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Wildlife",
+      "parent_ministry": "Ministry of Tourism and Wildlife",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Water and Sanitation",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Irrigation",
+      "parent_ministry": "Ministry of Water, Sanitation and Irrigation",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Energy",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Petroleum",
+      "parent_ministry": "Ministry of Energy and Petroleum",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Labour and Skills Development",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Social Protection and Senior Citizen Affairs",
+      "parent_ministry": "Ministry of Labour and Social Protection",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for East African Community Affairs",
+      "parent_ministry": "Ministry of East African Community, the ASALs and Regional Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for ASALs and Regional Development",
+      "parent_ministry": "Ministry of East African Community, the ASALs and Regional Development",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Mining",
+      "parent_ministry": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    },
+    {
+      "name": "State Department for Blue Economy and Fisheries",
+      "parent_ministry": "Ministry of Mining, Blue Economy and Maritime Affairs",
+      "source_group": "state_departments",
+      "registry_source_url": "https://gok.kenya.go.ke/ministries",
+      "exact_url_verified": false
+    }
+  ]
+}

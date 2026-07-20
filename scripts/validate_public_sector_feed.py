@@ -12,6 +12,8 @@ VERIFICATION = {"verified", "needs_review", "rejected", "expired"}
 EMAIL_BAD_DOMAINS = ("gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "proton.me", "protonmail.com")
 REQUIRED_TOP = ["meta", "vacancies"]
 REQUIRED_VAC = ["id", "title", "institution", "source", "advert", "location", "employment", "requirements", "job_family", "application", "verification", "links"]
+DISALLOWED_SOURCE_GROUPS = {"county_psbs", "county_assemblies", "county_governments"}
+DISALLOWED_OWNER_TYPES = {"county_government"}
 
 
 def parse_dt(value):
@@ -57,6 +59,12 @@ def validate_feed(path, registry_path=None, production=True):
                 errors.append(f"duplicate source_id in registry: {sid}")
             else:
                 registry[sid] = s
+                if s.get("source_group") in DISALLOWED_SOURCE_GROUPS or s.get("owner_type") in DISALLOWED_OWNER_TYPES or str(sid).startswith("county_"):
+                    errors.append(f"national-only registry contains excluded county source: {sid}")
+    for s in data.get("source_status", []):
+        sid = s.get("id", "")
+        if s.get("source_class") in DISALLOWED_SOURCE_GROUPS or s.get("owner") in DISALLOWED_OWNER_TYPES or str(sid).startswith("county_"):
+            errors.append(f"national-only feed source_status contains excluded county source: {sid}")
     ids = set()
     now = dt.datetime.now(dt.timezone.utc)
     for i, v in enumerate(vacancies):

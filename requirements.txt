@@ -1,2 +1,4 @@
-# No third-party dependencies required for the current viewer/validator.
-# Future scraper expansion may add requests, beautifulsoup4, lxml.
+# Kazi Sasa PS_2 public-sector feed requirements
+# Viewer itself is static HTML. These packages are for scraper/collector refresh scripts.
+requests>=2.31.0
+beautifulsoup4>=4.12.0

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-07-20T08:56:35+03:00",
-  "version": "1.0",
+  "version": "2.0-all-role-families-national-only",
   "job_families": {
     "administration": [
       "administrative assistant",
@@ -59,11 +59,12 @@
       "pharmaceutical"
     ],
     "education_training": [
+      "curriculum",
+      "instructor",
       "lecturer",
       "teacher",
       "trainer",
-      "instructor",
-      "curriculum"
+      "tutor"
     ],
     "legal": [
       "legal",
@@ -72,17 +73,21 @@
       "prosecution"
     ],
     "engineering_technical": [
-      "engineer",
-      "technician",
+      "architect",
       "artisan",
+      "electrician",
+      "engineer",
       "mechanic",
-      "electrician"
+      "surveyor",
+      "technician",
+      "works officer"
     ],
     "procurement_supply_chain": [
+      "inventory",
+      "logistics",
       "procurement",
-      "supply chain",
       "stores",
-      "inventory"
+      "supply chain"
     ],
     "communication_pr": [
       "communication",
@@ -112,6 +117,129 @@
       "support staff",
       "entry",
       "auxiliary"
+    ],
+    "leadership_management": [
+      "assistant director",
+      "board secretary",
+      "chief executive",
+      "deputy director",
+      "director",
+      "head of department",
+      "manager",
+      "principal"
+    ],
+    "policy_planning_economics": [
+      "economist",
+      "macroeconomics",
+      "planning",
+      "policy",
+      "statistics",
+      "strategy"
+    ],
+    "audit_risk_compliance": [
+      "audit",
+      "compliance",
+      "internal auditor",
+      "investigation",
+      "risk"
+    ],
+    "legal_justice": [
+      "advocate",
+      "counsel",
+      "court assistant",
+      "judge",
+      "legal",
+      "magistrate",
+      "prosecution"
+    ],
+    "data_statistics_records": [
+      "data",
+      "data entry",
+      "information management",
+      "records",
+      "registry",
+      "statistics"
+    ],
+    "science_research_laboratory": [
+      "analyst",
+      "laboratory",
+      "research",
+      "scientist",
+      "technologist"
+    ],
+    "communications_public_affairs": [
+      "communication",
+      "corporate communications",
+      "media",
+      "public affairs",
+      "public relations"
+    ],
+    "blue_economy_marine": [
+      "aquaculture",
+      "blue economy",
+      "fisheries",
+      "marine",
+      "maritime"
+    ],
+    "environment_climate_forestry": [
+      "climate",
+      "conservation",
+      "environment",
+      "forestry",
+      "wildlife"
+    ],
+    "agriculture_livestock": [
+      "agriculture",
+      "crop",
+      "extension",
+      "livestock",
+      "veterinary"
+    ],
+    "ict_digital_cyber": [
+      "cyber",
+      "data",
+      "database",
+      "developer",
+      "digital",
+      "ict",
+      "it",
+      "network",
+      "systems"
+    ],
+    "health_medical": [
+      "clinical",
+      "doctor",
+      "medical",
+      "medical officer",
+      "nurse",
+      "pharmaceutical",
+      "public health"
+    ],
+    "support_operations": [
+      "cleaner",
+      "driver",
+      "guard",
+      "messenger",
+      "office assistant",
+      "security",
+      "support staff",
+      "warden"
+    ],
+    "hospitality_catering": [
+      "attendant",
+      "catering",
+      "cook",
+      "hotel",
+      "housekeeping",
+      "kitchen",
+      "receptionist",
+      "waiter"
+    ],
+    "internship_attachment_graduate": [
+      "attachment",
+      "graduate trainee",
+      "internship",
+      "management trainee"
     ]
   },
   "education_levels": [
