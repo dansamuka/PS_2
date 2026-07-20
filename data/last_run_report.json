@@ -1,8 +1,8 @@
 {
-  "run_id": "2026-07-20T11:59:49+03:00",
-  "started_at": "2026-07-20T11:59:49+03:00",
-  "finished_at": "2026-07-20T11:59:49+03:00",
-  "implementation_phase": "Phase 3D — Discovery promotion workbench",
+  "run_id": "2026-07-20T12:19:10+03:00",
+  "started_at": "2026-07-20T12:19:10+03:00",
+  "finished_at": "2026-07-20T12:19:10+03:00",
+  "implementation_phase": "Phase 3E — Reviewed promotion importer",
   "collect_central_requested": true,
   "vacancies_active": 43,
   "sources_registered": 239,
@@ -58,45 +58,32 @@
   ],
   "change_summary": {
     "new_roles": 0,
-    "updated_roles": 2,
-    "removed_roles": 1,
+    "updated_roles": 0,
+    "removed_roles": 0,
     "expired_roles": 0,
     "county_rows_dropped": 0,
-    "unchanged_roles": 41,
+    "unchanged_roles": 43,
     "new_role_ids": [],
-    "updated_role_ids": [
-      "ksg_artisan_i_rac_technician_2026_08_04_d841e5d9348b",
-      "ksg_manager_facilities_management_maintenance_2026_08_04_31b035b48a65"
-    ],
-    "removed_role_ids": [
-      "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6"
-    ],
+    "updated_role_ids": [],
+    "removed_role_ids": [],
     "expired_role_ids": [],
     "genuine_new_roles": 0,
-    "genuine_removed_roles": 1,
-    "identity_reconciled_roles": 2,
+    "genuine_removed_roles": 0,
+    "identity_reconciled_roles": 0,
     "refreshed_existing_roles": 43,
-    "row_id_replacements": 2,
-    "canonical_roles_before": 44,
+    "row_id_replacements": 0,
+    "canonical_roles_before": 43,
     "canonical_roles_after": 43,
-    "reconciled_role_pairs": [
-      {
-        "canonical_key": "rid_1b9452aa9789",
-        "old_id": "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0",
-        "new_id": "ksg_artisan_i_rac_technician_2026_08_04_d841e5d9348b",
-        "title": "Artisan I (RAC Technician)"
-      },
-      {
-        "canonical_key": "rid_763ff2d7f0c9",
-        "old_id": "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf",
-        "new_id": "ksg_manager_facilities_management_maintenance_2026_08_04_31b035b48a65",
-        "title": "Manager Facilities Management & Maintenance"
-      }
-    ]
+    "reconciled_role_pairs": []
   },
   "note": "Phase 3D fixes KSG GitHub import reliability and prepares MyGov/GAA discovery records as promotion candidates. Discovery records still require manual confirmation before entering open vacancies.",
   "role_identity_map_count": 43,
   "discovery_review_items": 120,
   "promotion_candidates": 127,
-  "promotion_ready_for_manual_confirmation": 57
+  "promotion_ready_for_manual_confirmation": 57,
+  "reviewed_promotions_total": 0,
+  "reviewed_promotions_added": 0,
+  "reviewed_promotions_rejected": 0,
+  "reviewed_promotions_duplicates": 0,
+  "manual_review_batch_items": 25
 }

@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-07-20T12:19:24+03:00",
+  "items_total": 25,
+  "status_counts": {
+    "ready_for_manual_confirmation": 25
+  },
+  "policy": "This is a manual review batch. Items are not open roles until copied into data/reviewed_promotions.json with all manual checks complete."
+}

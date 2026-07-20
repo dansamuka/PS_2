@@ -1,5 +1,5 @@
 {
-  "phase": "Phase 3D — Discovery promotion workbench",
+  "phase": "Phase 3E — Reviewed promotion importer",
   "collect_live": true,
   "collectors": [
     {
@@ -45,7 +45,7 @@
       "error": null
     }
   ],
-  "generated_at": "2026-07-20T11:59:49+03:00",
+  "generated_at": "2026-07-20T12:19:10+03:00",
   "discovery_items": 120,
   "health_items": 3
 }
