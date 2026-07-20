@@ -1,5 +1,5 @@
 {
-  "phase": "Phase 3B — Latest-role ingestion hardening",
+  "phase": "Phase 3C — Role identity reconciliation",
   "collect_live": true,
   "collectors": [
     {
@@ -13,12 +13,7 @@
     },
     {
       "source_id": "ksg_jobapplications",
-      "source_name": "Kenya School of Government Job Application Portal",
-      "url": "https://jobapplications.ke/",
-      "http_status": 200,
-      "error": null,
-      "records_seen": 40,
-      "records_emitted": 40
+      "error": "import failed: No module named '_common'"
     },
     {
       "source_id": "mygov_government_advertising_agency",
@@ -44,7 +39,7 @@
       "error": null
     }
   ],
-  "generated_at": "2026-07-20T10:37:33+03:00",
+  "generated_at": "2026-07-20T10:56:30+03:00",
   "discovery_items": 120,
   "health_items": 3
 }

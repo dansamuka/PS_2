@@ -1,10 +1,10 @@
 {
   "meta": {
-    "feed_version": "3.1-latest-role-ingestion-phase3b",
-    "generated_at": "2026-07-20T10:37:33+03:00",
-    "next_expected_update": "2026-07-21T10:37:53+03:00",
+    "feed_version": "3.2-role-identity-reconciliation-phase3c",
+    "generated_at": "2026-07-20T10:56:30+03:00",
+    "next_expected_update": "2026-07-21T10:56:48+03:00",
     "is_sample_data": false,
-    "coverage_note": "Phase 3B refreshes PSCIMS and KSG live where reachable, fixes MyGov/GAA discovery URL fallback, marks expired roles, and reports role changes.",
+    "coverage_note": "Phase 3C reconciles refreshed roles by canonical identity, keeps KSG/PSCIMS live ingestion, filters generic listing rows, and prepares MyGov/GAA discovery items for manual review.",
     "vacancy_count": 44,
     "source_count": 239,
     "accuracy_policy": "Only official/official-like national government and government-related sources are included in open roles. Gmail/WhatsApp/payment-request adverts are rejected into the watchlist, not shown as open roles.",
@@ -138,10 +138,12 @@
       "national_registry_phase3_sources": 239,
       "central_collectors_enabled": 5,
       "expired_roles": 0,
-      "latest_ingestion_phase": "3B",
-      "new_roles_last_run": 44,
+      "latest_ingestion_phase": "3C",
+      "new_roles_last_run": 0,
       "updated_roles_last_run": 0,
-      "discovery_items_last_run": 120
+      "discovery_items_last_run": 120,
+      "identity_reconciled_roles_last_run": 0,
+      "genuine_new_roles_last_run": 0
     },
     "scope": "national_government_mdas_parastatals_public_institutions_only_no_counties",
     "role_scope": "all_role_families",
@@ -151,109 +153,28 @@
       "county_assemblies",
       "ward_or_sub_county_roles"
     ],
-    "phase": "Phase 3B — Latest-role ingestion hardening",
-    "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
+    "phase": "Phase 3C — Role identity reconciliation",
+    "implementation_phase": "Phase 3C — Role identity reconciliation",
     "scope_detail": "national_government_mdas_parastatals_public_institutions_only_no_counties",
     "change_summary": {
-      "new_roles": 44,
+      "new_roles": 0,
       "updated_roles": 0,
-      "removed_roles": 43,
+      "removed_roles": 0,
       "expired_roles": 0,
       "county_rows_dropped": 0,
-      "unchanged_roles": 0,
-      "new_role_ids": [
-        "ksg_accountant_i_2026_08_04_23dce23d41ff",
-        "ksg_accountant_ii_2026_08_04_2e329669963d",
-        "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6",
-        "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0",
-        "ksg_artisan_iii_animator_2026_08_04_6560bd4ce5ba",
-        "ksg_artisan_iii_electrician_2026_08_04_670336ba8567",
-        "ksg_artisan_iii_plumber_2026_08_04_1c9a972d574b",
-        "ksg_assistant_manager_finance_2026_08_04_a061cecd6fa1",
-        "ksg_assistant_manager_supply_chain_management_2026_08_04_4eeb798f7e70",
-        "ksg_cook_i_2026_08_04_4028f373365f",
-        "ksg_driver_iii_2026_08_04_ee26fd189470",
-        "ksg_general_manager_2026_08_04_c7abda809d5b",
-        "ksg_hospitality_officer_i_2026_08_04_60b9c8740ed5",
-        "ksg_hotel_attendant_1_2026_08_04_f1837133934b",
-        "ksg_house_keeper_iii_room_steward_2026_08_04_0c80d898d61a",
-        "ksg_human_resource_management_officer_ii_2026_08_04_192a9e8eccbf",
-        "ksg_information_communication_technology_assistant_ii_2026_fcbbeadd550c",
-        "ksg_kitchen_attendant_iii_2026_08_04_7970299d938c",
-        "ksg_laundry_operator_2026_08_04_0ad108b2bac5",
-        "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf",
-        "ksg_manager_hospitality_services_2026_08_04_5046dfce2795",
-        "ksg_manager_internal_audit_2026_08_04_5824a76a3118",
-        "ksg_manager_sales_marketing_2026_08_04_c21156f95ca2",
-        "ksg_principal_hospitality_assistant_2026_08_04_dcfcfb844804",
-        "ksg_principal_information_communication_technology_assistan_8337ff2c85b8",
-        "ksg_public_area_attendant_1_2026_08_04_c0589ae1e849",
-        "ksg_senior_account_2026_08_04_491afc639ff5",
-        "ksg_senior_chef_2026_08_04_176fe1804b77",
-        "ksg_senior_cook_2026_08_04_4cb0db23c0ce",
-        "ksg_senior_hospitality_assistant_2026_08_04_9c766474339f",
-        "ksg_senior_hospitality_officer_2026_08_04_0a8f3fd8eb38",
-        "ksg_senior_hotel_attendant_receptionist_cashier_2026_08_04_4acd596ecd0f",
-        "ksg_senior_house_keeper_public_area_supervisor_2026_08_04_0dd1bd87f1e7",
-        "ksg_senior_internal_auditor_2026_08_04_9b5c34007684",
-        "ksg_senior_sales_and_marketing_officer_2026_08_04_31057d9a1316",
-        "ksg_senior_security_officer_2026_08_04_2cd67056a515",
-        "ksg_senior_waiter_2026_08_04_7ee3cb0400d1",
-        "ksg_supply_chain_management_assistant_1_2026_08_04_bdb5c36d4feb",
-        "ksg_swimming_pool_attendant_iii_2026_08_04_ec7e796e41a7",
-        "ksg_waiter_1_2026_08_04_226f044636be",
-        "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
-        "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
-        "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704",
-        "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29"
-      ],
+      "unchanged_roles": 44,
+      "new_role_ids": [],
       "updated_role_ids": [],
-      "removed_role_ids": [
-        "ksg_2026_accountant_i",
-        "ksg_2026_accountant_ii",
-        "ksg_2026_artisan_i_rac_technician",
-        "ksg_2026_artisan_iii_animator",
-        "ksg_2026_artisan_iii_electrician",
-        "ksg_2026_artisan_iii_plumber",
-        "ksg_2026_assistant_manager_finance",
-        "ksg_2026_assistant_manager_supply_chain_management",
-        "ksg_2026_cook_i",
-        "ksg_2026_driver_iii",
-        "ksg_2026_general_manager",
-        "ksg_2026_hospitality_officer_i",
-        "ksg_2026_hotel_attendant_1",
-        "ksg_2026_house_keeper_iii_room_steward",
-        "ksg_2026_human_resource_management_officer_ii",
-        "ksg_2026_information_communication_technology_assistant_ii",
-        "ksg_2026_kitchen_attendant_iii",
-        "ksg_2026_laundry_operator",
-        "ksg_2026_manager_facilities_management_maintenance",
-        "ksg_2026_manager_hospitality_services",
-        "ksg_2026_manager_internal_audit",
-        "ksg_2026_manager_sales_marketing",
-        "ksg_2026_principal_hospitality_assistant",
-        "ksg_2026_principal_information_communication_technology_assistant",
-        "ksg_2026_public_area_attendant_1",
-        "ksg_2026_senior_account",
-        "ksg_2026_senior_chef",
-        "ksg_2026_senior_cook",
-        "ksg_2026_senior_hospitality_assistant",
-        "ksg_2026_senior_hospitality_officer",
-        "ksg_2026_senior_hotel_attendant_receptionist_cashier",
-        "ksg_2026_senior_house_keeper_public_area_supervisor",
-        "ksg_2026_senior_internal_auditor",
-        "ksg_2026_senior_sales_and_marketing_officer",
-        "ksg_2026_senior_security_officer",
-        "ksg_2026_senior_waiter",
-        "ksg_2026_supply_chain_management_assistant_1",
-        "ksg_2026_swimming_pool_attendant_iii",
-        "ksg_2026_waiter_1",
-        "pscims_d85_2026_cook_3",
-        "pscims_d86_2026_housekeeping_assistant_3",
-        "pscims_d87_2026_security_warden_2",
-        "pscims_d88_2026_artisan_iii"
-      ],
-      "expired_role_ids": []
+      "removed_role_ids": [],
+      "expired_role_ids": [],
+      "genuine_new_roles": 0,
+      "genuine_removed_roles": 0,
+      "identity_reconciled_roles": 0,
+      "refreshed_existing_roles": 44,
+      "row_id_replacements": 0,
+      "canonical_roles_before": 44,
+      "canonical_roles_after": 44,
+      "reconciled_role_pairs": []
     }
   },
   "vacancies": [
@@ -271,7 +192,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:37:36+03:00",
+        "last_checked_at": "2026-07-20T10:56:31+03:00",
         "http_status": 200
       },
       "advert": {
@@ -343,11 +264,24 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:37:36+03:00",
+          "seen_at": "2026-07-20T10:56:31+03:00",
           "evidence_type": "official_table"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_5f748f2a388c",
+        "canonical_fields": {
+          "source_id": "pscims_active_adverts",
+          "institution": "state department for correctional services",
+          "title": "artisan 3",
+          "deadline": "2026-08-03",
+          "location": "kenya",
+          "advert_number": "D88/2026"
+        },
+        "row_id": "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
@@ -363,7 +297,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:37:36+03:00",
+        "last_checked_at": "2026-07-20T10:56:31+03:00",
         "http_status": 200
       },
       "advert": {
@@ -433,11 +367,24 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:37:36+03:00",
+          "seen_at": "2026-07-20T10:56:31+03:00",
           "evidence_type": "official_table"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_7bccc6961b53",
+        "canonical_fields": {
+          "source_id": "pscims_active_adverts",
+          "institution": "state department for correctional services",
+          "title": "cook",
+          "deadline": "2026-08-03",
+          "location": "kenya",
+          "advert_number": "D85/2026"
+        },
+        "row_id": "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
@@ -453,7 +400,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:37:36+03:00",
+        "last_checked_at": "2026-07-20T10:56:31+03:00",
         "http_status": 200
       },
       "advert": {
@@ -524,11 +471,24 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:37:36+03:00",
+          "seen_at": "2026-07-20T10:56:31+03:00",
           "evidence_type": "official_table"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_867e005e0012",
+        "canonical_fields": {
+          "source_id": "pscims_active_adverts",
+          "institution": "state department for correctional services",
+          "title": "housekeeping assistant",
+          "deadline": "2026-08-03",
+          "location": "kenya",
+          "advert_number": "D86/2026"
+        },
+        "row_id": "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704",
@@ -544,7 +504,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-20T10:37:36+03:00",
+        "last_checked_at": "2026-07-20T10:56:31+03:00",
         "http_status": 200
       },
       "advert": {
@@ -614,11 +574,24 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-20T10:37:36+03:00",
+          "seen_at": "2026-07-20T10:56:31+03:00",
           "evidence_type": "official_table"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_fd9722613347",
+        "canonical_fields": {
+          "source_id": "pscims_active_adverts",
+          "institution": "state department for correctional services",
+          "title": "security warden",
+          "deadline": "2026-08-03",
+          "location": "kenya",
+          "advert_number": "D87/2026"
+        },
+        "row_id": "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_accountant_i_2026_08_04_23dce23d41ff",
@@ -710,7 +683,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_be9a8a36bc57",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "accountant 1",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_accountant_i_2026_08_04_23dce23d41ff",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_accountant_ii_2026_08_04_2e329669963d",
@@ -802,7 +788,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_bd5a2d7c1a4a",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "accountant 2",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_accountant_ii_2026_08_04_2e329669963d",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6",
@@ -895,7 +894,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_ac40d97d32e7",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "advertised vacancies",
+          "deadline": "2026-08-04",
+          "location": "east mombasa tsavo west",
+          "advert_number": ""
+        },
+        "row_id": "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0",
@@ -990,7 +1002,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_1b9452aa9789",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "artisan 1 rac technician",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_artisan_iii_animator_2026_08_04_6560bd4ce5ba",
@@ -1084,7 +1109,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_4f65ea9f715f",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "artisan 3 animator",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_artisan_iii_animator_2026_08_04_6560bd4ce5ba",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_artisan_iii_electrician_2026_08_04_670336ba8567",
@@ -1178,7 +1216,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_7914bcf18525",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "artisan 3 electrician",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_artisan_iii_electrician_2026_08_04_670336ba8567",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_artisan_iii_plumber_2026_08_04_1c9a972d574b",
@@ -1272,7 +1323,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_0c37013aa351",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "artisan 3 plumber",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_artisan_iii_plumber_2026_08_04_1c9a972d574b",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_assistant_manager_finance_2026_08_04_a061cecd6fa1",
@@ -1368,7 +1432,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_e1a5e3b0c836",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "assistant manager finance",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_assistant_manager_finance_2026_08_04_a061cecd6fa1",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_assistant_manager_supply_chain_management_2026_08_04_4eeb798f7e70",
@@ -1465,7 +1542,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_1718cf709c84",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "assistant manager supply chain management",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_assistant_manager_supply_chain_management_2026_08_04_4eeb798f7e70",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_cook_i_2026_08_04_4028f373365f",
@@ -1556,7 +1646,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_eda470d4075a",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "cook 1",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_cook_i_2026_08_04_4028f373365f",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_driver_iii_2026_08_04_ee26fd189470",
@@ -1648,7 +1751,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_4db37c820033",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "driver 3",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_driver_iii_2026_08_04_ee26fd189470",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_general_manager_2026_08_04_c7abda809d5b",
@@ -1741,7 +1857,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_0271cb5e6c25",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "general manager",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_general_manager_2026_08_04_c7abda809d5b",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_hospitality_officer_i_2026_08_04_60b9c8740ed5",
@@ -1835,7 +1964,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_a693399ef3fd",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "hospitality officer 1",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_hospitality_officer_i_2026_08_04_60b9c8740ed5",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_hotel_attendant_1_2026_08_04_f1837133934b",
@@ -1927,7 +2069,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_40e0efc66fbf",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "hotel attendant 1",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_hotel_attendant_1_2026_08_04_f1837133934b",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_house_keeper_iii_room_steward_2026_08_04_0c80d898d61a",
@@ -2024,7 +2179,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_3b7a19b9dc36",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "house keeper 3 room steward",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_house_keeper_iii_room_steward_2026_08_04_0c80d898d61a",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_human_resource_management_officer_ii_2026_08_04_192a9e8eccbf",
@@ -2117,7 +2285,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_4acac3c40868",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "human resource management officer 2",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_human_resource_management_officer_ii_2026_08_04_192a9e8eccbf",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_information_communication_technology_assistant_ii_2026_fcbbeadd550c",
@@ -2214,7 +2395,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_8e6dae069eb6",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "information communication technology assistant 2",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_information_communication_technology_assistant_ii_2026_fcbbeadd550c",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_kitchen_attendant_iii_2026_08_04_7970299d938c",
@@ -2307,7 +2501,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_c3dfb6c5a9a1",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "kitchen attendant 3",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_kitchen_attendant_iii_2026_08_04_7970299d938c",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_laundry_operator_2026_08_04_0ad108b2bac5",
@@ -2401,7 +2608,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_70a430e2d0f2",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "laundry operator",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_laundry_operator_2026_08_04_0ad108b2bac5",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf",
@@ -2495,7 +2715,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_763ff2d7f0c9",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "manager facilities management and maintenance",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_manager_hospitality_services_2026_08_04_5046dfce2795",
@@ -2589,7 +2822,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_f26b8a2c91e6",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "manager hospitality services",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_manager_hospitality_services_2026_08_04_5046dfce2795",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_manager_internal_audit_2026_08_04_5824a76a3118",
@@ -2687,7 +2933,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_0d3914e900cc",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "manager internal audit",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_manager_internal_audit_2026_08_04_5824a76a3118",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_manager_sales_marketing_2026_08_04_c21156f95ca2",
@@ -2781,7 +3040,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_1b7e4bbcf71e",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "manager sales and marketing",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_manager_sales_marketing_2026_08_04_c21156f95ca2",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_principal_hospitality_assistant_2026_08_04_dcfcfb844804",
@@ -2876,7 +3148,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_4ef214301b08",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "principal hospitality assistant",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_principal_hospitality_assistant_2026_08_04_dcfcfb844804",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_principal_information_communication_technology_assistan_8337ff2c85b8",
@@ -2974,7 +3259,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_27fdf664b9fe",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "principal information communication technology assistant",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_principal_information_communication_technology_assistan_8337ff2c85b8",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_public_area_attendant_1_2026_08_04_c0589ae1e849",
@@ -3067,7 +3365,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_e6c08bae375d",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "public area attendant 1",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_public_area_attendant_1_2026_08_04_c0589ae1e849",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_account_2026_08_04_491afc639ff5",
@@ -3161,7 +3472,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_63e0a0250327",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior accountant",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_account_2026_08_04_491afc639ff5",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_chef_2026_08_04_176fe1804b77",
@@ -3255,7 +3579,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_7dc33be9478e",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior chef",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_chef_2026_08_04_176fe1804b77",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_cook_2026_08_04_4cb0db23c0ce",
@@ -3347,7 +3684,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_be6f91a298ff",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior cook",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_cook_2026_08_04_4cb0db23c0ce",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_hospitality_assistant_2026_08_04_9c766474339f",
@@ -3442,7 +3792,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_b2dcf35ce1f2",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior hospitality assistant",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_hospitality_assistant_2026_08_04_9c766474339f",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_hospitality_officer_2026_08_04_0a8f3fd8eb38",
@@ -3537,7 +3900,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_96d3ae1d21ee",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior hospitality officer",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_hospitality_officer_2026_08_04_0a8f3fd8eb38",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_hotel_attendant_receptionist_cashier_2026_08_04_4acd596ecd0f",
@@ -3635,7 +4011,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_cf197d055bd0",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior hotel attendant receptionist cashier",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_hotel_attendant_receptionist_cashier_2026_08_04_4acd596ecd0f",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_house_keeper_public_area_supervisor_2026_08_04_0dd1bd87f1e7",
@@ -3732,7 +4121,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_580b9430f512",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior house keeper public area supervisor",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_house_keeper_public_area_supervisor_2026_08_04_0dd1bd87f1e7",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_internal_auditor_2026_08_04_9b5c34007684",
@@ -3828,7 +4230,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_15249cffd3a2",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior internal auditor",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_internal_auditor_2026_08_04_9b5c34007684",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_sales_and_marketing_officer_2026_08_04_31057d9a1316",
@@ -3924,7 +4339,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_429fb25765c0",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior sales and marketing officer",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_sales_and_marketing_officer_2026_08_04_31057d9a1316",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_security_officer_2026_08_04_2cd67056a515",
@@ -4016,7 +4444,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_c2d4ce65b029",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior security officer",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_security_officer_2026_08_04_2cd67056a515",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_senior_waiter_2026_08_04_7ee3cb0400d1",
@@ -4110,7 +4551,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_b33437568432",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "senior waiter",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_senior_waiter_2026_08_04_7ee3cb0400d1",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_supply_chain_management_assistant_1_2026_08_04_bdb5c36d4feb",
@@ -4204,7 +4658,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_57fa99338eba",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "supply chain management assistant 1",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_supply_chain_management_assistant_1_2026_08_04_bdb5c36d4feb",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_swimming_pool_attendant_iii_2026_08_04_ec7e796e41a7",
@@ -4298,7 +4765,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_a1bf238541e4",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "swimming pool attendant 3",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_swimming_pool_attendant_iii_2026_08_04_ec7e796e41a7",
+        "reconciliation_version": "3C.1"
+      }
     },
     {
       "id": "ksg_waiter_1_2026_08_04_226f044636be",
@@ -4391,7 +4871,20 @@
           "evidence_type": "institutional_portal_listing"
         }
       ],
-      "scope": "national_government_or_government_related"
+      "scope": "national_government_or_government_related",
+      "identity": {
+        "canonical_key": "rid_2de7c930f231",
+        "canonical_fields": {
+          "source_id": "ksg_jobapplications",
+          "institution": "kenya school of government",
+          "title": "waiter 1",
+          "deadline": "2026-08-04",
+          "location": "kenya",
+          "advert_number": ""
+        },
+        "row_id": "ksg_waiter_1_2026_08_04_226f044636be",
+        "reconciliation_version": "3C.1"
+      }
     }
   ],
   "source_status": [
@@ -4406,8 +4899,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:37:33+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
+      "last_checked_at": "2026-07-20T10:56:30+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4425,8 +4918,8 @@
       "collector_type": "pscims_active_adverts_html_table",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:37:33+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
+      "last_checked_at": "2026-07-20T10:56:30+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
       "active_roles": 4,
       "discovery_items": 0,
       "last_error": null,
@@ -4444,8 +4937,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:37:33+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
+      "last_checked_at": "2026-07-20T10:56:30+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4463,8 +4956,8 @@
       "collector_type": "official_page_monitor",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-20T10:37:33+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
+      "last_checked_at": "2026-07-20T10:56:30+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4710,8 +5203,8 @@
       "collector_type": "mygov_job_adverts_discovery",
       "coverage_priority": 1,
       "status": "discovery_items_found_requires_review",
-      "last_checked_at": "2026-07-20T10:37:33+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
+      "last_checked_at": "2026-07-20T10:56:30+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
       "active_roles": 0,
       "discovery_items": 120,
       "last_error": null,
@@ -5755,12 +6248,12 @@
       "collector_type": "html_cards",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-20T10:37:33+03:00",
-      "last_successful_fetch_at": "2026-07-20T10:37:33+03:00",
+      "last_checked_at": "2026-07-20T10:56:30+03:00",
+      "last_successful_fetch_at": "2026-07-20T10:56:30+03:00",
       "active_roles": 40,
       "discovery_items": 0,
-      "last_error": null,
-      "http_status": 200,
+      "last_error": "import failed: No module named '_common'",
+      "http_status": null,
       "notes": "KSG live institutional portal collector enabled. Records remain needs_review until official linkage is reconfirmed before sensitive submissions."
     },
     {

@@ -1,0 +1,579 @@
+{
+  "version": "3C.1",
+  "role_count": 44,
+  "roles": [
+    {
+      "canonical_key": "rid_0271cb5e6c25",
+      "title": "General Manager",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_general_manager_2026_08_04_c7abda809d5b"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_0c37013aa351",
+      "title": "Artisan III (Plumber)",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_artisan_iii_plumber_2026_08_04_1c9a972d574b"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_0d3914e900cc",
+      "title": "Manager Internal Audit",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_manager_internal_audit_2026_08_04_5824a76a3118"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_15249cffd3a2",
+      "title": "Senior Internal Auditor",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_internal_auditor_2026_08_04_9b5c34007684"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_1718cf709c84",
+      "title": "Assistant Manager Supply Chain Management",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_assistant_manager_supply_chain_management_2026_08_04_4eeb798f7e70"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_1b7e4bbcf71e",
+      "title": "Manager Sales & Marketing",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_manager_sales_marketing_2026_08_04_c21156f95ca2"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_1b9452aa9789",
+      "title": "Airtisan I (RAC Techhnician)",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_airtisan_i_rac_techhnician_2026_08_04_fbd3ce6886e0"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_27fdf664b9fe",
+      "title": "Principal Information Communication Technology Assistant",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_principal_information_communication_technology_assistan_8337ff2c85b8"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_2de7c930f231",
+      "title": "Waiter 1",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_waiter_1_2026_08_04_226f044636be"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_3b7a19b9dc36",
+      "title": "House Keeper III (Room steward)",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_house_keeper_iii_room_steward_2026_08_04_0c80d898d61a"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_40e0efc66fbf",
+      "title": "Hotel Attendant 1",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_hotel_attendant_1_2026_08_04_f1837133934b"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_429fb25765c0",
+      "title": "Senior Sales and Marketing Officer,",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_sales_and_marketing_officer_2026_08_04_31057d9a1316"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_4acac3c40868",
+      "title": "Human Resource Management Officer II",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_human_resource_management_officer_ii_2026_08_04_192a9e8eccbf"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_4db37c820033",
+      "title": "Driver III",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_driver_iii_2026_08_04_ee26fd189470"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_4ef214301b08",
+      "title": "Principal Hospitality Assistant",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_principal_hospitality_assistant_2026_08_04_dcfcfb844804"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_4f65ea9f715f",
+      "title": "Artisan III (Animator)",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_artisan_iii_animator_2026_08_04_6560bd4ce5ba"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_57fa99338eba",
+      "title": "Supply Chain Management Assistant 1",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_supply_chain_management_assistant_1_2026_08_04_bdb5c36d4feb"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_580b9430f512",
+      "title": "Senior House Keeper (Public Area Supervisor)",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_house_keeper_public_area_supervisor_2026_08_04_0dd1bd87f1e7"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_5f748f2a388c",
+      "title": "Artisan III",
+      "institution": "State Department for Correctional Services",
+      "deadline": "2026-08-03T23:59:00+03:00",
+      "current_ids": [
+        "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29"
+      ],
+      "source_ids": [
+        "pscims_active_adverts"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_63e0a0250327",
+      "title": "Senior Account",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_account_2026_08_04_491afc639ff5"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_70a430e2d0f2",
+      "title": "Laundry Operator",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_laundry_operator_2026_08_04_0ad108b2bac5"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_763ff2d7f0c9",
+      "title": "Manager Facilities Management & Maintainance",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_manager_facilities_management_maintainance_2026_08_04_b0f8693798cf"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_7914bcf18525",
+      "title": "Artisan III (Electrician)",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_artisan_iii_electrician_2026_08_04_670336ba8567"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_7bccc6961b53",
+      "title": "Cook",
+      "institution": "State Department for Correctional Services",
+      "deadline": "2026-08-03T23:59:00+03:00",
+      "current_ids": [
+        "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f"
+      ],
+      "source_ids": [
+        "pscims_active_adverts"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_7dc33be9478e",
+      "title": "Senior Chef",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_chef_2026_08_04_176fe1804b77"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_867e005e0012",
+      "title": "Housekeeping Assistant",
+      "institution": "State Department for Correctional Services",
+      "deadline": "2026-08-03T23:59:00+03:00",
+      "current_ids": [
+        "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f"
+      ],
+      "source_ids": [
+        "pscims_active_adverts"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_8e6dae069eb6",
+      "title": "Information Communication Technology Assistant II",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_information_communication_technology_assistant_ii_2026_fcbbeadd550c"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_96d3ae1d21ee",
+      "title": "Senior Hospitality Officer",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_hospitality_officer_2026_08_04_0a8f3fd8eb38"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_a1bf238541e4",
+      "title": "Swimming Pool Attendant III",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_swimming_pool_attendant_iii_2026_08_04_ec7e796e41a7"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_a693399ef3fd",
+      "title": "Hospitality Officer I",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_hospitality_officer_i_2026_08_04_60b9c8740ed5"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_ac40d97d32e7",
+      "title": "Advertised Vacancies",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_advertised_vacancies_mombasa_tsavo_east_tsavo_west_2026_f1652184c3d6"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_b2dcf35ce1f2",
+      "title": "Senior Hospitality Assistant",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_hospitality_assistant_2026_08_04_9c766474339f"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_b33437568432",
+      "title": "Senior Waiter",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_waiter_2026_08_04_7ee3cb0400d1"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_bd5a2d7c1a4a",
+      "title": "Accountant II",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_accountant_ii_2026_08_04_2e329669963d"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_be6f91a298ff",
+      "title": "Senior Cook",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_cook_2026_08_04_4cb0db23c0ce"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_be9a8a36bc57",
+      "title": "Accountant I",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_accountant_i_2026_08_04_23dce23d41ff"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_c2d4ce65b029",
+      "title": "Senior Security Officer",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_security_officer_2026_08_04_2cd67056a515"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_c3dfb6c5a9a1",
+      "title": "Kitchen Attendant III",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_kitchen_attendant_iii_2026_08_04_7970299d938c"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_cf197d055bd0",
+      "title": "Senior Hotel Attendant (Receptionist /Cashier)",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_senior_hotel_attendant_receptionist_cashier_2026_08_04_4acd596ecd0f"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_e1a5e3b0c836",
+      "title": "Assistant Manager Finance",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_assistant_manager_finance_2026_08_04_a061cecd6fa1"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_e6c08bae375d",
+      "title": "Public Area Attendant 1",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_public_area_attendant_1_2026_08_04_c0589ae1e849"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_eda470d4075a",
+      "title": "Cook I",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_cook_i_2026_08_04_4028f373365f"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_f26b8a2c91e6",
+      "title": "Manager Hospitality Services",
+      "institution": "Kenya School of Government",
+      "deadline": "2026-08-04T23:59:00+03:00",
+      "current_ids": [
+        "ksg_manager_hospitality_services_2026_08_04_5046dfce2795"
+      ],
+      "source_ids": [
+        "ksg_jobapplications"
+      ],
+      "row_count": 1
+    },
+    {
+      "canonical_key": "rid_fd9722613347",
+      "title": "Security Warden",
+      "institution": "State Department for Correctional Services",
+      "deadline": "2026-08-03T23:59:00+03:00",
+      "current_ids": [
+        "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704"
+      ],
+      "source_ids": [
+        "pscims_active_adverts"
+      ],
+      "row_count": 1
+    }
+  ],
+  "generated_at": "2026-07-20T10:56:30+03:00"
+}
