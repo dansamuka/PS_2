@@ -35,8 +35,8 @@ def main():
     feed = load(DATA / "public_sector_feed.json")
     reg = load(DATA / "source_registry.json")
     report = load(DATA / "last_run_report.json")
-    if "Phase 3B" not in str(feed.get("meta", {}).get("implementation_phase", "")):
-        return fail("feed meta does not identify Phase 3B")
+    if not any(x in str(feed.get("meta", {}).get("implementation_phase", "")) for x in ["Phase 3B", "Phase 3C"]):
+        return fail("feed meta does not identify Phase 3B/3C latest-role ingestion lineage")
     if feed.get("meta", {}).get("role_scope") not in {"all_role_families", "all_job_families"}:
         return fail("feed meta role_scope must identify all role/job families")
     vacancies = feed.get("vacancies", [])
@@ -59,8 +59,8 @@ def main():
     for key in ["new_roles", "updated_roles", "expired_roles", "unchanged_roles"]:
         if key not in cs:
             return fail(f"change_summary missing {key}")
-    if "Phase 3B" not in str(report.get("implementation_phase", "")):
-        return fail("last_run_report does not identify Phase 3B")
+    if not any(x in str(report.get("implementation_phase", "")) for x in ["Phase 3B", "Phase 3C"]):
+        return fail("last_run_report does not identify Phase 3B/3C latest-role ingestion lineage")
     print("OK: Phase 3B latest-role ingestion checks passed.")
     print(f"Vacancies: {len(vacancies)}")
     print(f"Registered national sources: {len(reg.get('sources', []))}")

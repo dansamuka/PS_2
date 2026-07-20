@@ -1,6 +1,6 @@
-# Kazi Sasa Public Sector Viewer — PS_2 Phase 3B
+# Kazi Sasa Public Sector Viewer — PS_2 Phase 3C
 
-This package implements **Phase 3B — Latest-role ingestion hardening** for the existing `PS_2` GitHub Pages repo.
+This package implements **Phase 3C — Role identity reconciliation** for the existing `PS_2` GitHub Pages repo.
 
 The project remains:
 
@@ -122,3 +122,27 @@ efresh_public_sector_feed.py --collect-central
 ## Phase 3B local verification note
 
 `VERIFY_PHASE_3B.cmd` treats `pytest` as optional on Windows. Core feed and scope checks remain strict. If `pytest` is not installed, parser tests are skipped locally; install dependencies with `python -m pip install -r requirements.txt` to run them.
+
+## Phase 3C — Role identity reconciliation
+
+Phase 3C fixes refresh reporting after live KSG ingestion. A refreshed role can now keep a stable `identity.canonical_key` even when the scraper-generated row `id` changes. The change summary now distinguishes genuinely new roles from refreshed existing roles.
+
+New artifacts:
+
+```text
+scripts/role_identity.py
+scripts/verify_phase3c.py
+VERIFY_PHASE_3C.cmd
+data/role_identity_map.json
+data/discovery_review_queue.json
+data/discovery_review_summary.json
+docs/PHASE_3C_ROLE_IDENTITY_RECONCILIATION.md
+```
+
+Run local verification:
+
+```bat
+VERIFY_PHASE_3C.cmd
+```
+
+Important push behaviour: `PUSH_TO_GITHUB.cmd` now avoids overwriting live-generated feed/report files from GitHub Actions with stale local snapshots. Push the code, then run the GitHub Action to refresh data.

@@ -45,6 +45,7 @@
       <button data-view="rejected">Rejected <span class="count" id="countRejected">0</span></button>
       <button data-view="verification">Verification <span class="count" id="countVerification">0</span></button>
       <button data-view="coverage">Coverage <span class="count" id="countCoverage">0</span></button>
+      <button data-view="discovery">Discovery review <span class="count" id="countDiscovery">0</span></button>
       <button data-view="watchlist">Scam watch <span class="count" id="countWatchlist">0</span></button>
     </nav>
 
@@ -120,7 +121,7 @@
 
 <script id="embeddedFeed" type="application/json">{
   "meta": {
-    "feed_version": "3.1-latest-role-ingestion-phase3b",
+    "feed_version": "3.2-role-identity-reconciliation-phase3c",
     "generated_at": "2026-07-20T10:26:58+03:00",
     "next_expected_update": "2026-07-21T10:26:58+03:00",
     "is_sample_data": false,
@@ -271,8 +272,8 @@
       "county_assemblies",
       "ward_or_sub_county_roles"
     ],
-    "phase": "Phase 3B — Latest-role ingestion hardening",
-    "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
+    "phase": "Phase 3C — Role identity reconciliation",
+    "implementation_phase": "Phase 3C — Role identity reconciliation",
     "scope_detail": "national_government_mdas_parastatals_public_institutions_only_no_counties",
     "change_summary": {
       "new_roles": 0,
@@ -8729,10 +8730,12 @@
   const DEFAULT_SOURCE_STATUS = 'data/source_status.json';
   const DEFAULT_WATCHLIST = 'data/rejected_watchlist.json';
   const DEFAULT_RUN_REPORT = 'data/last_run_report.json';
+  const DEFAULT_DISCOVERY_REVIEW = 'data/discovery_review_queue.json';
   let feed = {meta:{is_sample_data:true}, vacancies:[]};
   let sourceStatus = {sources:[]};
   let watchlist = {items:[]};
   let runReport = {summary:{}, warnings:[]};
+  let discoveryReview = {items:[]};
   let view = 'open';
   let selectedId = null;
   let autoTimer = null;
@@ -8864,6 +8867,7 @@
     const main=$('mainView');
     if(view==='coverage') return renderCoverage(main);
     if(view==='verification') return renderVerification(main);
+    if(view==='discovery') return renderDiscoveryReview(main);
     if(view==='watchlist') return renderWatchlist(main);
     const items=filteredVacancies();
     const selected = activeVacancies().find(v=>v.id===selectedId) || items[0]; if(selected) selectedId=selected.id;
@@ -8948,7 +8952,10 @@
     const soon=roles.filter(v=>{const d=daysTo(v.advert?.deadline); return d!==null&&d>=0&&d<=7;}).length;
     const gen=feed.meta?.generated_at ? fmt.format(parseDate(feed.meta.generated_at)) : 'unknown';
     const cs = feed.meta?.change_summary || runReport.change_summary || {};
-    const changes = (cs.new_roles!==undefined) ? `<span class="pill good">${Number(cs.new_roles||0)} new</span><span class="pill blue">${Number(cs.updated_roles||0)} updated</span><span class="pill dark">${Number(cs.unchanged_roles||0)} unchanged</span><span class="pill warn">${Number(cs.expired_roles||0)} expired</span>` : '';
+    const genuineNew = Number((cs.genuine_new_roles!==undefined ? cs.genuine_new_roles : cs.new_roles)||0);
+    const reconciled = Number(cs.identity_reconciled_roles||0);
+    const refreshed = Number(cs.refreshed_existing_roles||cs.unchanged_roles||0);
+    const changes = (cs.new_roles!==undefined || cs.genuine_new_roles!==undefined) ? `<span class="pill good">${genuineNew} genuine new</span><span class="pill blue">${Number(cs.updated_roles||0)} updated</span><span class="pill purple">${reconciled} reconciled</span><span class="pill dark">${refreshed} refreshed</span><span class="pill warn">${Number(cs.expired_roles||0)} expired</span>` : '';
     const discovery = (runReport.discovery_items!==undefined) ? `<span class="pill purple">${Number(runReport.discovery_items||0)} discovery</span>` : '';
     $('statusRow').innerHTML = `<span class="pill good">${open} open</span><span class="pill blue">${verified} verified</span><span class="pill warn">${review} needs review</span><span class="pill bad">${rejected} rejected/watch</span><span class="pill warn">${soon} closing soon</span>${changes}${discovery}<span class="pill dark">Updated ${escapeHtml(gen)}</span>${feed.meta?.is_sample_data?'<span class="pill bad">Sample data</span>':''}`;
   }
@@ -8960,6 +8967,7 @@
     $('countRejected').textContent=roles.filter(v=>v.verification?.status==='rejected').length + Object.keys(state.rejected).length;
     $('countVerification').textContent=roles.filter(v=>v.verification?.status!=='verified' || hasHighRisk(v)).length;
     $('countCoverage').textContent=(sourceStatus.sources||[]).length;
+    $('countDiscovery').textContent=(discoveryReview.items||[]).length;
     $('countWatchlist').textContent=(watchlist.items||[]).length;
   }
 
@@ -8971,6 +8979,12 @@
     const sources=sourceStatus.sources||[];
     main.innerHTML=`<div class="card" style="padding:18px"><h3>Coverage dashboard</h3><p class="hint">Every monitored source should show last successful fetch, confidence, error status and active role count.</p><div class="tableWrap"><table class="table"><thead><tr><th>Source</th><th>Owner</th><th>Class</th><th>Enabled</th><th>Confidence</th><th>Last success</th><th>Roles</th><th>Error</th></tr></thead><tbody>${sources.map(s=>`<tr><td><a href="${escapeHtml(s.base_url||'#')}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a><br><small>${escapeHtml(s.notes||'')}</small></td><td>${escapeHtml(s.owner)}</td><td>${escapeHtml(human(s.source_class))}</td><td>${s.enabled?'Yes':'No'}</td><td>${statusBadge(s.confidence)}</td><td>${escapeHtml(s.last_successful_fetch_at)}</td><td>${escapeHtml(s.active_roles ?? '—')}</td><td>${escapeHtml(s.last_error)}</td></tr>`).join('') || '<tr><td colspan="8">No source status loaded.</td></tr>'}</tbody></table></div></div>`;
   }
+  function renderDiscoveryReview(main){
+    const items=discoveryReview.items||[];
+    const counts=discoveryReview.priority_counts||{};
+    main.innerHTML=`<div class="card" style="padding:18px"><h3>Discovery review queue</h3><p class="hint">GAA/MyGov discovery items are not open roles yet. Review each original item/PDF, confirm the hiring institution, then promote only verified vacancies.</p><div class="statusRow"><span class="pill purple">${items.length} items</span><span class="pill warn">${Number(counts.high||0)} high</span><span class="pill blue">${Number(counts.medium||0)} medium</span><span class="pill dark">${Number(counts.low||0)} low</span></div><div class="tableWrap"><table class="table"><thead><tr><th>Discovery item</th><th>Institution</th><th>Priority</th><th>Status</th><th>Original</th><th>Manual checks</th></tr></thead><tbody>${items.map(i=>`<tr><td><strong>${escapeHtml(i.title)}</strong><br><small>${escapeHtml(i.source_id||'')}</small></td><td>${escapeHtml(i.institution||'—')}</td><td>${statusBadge(i.review_priority)}</td><td>${escapeHtml(i.promotion_status||'needs review')}</td><td>${i.view_original_url?`<a href="${escapeHtml(i.view_original_url)}" target="_blank" rel="noopener">Open</a>`:'—'}</td><td>${(i.manual_checks_required||[]).slice(0,3).map(escapeHtml).join('<br>')}</td></tr>`).join('') || '<tr><td colspan="6">No discovery review items loaded. Run the GitHub refresh workflow to populate GAA/MyGov discovery.</td></tr>'}</tbody></table></div></div>`;
+  }
+
   function renderWatchlist(main){
     const items=watchlist.items||[];
     main.innerHTML=`<div class="card" style="padding:18px"><h3>Rejected / scam watchlist</h3><p class="hint">These are patterns or specific adverts that should not be recommended unless confirmed by official source.</p><div class="tableWrap"><table class="table"><thead><tr><th>Item</th><th>Claimed institution</th><th>Status</th><th>Risk flags</th><th>Notes</th></tr></thead><tbody>${items.map(i=>`<tr><td>${escapeHtml(i.title)}</td><td>${escapeHtml(i.institution_claimed)}</td><td>${statusBadge(i.status)}</td><td>${(i.risk_flags||[]).map(human).join(', ')}</td><td>${escapeHtml(i.notes)}</td></tr>`).join('') || '<tr><td colspan="5">No watchlist loaded.</td></tr>'}</tbody></table></div></div>`;
@@ -8982,6 +8996,7 @@
     try { sourceStatus = await fetchJson(DEFAULT_SOURCE_STATUS); } catch(e){ sourceStatus = {sources:[]}; }
     try { watchlist = await fetchJson(DEFAULT_WATCHLIST); } catch(e){ watchlist = {items:[]}; }
     try { runReport = await fetchJson(DEFAULT_RUN_REPORT); } catch(e){ runReport = {summary:{},warnings:[]}; }
+    try { discoveryReview = await fetchJson(DEFAULT_DISCOVERY_REVIEW); } catch(e){ discoveryReview = {items:[]}; }
     populateFilters(); selectedId=activeVacancies()[0]?.id || null; render();
   }
   function normalizeFeed(f){ f = f || {}; if(!Array.isArray(f.vacancies)) f.vacancies = f.roles || f.opportunities || []; return f; }

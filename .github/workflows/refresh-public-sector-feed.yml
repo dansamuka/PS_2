@@ -18,7 +18,7 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Refresh Phase 3B latest-role feed
+      - name: Refresh Phase 3C reconciled latest-role feed
         run: python3 scripts/refresh_public_sector_feed.py --collect-central --out data/public_sector_feed.json --root-out public_sector_feed.json
       - name: Validate feed
         run: python3 scripts/validate_public_sector_feed.py data/public_sector_feed.json --registry data/source_registry.json
@@ -26,6 +26,8 @@ jobs:
         run: python3 scripts/verify_phase3.py
       - name: Verify Phase 3B latest-role ingestion
         run: python3 scripts/verify_phase3b.py
+      - name: Verify Phase 3C role identity reconciliation
+        run: python3 scripts/verify_phase3c.py
       - name: Run collector parser tests
         run: python3 -m pytest -q scripts/tests || echo "pytest unavailable or parser tests skipped in workflow"
       - name: Commit updates
@@ -33,5 +35,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data public_sector_feed.json
-          git diff --cached --quiet || git commit -m "Refresh latest public-sector roles"
+          git diff --cached --quiet || git commit -m "Refresh reconciled latest public-sector roles"
           git push

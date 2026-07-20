@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Kazi Sasa public-sector feed refresh / normalization runner.
 
-Phase 3B adds latest-role ingestion hardening:
+Phase 3C adds role identity reconciliation on top of Phase 3B:
 - PSCIMS remains the official central public-service collector.
 - MyGov/GAA discovery tries current and legacy URLs rather than failing on one 404.
 - KSG is refreshed as a live institutional-portal source when reachable.
 - Expired roles are marked as expired so the viewer hides them from Open roles by default.
-- Each run writes a change summary: new, updated, removed, expired and unchanged roles.
+- Each run writes a reconciled change summary so refreshed existing roles are not miscounted as new.
+- Discovery items are converted into a manual review queue for promotion into open roles.
 
 Accuracy-first behaviour:
 - If a live collector fails, existing validated vacancies are preserved.
@@ -28,6 +29,23 @@ DATA = ROOT / "data"
 EAT = dt.timezone(dt.timedelta(hours=3))
 NOW_DT = dt.datetime.now(EAT)
 NOW = NOW_DT.isoformat(timespec="seconds")
+
+try:
+    from scripts.role_identity import (
+        annotate_vacancies,
+        build_discovery_review_queue,
+        build_reconciled_change_summary,
+        identity_map,
+        write_json as write_identity_json,
+    )
+except Exception:  # pragma: no cover - local script execution fallback
+    from role_identity import (
+        annotate_vacancies,
+        build_discovery_review_queue,
+        build_reconciled_change_summary,
+        identity_map,
+        write_json as write_identity_json,
+    )
 
 
 def load(path, default=None):
@@ -140,7 +158,7 @@ def _replace_source(vacancies, source_id, new_rows):
 
 def merge_central_collections(feed, collect_live=False, include_mygov_discovery=True):
     """Return feed with live central rows merged and discovery/source-health reports."""
-    central_report = {"phase": "Phase 3B — Latest-role ingestion hardening", "collect_live": collect_live, "collectors": []}
+    central_report = {"phase": "Phase 3C — Role identity reconciliation", "collect_live": collect_live, "collectors": []}
     discovery_items = []
     health_items = []
     vacancies = list(feed.get("vacancies", []))
@@ -309,7 +327,7 @@ def apply_registry(feed, central_report=None, discovery_items=None, health_items
             "http_status": cm.get("http_status") or hm.get("http_status"),
             "notes": s.get("notes"),
         })
-    write(DATA / "source_status.json", {"generated_at": NOW, "version": "phase3b-latest-role-ingestion", "sources": status})
+    write(DATA / "source_status.json", {"generated_at": NOW, "version": "phase3c-role-identity-reconciliation", "sources": status})
     feed["source_status"] = status
     return counts, len(sources)
 
@@ -339,11 +357,17 @@ def main():
     changed_links += ensure_links(feed)
     expired_ids = mark_expired_roles(feed)
     counts, source_count = apply_registry(feed, central_report, discovery_items, health_items)
-    change_summary = build_change_summary(before_vacancies, feed.get("vacancies", []), expired_ids=expired_ids, dropped_county=dropped_county)
+    annotate_vacancies(feed.get("vacancies", []))
+    change_summary = build_reconciled_change_summary(before_vacancies, feed.get("vacancies", []), expired_ids=expired_ids, dropped_county=dropped_county)
+    role_map = identity_map(feed.get("vacancies", []))
+    discovery_review = build_discovery_review_queue(discovery_items)
+    write_identity_json(DATA / "role_identity_map.json", {**role_map, "generated_at": NOW})
+    write_identity_json(DATA / "discovery_review_queue.json", {**discovery_review, "generated_at": NOW})
+    write_identity_json(DATA / "discovery_review_summary.json", {"generated_at": NOW, "items_total": discovery_review.get("generated_count", 0), "priority_counts": discovery_review.get("priority_counts", {}), "promotion_policy": discovery_review.get("promotion_policy")})
 
     feed.setdefault("meta", {})
     feed["meta"].update({
-        "feed_version": "3.1-latest-role-ingestion-phase3b",
+        "feed_version": "3.2-role-identity-reconciliation-phase3c",
         "schema_version": "1.3-public-sector-national-only",
         "generated_at": NOW,
         "next_expected_update": (dt.datetime.now(EAT) + dt.timedelta(days=1)).isoformat(timespec="seconds"),
@@ -352,15 +376,17 @@ def main():
         "is_sample_data": False,
         "scope": "national_government_mdas_parastatals_public_institutions_only_no_counties",
         "role_scope": "all_role_families",
-        "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
-        "phase": "Phase 3B — Latest-role ingestion hardening",
-        "coverage_note": "Phase 3B refreshes PSCIMS and KSG live where reachable, fixes MyGov/GAA discovery URL fallback, marks expired roles, and reports role changes.",
+        "implementation_phase": "Phase 3C — Role identity reconciliation",
+        "phase": "Phase 3C — Role identity reconciliation",
+        "coverage_note": "Phase 3C reconciles refreshed roles by canonical identity, keeps KSG/PSCIMS live ingestion, filters generic listing rows, and prepares MyGov/GAA discovery items for manual review.",
         "change_summary": change_summary,
     })
     q = feed.setdefault("meta", {}).setdefault("quality_summary", {})
     q.update({
         "expired_roles": len(expired_ids),
-        "latest_ingestion_phase": "3B",
+        "latest_ingestion_phase": "3C",
+        "identity_reconciled_roles_last_run": change_summary.get("identity_reconciled_roles", 0),
+        "genuine_new_roles_last_run": change_summary.get("genuine_new_roles", change_summary.get("new_roles", 0)),
         "new_roles_last_run": change_summary["new_roles"],
         "updated_roles_last_run": change_summary["updated_roles"],
         "discovery_items_last_run": len(discovery_items),
@@ -377,7 +403,7 @@ def main():
         "run_id": NOW,
         "started_at": NOW,
         "finished_at": NOW,
-        "implementation_phase": "Phase 3B — Latest-role ingestion hardening",
+        "implementation_phase": "Phase 3C — Role identity reconciliation",
         "collect_central_requested": args.collect_central,
         "vacancies_active": len(feed.get("vacancies", [])),
         "sources_registered": source_count,
@@ -389,13 +415,15 @@ def main():
         "quality_gate_status": "pending_validation",
         "central_collectors": central_report.get("collectors", []),
         "change_summary": change_summary,
-        "note": "Phase 3B refreshes PSCIMS and KSG when reachable. MyGov/GAA items remain in discovery_queue.json for review, not open vacancies by default.",
+        "note": "Phase 3C reconciles refreshed PSCIMS/KSG roles by canonical identity and prepares MyGov/GAA discovery items for manual review, not automatic promotion.",
+        "role_identity_map_count": role_map.get("role_count", 0),
+        "discovery_review_items": discovery_review.get("generated_count", 0),
     }
     write(DATA / "last_run_report.json", report)
     print(
-        "Phase 3B refresh complete. "
+        "Phase 3C refresh complete. "
         f"Vacancies: {len(feed.get('vacancies', []))}; registered sources: {source_count}; "
-        f"new: {change_summary['new_roles']}; updated: {change_summary['updated_roles']}; "
+        f"genuine_new: {change_summary.get('genuine_new_roles', change_summary['new_roles'])}; updated: {change_summary['updated_roles']}; reconciled: {change_summary.get('identity_reconciled_roles', 0)}; "
         f"expired: {change_summary['expired_roles']}; discovery: {len(discovery_items)}"
     )
     return 0

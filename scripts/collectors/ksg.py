@@ -14,14 +14,29 @@ from bs4 import BeautifulSoup
 
 try:
     from ._common import build_vacancy, clean_title, deadline_iso, fetch_html, parse_date, stable_id
+    from scripts.role_identity import is_generic_listing_title
 except ImportError:  # pragma: no cover
     from _common import build_vacancy, clean_title, deadline_iso, fetch_html, parse_date, stable_id
+    from role_identity import is_generic_listing_title
 
 SOURCE_ID = "ksg_jobapplications"
 KSG_URL = "https://jobapplications.ke/"
 LOGIN_URL = "https://jobapplications.ke/client/login"
 SOURCE_NAME = "Kenya School of Government Job Application Portal"
 
+
+
+def _fix_title_typos(title: str | None) -> str:
+    text = clean_title(title or "")
+    fixes = [
+        (r"\bAirtisan\b", "Artisan"),
+        (r"\bTechhnician\b", "Technician"),
+        (r"\bMaintainance\b", "Maintenance"),
+        (r"\bRac\b", "RAC"),
+    ]
+    for pat, repl in fixes:
+        text = re.sub(pat, repl, text, flags=re.I)
+    return clean_title(text)
 
 def _int_or_none(value: str | None):
     try:
@@ -180,8 +195,8 @@ def collect(url: str = KSG_URL) -> tuple[list[dict], dict]:
     rows = _parse_rows(html, url)
     vacancies = []
     for r in rows:
-        title = clean_title(r.get("title"))
-        if not title:
+        title = _fix_title_typos(r.get("title"))
+        if not title or is_generic_listing_title(title):
             continue
         deadline = deadline_iso(r.get("deadline"))
         detail_url = r.get("detail_url") or url
@@ -223,6 +238,7 @@ def collect(url: str = KSG_URL) -> tuple[list[dict], dict]:
         vacancy["links"]["view_original_label"] = "View role on original site"
         vacancies.append(vacancy)
     meta["records_seen"] = len(rows)
+    meta["records_filtered_generic"] = max(0, len(rows) - len(vacancies))
     meta["records_emitted"] = len(vacancies)
     return vacancies, meta
 
