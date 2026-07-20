@@ -32,6 +32,27 @@ def _int_or_none(value: str | None):
         return None
 
 
+def _usable_detail_href(raw_href: str | None, source_url: str = PSCIMS_URL) -> str | None:
+    """Return an HTTP(S) detail URL only.
+
+    PSCIMS table rows often expose the details action as an ASP.NET
+    javascript:__doPostBack(...) href. That is useful in a browser but invalid
+    as a standalone link in the JSON feed and will fail validation. For those
+    rows we deliberately fall back to the official active-adverts page, where
+    users can search by advert number/title and open the detail action safely.
+    """
+    if not raw_href:
+        return None
+    href = str(raw_href).strip()
+    lower = href.lower()
+    if lower.startswith(("javascript:", "#", "mailto:", "tel:")):
+        return None
+    resolved = urljoin(source_url, href)
+    if resolved.lower().startswith(("http://", "https://")):
+        return resolved
+    return None
+
+
 def _parse_table_rows(html: str, source_url: str = PSCIMS_URL) -> list[dict]:
     soup = BeautifulSoup(html or "", "html.parser")
     rows = []
@@ -51,7 +72,7 @@ def _parse_table_rows(html: str, source_url: str = PSCIMS_URL) -> list[dict]:
         href = None
         a = tr.find("a", href=True)
         if a:
-            href = urljoin(source_url, a["href"])
+            href = _usable_detail_href(a.get("href"), source_url)
         rows.append({
             "advert_number": cells[0],
             "position": cells[1],

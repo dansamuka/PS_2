@@ -38,12 +38,40 @@ def write(path, obj):
     pathlib.Path(path).write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def _is_http_url(value):
+    return isinstance(value, str) and value.lower().startswith(("http://", "https://"))
+
+
+def _safe_original_url(v):
+    """Choose a validation-safe original URL.
+
+    ASP.NET grids sometimes expose row detail actions as javascript:__doPostBack(...).
+    Those are not valid JSON/feed links, so fall back to the official source URL
+    or application URL instead of letting a javascript pseudo-link reach the feed.
+    """
+    candidates = [
+        v.get("links", {}).get("view_original_url"),
+        v.get("raw", {}).get("detail_url"),
+        v.get("source", {}).get("url"),
+        v.get("application", {}).get("apply_url"),
+    ]
+    for candidate in candidates:
+        if _is_http_url(candidate):
+            return candidate
+    return None
+
+
 def ensure_links(feed):
     changed = 0
     for v in feed.get("vacancies", []):
         links = v.setdefault("links", {})
-        original = links.get("view_original_url") or v.get("raw", {}).get("detail_url") or v.get("source", {}).get("url") or v.get("application", {}).get("apply_url")
-        if original and not links.get("view_original_url"):
+        original = _safe_original_url(v)
+        current = links.get("view_original_url")
+        if original and current != original:
+            links["view_original_url"] = original
+            links["view_original_label"] = "View original role"
+            changed += 1
+        elif not current and original:
             links["view_original_url"] = original
             links["view_original_label"] = "View original role"
             changed += 1

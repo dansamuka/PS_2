@@ -88,3 +88,8 @@ https://dansamuka.github.io/PS_2/
 ## Next phase
 
 Phase 4 should implement ministry and state-department monitors using the official registry and common page patterns such as `/careers`, `/vacancies`, `/jobs`, `/opportunities`, `/downloads`, and `/media-centre`.
+
+
+## Phase 3A hotfix
+
+A PSCIMS live refresh exposed ASP.NET `javascript:__doPostBack(...)` detail links. These are now sanitised and replaced with the official PSCIMS active-adverts page before validation. See `docs/PHASE_3A_PSCIMS_POSTBACK_HOTFIX.md`.
