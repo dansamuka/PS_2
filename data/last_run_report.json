@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-07-20T08:57:14+03:00",
+  "started_at": "2026-07-20T08:57:14+03:00",
+  "finished_at": "2026-07-20T08:57:14+03:00",
+  "implementation_phase": "Phase 1 — Registry and quality foundation",
+  "vacancies_active": 43,
+  "sources_registered": 94,
+  "sources_with_roles": 2,
+  "links_added_or_confirmed": 0,
+  "quality_gate_status": "pending_validation",
+  "note": "Phase 1 normalizer ran. Future phases add live PSCIMS/MyGov/county/SAGA collectors."
+}

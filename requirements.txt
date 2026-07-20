@@ -1,0 +1,2 @@
+# No third-party dependencies required for the current viewer/validator.
+# Future scraper expansion may add requests, beautifulsoup4, lxml.

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-20T08:56:35+03:00",
+  "items": [
+    {
+      "id": "rejected_kenya_power_gmail_2026",
+      "title": "Kenya Power Gmail-based roles advert",
+      "institution": "Kenya Power / KPLC claimed",
+      "reason": "Rejected from open-role feed because the advert uses a Gmail submission address and must be verified only through official KPLC careers channels.",
+      "risk_flags": [
+        "gmail_submission",
+        "public_body_impersonation_risk",
+        "not_official_domain"
+      ],
+      "status": "rejected_watchlist",
+      "source": "User-provided image / forwarded advert",
+      "action": "Do not apply through the Gmail address. Check official Kenya Power careers portal/contact channels."
+    }
+  ]
+}

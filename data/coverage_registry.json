@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-07-20T08:56:35+03:00",
+  "version": "1.0",
+  "coverage": [
+    {
+      "group": "central_psc",
+      "target_sources": 2,
+      "registered_sources": 2,
+      "enabled_sources": 2,
+      "working_sources": 2,
+      "status": "active",
+      "notes": ""
+    },
+    {
+      "group": "government_advertising_agency",
+      "target_sources": 1,
+      "registered_sources": 1,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "source_registry",
+      "target_sources": 1,
+      "registered_sources": 1,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "ministries",
+      "target_sources": 0,
+      "registered_sources": 0,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "not_started",
+      "notes": ""
+    },
+    {
+      "group": "state_departments",
+      "target_sources": 0,
+      "registered_sources": 0,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "not_started",
+      "notes": ""
+    },
+    {
+      "group": "constitutional_commissions",
+      "target_sources": 6,
+      "registered_sources": 6,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "independent_offices",
+      "target_sources": 3,
+      "registered_sources": 3,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "judiciary_parliament",
+      "target_sources": 3,
+      "registered_sources": 3,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "sagas_state_corporations",
+      "target_sources": 20,
+      "registered_sources": 20,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "county_psbs",
+      "target_sources": 47,
+      "registered_sources": 47,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": "All 47 counties listed as placeholders requiring URL confirmation."
+    },
+    {
+      "group": "county_assemblies",
+      "target_sources": 0,
+      "registered_sources": 0,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "not_started",
+      "notes": ""
+    },
+    {
+      "group": "public_universities",
+      "target_sources": 7,
+      "registered_sources": 7,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "public_hospitals",
+      "target_sources": 3,
+      "registered_sources": 3,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "registry_seeded",
+      "notes": ""
+    },
+    {
+      "group": "tvet_institutions",
+      "target_sources": 0,
+      "registered_sources": 0,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "not_started",
+      "notes": ""
+    },
+    {
+      "group": "research_training_institutions",
+      "target_sources": 0,
+      "registered_sources": 0,
+      "enabled_sources": 0,
+      "working_sources": 0,
+      "status": "not_started",
+      "notes": ""
+    },
+    {
+      "group": "public_training_institution",
+      "target_sources": 1,
+      "registered_sources": 1,
+      "enabled_sources": 1,
+      "working_sources": 1,
+      "status": "active",
+      "notes": ""
+    }
+  ],
+  "county_count": 47,
+  "county_names": [
+    "Baringo",
+    "Bomet",
+    "Bungoma",
+    "Busia",
+    "Elgeyo Marakwet",
+    "Embu",
+    "Garissa",
+    "Homa Bay",
+    "Isiolo",
+    "Kajiado",
+    "Kakamega",
+    "Kericho",
+    "Kiambu",
+    "Kilifi",
+    "Kirinyaga",
+    "Kisii",
+    "Kisumu",
+    "Kitui",
+    "Kwale",
+    "Laikipia",
+    "Lamu",
+    "Machakos",
+    "Makueni",
+    "Mandera",
+    "Marsabit",
+    "Meru",
+    "Migori",
+    "Mombasa",
+    "Murang’a",
+    "Nairobi",
+    "Nakuru",
+    "Nandi",
+    "Narok",
+    "Nyamira",
+    "Nyandarua",
+    "Nyeri",
+    "Samburu",
+    "Siaya",
+    "Taita Taveta",
+    "Tana River",
+    "Tharaka Nithi",
+    "Trans Nzoia",
+    "Turkana",
+    "Uasin Gishu",
+    "Vihiga",
+    "Wajir",
+    "West Pokot"
+  ]
+}

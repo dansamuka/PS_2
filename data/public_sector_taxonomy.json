@@ -1,0 +1,139 @@
+{
+  "generated_at": "2026-07-20T08:56:35+03:00",
+  "version": "1.0",
+  "job_families": {
+    "administration": [
+      "administrative assistant",
+      "office assistant",
+      "clerk",
+      "records",
+      "secretarial"
+    ],
+    "human_resources": [
+      "human resource",
+      "hr",
+      "people",
+      "recruitment",
+      "employee relations"
+    ],
+    "finance": [
+      "accountant",
+      "finance",
+      "accounts",
+      "audit",
+      "revenue",
+      "cashier"
+    ],
+    "ict": [
+      "ict",
+      "it",
+      "systems",
+      "developer",
+      "data",
+      "database"
+    ],
+    "hospitality": [
+      "hotel",
+      "attendant",
+      "kitchen",
+      "cook",
+      "receptionist",
+      "housekeeping",
+      "catering"
+    ],
+    "driver_transport": [
+      "driver",
+      "transport",
+      "plant operator"
+    ],
+    "security": [
+      "security",
+      "warden",
+      "guard"
+    ],
+    "health": [
+      "nurse",
+      "clinical",
+      "medical",
+      "public health",
+      "pharmaceutical"
+    ],
+    "education_training": [
+      "lecturer",
+      "teacher",
+      "trainer",
+      "instructor",
+      "curriculum"
+    ],
+    "legal": [
+      "legal",
+      "counsel",
+      "advocate",
+      "prosecution"
+    ],
+    "engineering_technical": [
+      "engineer",
+      "technician",
+      "artisan",
+      "mechanic",
+      "electrician"
+    ],
+    "procurement_supply_chain": [
+      "procurement",
+      "supply chain",
+      "stores",
+      "inventory"
+    ],
+    "communication_pr": [
+      "communication",
+      "public relations",
+      "media"
+    ],
+    "research_policy": [
+      "research",
+      "policy",
+      "planning",
+      "monitoring",
+      "evaluation"
+    ],
+    "environment_agriculture": [
+      "environment",
+      "agriculture",
+      "forestry",
+      "water",
+      "climate"
+    ],
+    "internship_attachment": [
+      "internship",
+      "attachment",
+      "graduate trainee"
+    ],
+    "public_service_entry": [
+      "support staff",
+      "entry",
+      "auxiliary"
+    ]
+  },
+  "education_levels": [
+    "KCSE",
+    "Certificate",
+    "Diploma",
+    "Bachelor's degree",
+    "Master's degree",
+    "PhD"
+  ],
+  "confidence_labels": [
+    "official",
+    "official_discovery",
+    "needs_review",
+    "aggregated",
+    "unverified",
+    "rejected"
+  ],
+  "verification_statuses": [
+    "verified",
+    "needs_review",
+    "rejected",
+    "expired"
+  ]
+}
