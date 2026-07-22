@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T10:05:06+03:00",
+  "generated_at": "2026-07-22T10:06:43+03:00",
   "items": [
     {
       "source_id": "public_service_commission_website",
@@ -8,7 +8,7 @@
       "http_status": 200,
       "error": null,
       "reachable": true,
-      "content_length": 894671,
+      "content_length": 895380,
       "collector_type": "official_page_monitor"
     },
     {

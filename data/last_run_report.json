@@ -1,7 +1,7 @@
 {
-  "run_id": "2026-07-21T10:05:06+03:00",
-  "started_at": "2026-07-21T10:05:06+03:00",
-  "finished_at": "2026-07-21T10:05:06+03:00",
+  "run_id": "2026-07-22T10:06:43+03:00",
+  "started_at": "2026-07-22T10:06:43+03:00",
+  "finished_at": "2026-07-22T10:06:43+03:00",
   "implementation_phase": "Phase 3E — Reviewed promotion importer",
   "collect_central_requested": true,
   "vacancies_active": 43,
@@ -19,7 +19,7 @@
       "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
       "http_status": 200,
       "error": null,
-      "records_seen": 4,
+      "records_seen": 14,
       "records_emitted": 4
     },
     {
@@ -80,7 +80,7 @@
   "role_identity_map_count": 43,
   "discovery_review_items": 120,
   "promotion_candidates": 127,
-  "promotion_ready_for_manual_confirmation": 57,
+  "promotion_ready_for_manual_confirmation": 55,
   "reviewed_promotions_total": 0,
   "reviewed_promotions_added": 0,
   "reviewed_promotions_rejected": 0,
