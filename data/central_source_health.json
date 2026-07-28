@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T11:00:04+03:00",
+  "generated_at": "2026-07-28T10:09:36+03:00",
   "items": [
     {
       "source_id": "public_service_commission_website",
       "name": "Public Service Commission Website",
       "url": "https://www.publicservice.go.ke/",
-      "http_status": 200,
-      "error": null,
-      "reachable": true,
-      "content_length": 895466,
+      "http_status": 0,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.publicservice.go.ke', port=443): Read timed out. (read timeout=20)",
+      "reachable": false,
+      "content_length": 0,
       "collector_type": "official_page_monitor"
     },
     {

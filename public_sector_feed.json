@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed_version": "3.4-reviewed-promotion-importer-phase3e",
-    "generated_at": "2026-07-27T11:00:04+03:00",
-    "next_expected_update": "2026-07-28T11:00:18+03:00",
+    "generated_at": "2026-07-28T10:09:36+03:00",
+    "next_expected_update": "2026-07-29T10:10:19+03:00",
     "is_sample_data": false,
     "coverage_note": "Phase 3E adds a reviewed-promotion importer and manual review batch so confirmed discovery candidates can enter the open feed safely.",
     "vacancy_count": 43,
@@ -197,7 +197,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-27T11:00:06+03:00",
+        "last_checked_at": "2026-07-28T10:09:47+03:00",
         "http_status": 200
       },
       "advert": {
@@ -269,7 +269,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-27T11:00:06+03:00",
+          "seen_at": "2026-07-28T10:09:47+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -302,7 +302,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-27T11:00:06+03:00",
+        "last_checked_at": "2026-07-28T10:09:47+03:00",
         "http_status": 200
       },
       "advert": {
@@ -372,7 +372,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-27T11:00:06+03:00",
+          "seen_at": "2026-07-28T10:09:47+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -405,7 +405,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-27T11:00:06+03:00",
+        "last_checked_at": "2026-07-28T10:09:47+03:00",
         "http_status": 200
       },
       "advert": {
@@ -476,7 +476,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-27T11:00:06+03:00",
+          "seen_at": "2026-07-28T10:09:47+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -509,7 +509,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-27T11:00:06+03:00",
+        "last_checked_at": "2026-07-28T10:09:47+03:00",
         "http_status": 200
       },
       "advert": {
@@ -579,7 +579,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-27T11:00:06+03:00",
+          "seen_at": "2026-07-28T10:09:47+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -612,7 +612,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -641,7 +641,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Accountant I Tsavo West, Mombasa Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Accountant I Tsavo West, Mombasa Contract 3 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "finance_accounting"
@@ -684,7 +684,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -717,7 +717,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -746,7 +746,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Accountant II Tsavo East, Tsavo West, Mombasa Contract 6 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Accountant II Tsavo East, Tsavo West, Mombasa Contract 6 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "finance_accounting"
@@ -789,7 +789,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -822,7 +822,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -851,7 +851,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Airtisan I (RAC Techhnician) Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Airtisan I (RAC Techhnician) Mombasa Contract 2 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "engineering_technical"
@@ -896,7 +896,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -929,7 +929,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -958,7 +958,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Artisan III (Animator) Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Artisan III (Animator) Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "engineering_technical"
@@ -1003,7 +1003,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1036,7 +1036,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1065,7 +1065,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Artisan III (Electrician) Mombasa,, Tsavo East Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Artisan III (Electrician) Mombasa,, Tsavo East Contract 2 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "engineering_technical"
@@ -1110,7 +1110,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1143,7 +1143,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1172,7 +1172,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Artisan III (Plumber) Tsavo East Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Artisan III (Plumber) Tsavo East Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "engineering_technical"
@@ -1217,7 +1217,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1250,7 +1250,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1279,7 +1279,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Assistant Manager Finance Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Assistant Manager Finance Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "finance_accounting",
@@ -1326,7 +1326,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1359,7 +1359,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1388,7 +1388,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Assistant Manager Supply Chain Management Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Assistant Manager Supply Chain Management Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "procurement_supply_chain",
@@ -1436,7 +1436,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1469,7 +1469,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1498,7 +1498,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Cook I Mombasa, Tsavo West, Tsavo East Contract 17 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Cook I Mombasa, Tsavo West, Tsavo East Contract 17 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "hospitality"
@@ -1540,7 +1540,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1573,7 +1573,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1602,7 +1602,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Driver III Mombasa, Tsavo East Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Driver III Mombasa, Tsavo East Contract 3 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "driver_transport"
@@ -1645,7 +1645,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1678,7 +1678,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1707,7 +1707,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "General Manager General Manager Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "General Manager General Manager Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "leadership_management"
@@ -1751,7 +1751,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1784,7 +1784,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1813,7 +1813,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Hospitality Officer I Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Hospitality Officer I Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -1858,7 +1858,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1891,7 +1891,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1920,7 +1920,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Hotel Attendant 1 Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Hotel Attendant 1 Mombasa Contract 2 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "hospitality"
@@ -1963,7 +1963,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1996,7 +1996,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2025,7 +2025,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL House Keeper III (Room steward) Tsavo East, Tsavo West, Mombasa Contract 7 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL House Keeper III (Room steward) Tsavo East, Tsavo West, Mombasa Contract 7 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -2073,7 +2073,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2106,7 +2106,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2135,7 +2135,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Human Resource Management Officer II Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Human Resource Management Officer II Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "hr"
@@ -2179,7 +2179,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2212,7 +2212,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2241,7 +2241,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Information Communication Technology Assistant II Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Information Communication Technology Assistant II Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "ict_data",
@@ -2289,7 +2289,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2322,7 +2322,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2351,7 +2351,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Kitchen Attendant III Mombasa, Tsavo East, Tsavo West Contract 8 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Kitchen Attendant III Mombasa, Tsavo East, Tsavo West Contract 8 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "hospitality"
@@ -2395,7 +2395,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2428,7 +2428,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2457,7 +2457,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Laundry Operator Mombasa Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Laundry Operator Mombasa Contract 3 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -2502,7 +2502,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2535,7 +2535,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2564,7 +2564,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Manager Facilities Management & Maintainance Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Manager Facilities Management & Maintainance Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "leadership_management"
@@ -2609,7 +2609,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2642,7 +2642,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2671,7 +2671,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Manager Hospitality Services Tsavo East Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Manager Hospitality Services Tsavo East Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "leadership_management"
@@ -2716,7 +2716,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2749,7 +2749,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2778,7 +2778,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Manager Internal Audit Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Manager Internal Audit Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "audit",
@@ -2827,7 +2827,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2860,7 +2860,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2889,7 +2889,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Manager Sales & Marketing Nairobi Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Manager Sales & Marketing Nairobi Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "leadership_management"
@@ -2934,7 +2934,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2967,7 +2967,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2996,7 +2996,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Principal Hospitality Assistant Mombasa Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Principal Hospitality Assistant Mombasa Contract 3 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -3042,7 +3042,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3075,7 +3075,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3104,7 +3104,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Principal Information Communication Technology Assistant Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Principal Information Communication Technology Assistant Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "ict_data",
@@ -3153,7 +3153,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3186,7 +3186,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3215,7 +3215,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Public Area Attendant 1 Tsavo West, Mombasa Contract 4 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Public Area Attendant 1 Tsavo West, Mombasa Contract 4 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "hospitality"
@@ -3259,7 +3259,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3292,7 +3292,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3321,7 +3321,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Account Tsavo East Contract 4 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Account Tsavo East Contract 4 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -3366,7 +3366,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3399,7 +3399,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3428,7 +3428,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Chef Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Chef Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -3473,7 +3473,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3506,7 +3506,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3535,7 +3535,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Cook Tsavo East, Tsavo West, Mombasa Contract 4 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Cook Tsavo East, Tsavo West, Mombasa Contract 4 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "hospitality"
@@ -3578,7 +3578,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3611,7 +3611,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3640,7 +3640,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Hospitality Assistant Tsavo West Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Hospitality Assistant Tsavo West Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -3686,7 +3686,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3719,7 +3719,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3748,7 +3748,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Hospitality Officer Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Hospitality Officer Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -3794,7 +3794,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3827,7 +3827,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3856,7 +3856,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Hotel Attendant (Receptionist /Cashier) Tsavo East, Tsavo West, Mombasa Contract 9 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Hotel Attendant (Receptionist /Cashier) Tsavo East, Tsavo West, Mombasa Contract 9 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "finance_accounting",
@@ -3905,7 +3905,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3938,7 +3938,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3967,7 +3967,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior House Keeper (Public Area Supervisor) Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior House Keeper (Public Area Supervisor) Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -4015,7 +4015,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4048,7 +4048,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4077,7 +4077,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Internal Auditor Mombasa Contract 1 position Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Internal Auditor Mombasa Contract 1 position Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "audit",
@@ -4124,7 +4124,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4157,7 +4157,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4186,7 +4186,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Sales and Marketing Officer, Nairobi, Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Sales and Marketing Officer, Nairobi, Mombasa Contract 2 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -4233,7 +4233,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4266,7 +4266,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4295,7 +4295,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Security Officer Tsave East, Mombasa Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Security Officer Tsave East, Mombasa Contract 2 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "security"
@@ -4338,7 +4338,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4371,7 +4371,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4400,7 +4400,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Senior Waiter Tsavo East, Tsavo West Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Senior Waiter Tsavo East, Tsavo West Contract 2 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -4445,7 +4445,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4478,7 +4478,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4507,7 +4507,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Supply Chain Management Assistant 1 Mombasa, Tsavo East, Tsavo East Contract 3 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Supply Chain Management Assistant 1 Mombasa, Tsavo East, Tsavo East Contract 3 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "procurement_supply_chain"
@@ -4552,7 +4552,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4585,7 +4585,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4614,7 +4614,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Swimming Pool Attendant III Mombasa, Tsavi East Contract 2 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Swimming Pool Attendant III Mombasa, Tsavi East Contract 2 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "hospitality"
@@ -4659,7 +4659,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4692,7 +4692,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-27T11:00:08+03:00",
+        "last_checked_at": "2026-07-28T10:09:48+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4721,7 +4721,7 @@
         "professional_body": null,
         "computer_proficiency_required": false,
         "chapter_six_required": false,
-        "mandatory_text": "ALL Waiter 1 Tsavo East, Tsavo West, Mombasa Contract 16 positions Open Deadline: 04 August 2026 Details Apply Now"
+        "mandatory_text": "ALL Waiter 1 Tsavo East, Tsavo West, Mombasa Contract 16 positions Closing Soon Deadline: 04 August 2026 Details Apply Now"
       },
       "job_family": [
         "public_service_general"
@@ -4765,7 +4765,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-27T11:00:08+03:00",
+          "seen_at": "2026-07-28T10:09:48+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4797,8 +4797,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-27T11:00:04+03:00",
-      "last_successful_fetch_at": "2026-07-27T11:00:04+03:00",
+      "last_checked_at": "2026-07-28T10:09:36+03:00",
+      "last_successful_fetch_at": "2026-07-28T10:09:36+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4816,8 +4816,8 @@
       "collector_type": "pscims_active_adverts_html_table",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-27T11:00:04+03:00",
-      "last_successful_fetch_at": "2026-07-27T11:00:04+03:00",
+      "last_checked_at": "2026-07-28T10:09:36+03:00",
+      "last_successful_fetch_at": "2026-07-28T10:09:36+03:00",
       "active_roles": 4,
       "discovery_items": 0,
       "last_error": null,
@@ -4835,8 +4835,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-27T11:00:04+03:00",
-      "last_successful_fetch_at": "2026-07-27T11:00:04+03:00",
+      "last_checked_at": "2026-07-28T10:09:36+03:00",
+      "last_successful_fetch_at": "2026-07-28T10:09:36+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4853,13 +4853,13 @@
       "base_url": "https://www.publicservice.go.ke/",
       "collector_type": "official_page_monitor",
       "coverage_priority": 1,
-      "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-27T11:00:04+03:00",
-      "last_successful_fetch_at": "2026-07-27T11:00:04+03:00",
+      "status": "collector_error",
+      "last_checked_at": "2026-07-28T10:09:36+03:00",
+      "last_successful_fetch_at": null,
       "active_roles": 0,
       "discovery_items": 0,
-      "last_error": null,
-      "http_status": 200,
+      "last_error": "ReadTimeout: HTTPSConnectionPool(host='www.publicservice.go.ke', port=443): Read timed out. (read timeout=20)",
+      "http_status": 0,
       "notes": ""
     },
     {
@@ -5101,8 +5101,8 @@
       "collector_type": "mygov_job_adverts_discovery",
       "coverage_priority": 1,
       "status": "discovery_items_found_requires_review",
-      "last_checked_at": "2026-07-27T11:00:04+03:00",
-      "last_successful_fetch_at": "2026-07-27T11:00:04+03:00",
+      "last_checked_at": "2026-07-28T10:09:36+03:00",
+      "last_successful_fetch_at": "2026-07-28T10:09:36+03:00",
       "active_roles": 0,
       "discovery_items": 120,
       "last_error": null,
@@ -6146,8 +6146,8 @@
       "collector_type": "html_cards",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-27T11:00:04+03:00",
-      "last_successful_fetch_at": "2026-07-27T11:00:04+03:00",
+      "last_checked_at": "2026-07-28T10:09:36+03:00",
+      "last_successful_fetch_at": "2026-07-28T10:09:36+03:00",
       "active_roles": 39,
       "discovery_items": 0,
       "last_error": null,
