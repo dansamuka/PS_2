@@ -1,6 +1,6 @@
 {
   "version": "3E.1",
-  "generated_at": "2026-07-29T10:16:01+03:00",
+  "generated_at": "2026-07-30T10:09:31+03:00",
   "batch_name": "Phase 3E Batch 1 — high-value discovery promotions",
   "policy": "This is a manual review batch. Items are not open roles until copied into data/reviewed_promotions.json with all manual checks complete.",
   "items_total": 25,

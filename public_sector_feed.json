@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed_version": "3.4-reviewed-promotion-importer-phase3e",
-    "generated_at": "2026-07-29T10:15:29+03:00",
-    "next_expected_update": "2026-07-30T10:16:01+03:00",
+    "generated_at": "2026-07-30T10:09:13+03:00",
+    "next_expected_update": "2026-07-31T10:09:31+03:00",
     "is_sample_data": false,
     "coverage_note": "Phase 3E adds a reviewed-promotion importer and manual review batch so confirmed discovery candidates can enter the open feed safely.",
     "vacancy_count": 43,
@@ -197,7 +197,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-29T10:15:32+03:00",
+        "last_checked_at": "2026-07-30T10:09:15+03:00",
         "http_status": 200
       },
       "advert": {
@@ -269,7 +269,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-29T10:15:32+03:00",
+          "seen_at": "2026-07-30T10:09:15+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -302,7 +302,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-29T10:15:32+03:00",
+        "last_checked_at": "2026-07-30T10:09:15+03:00",
         "http_status": 200
       },
       "advert": {
@@ -372,7 +372,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-29T10:15:32+03:00",
+          "seen_at": "2026-07-30T10:09:15+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -405,7 +405,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-29T10:15:32+03:00",
+        "last_checked_at": "2026-07-30T10:09:15+03:00",
         "http_status": 200
       },
       "advert": {
@@ -476,7 +476,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-29T10:15:32+03:00",
+          "seen_at": "2026-07-30T10:09:15+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -509,7 +509,7 @@
         "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
         "source_type": "official_portal",
         "confidence": "official",
-        "last_checked_at": "2026-07-29T10:15:32+03:00",
+        "last_checked_at": "2026-07-30T10:09:15+03:00",
         "http_status": 200
       },
       "advert": {
@@ -579,7 +579,7 @@
         {
           "source_id": "pscims_active_adverts",
           "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
-          "seen_at": "2026-07-29T10:15:32+03:00",
+          "seen_at": "2026-07-30T10:09:15+03:00",
           "evidence_type": "official_table"
         }
       ],
@@ -612,7 +612,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -684,7 +684,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -717,7 +717,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -789,7 +789,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -822,7 +822,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -896,7 +896,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -929,7 +929,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1003,7 +1003,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1036,7 +1036,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1110,7 +1110,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1143,7 +1143,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1217,7 +1217,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1250,7 +1250,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1326,7 +1326,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1359,7 +1359,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1436,7 +1436,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1469,7 +1469,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1540,7 +1540,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1573,7 +1573,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1645,7 +1645,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1678,7 +1678,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1751,7 +1751,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1784,7 +1784,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1858,7 +1858,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1891,7 +1891,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -1963,7 +1963,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -1996,7 +1996,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2073,7 +2073,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2106,7 +2106,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2179,7 +2179,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2212,7 +2212,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2289,7 +2289,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2322,7 +2322,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2395,7 +2395,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2428,7 +2428,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2502,7 +2502,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2535,7 +2535,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2609,7 +2609,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2642,7 +2642,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2716,7 +2716,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2749,7 +2749,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2827,7 +2827,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2860,7 +2860,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -2934,7 +2934,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -2967,7 +2967,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3042,7 +3042,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3075,7 +3075,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3153,7 +3153,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3186,7 +3186,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3259,7 +3259,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3292,7 +3292,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3366,7 +3366,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3399,7 +3399,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3473,7 +3473,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3506,7 +3506,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3578,7 +3578,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3611,7 +3611,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3686,7 +3686,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3719,7 +3719,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3794,7 +3794,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3827,7 +3827,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -3905,7 +3905,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -3938,7 +3938,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4015,7 +4015,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4048,7 +4048,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4124,7 +4124,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4157,7 +4157,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4233,7 +4233,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4266,7 +4266,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4338,7 +4338,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4371,7 +4371,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4445,7 +4445,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4478,7 +4478,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4552,7 +4552,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4585,7 +4585,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4659,7 +4659,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4692,7 +4692,7 @@
         "url": "https://jobapplications.ke/",
         "source_type": "institutional_portal",
         "confidence": "needs_review",
-        "last_checked_at": "2026-07-29T10:15:33+03:00",
+        "last_checked_at": "2026-07-30T10:09:17+03:00",
         "http_status": 200
       },
       "advert": {
@@ -4765,7 +4765,7 @@
         {
           "source_id": "ksg_jobapplications",
           "url": "https://jobapplications.ke/client/login?organization_slug=job-application-portal",
-          "seen_at": "2026-07-29T10:15:33+03:00",
+          "seen_at": "2026-07-30T10:09:17+03:00",
           "evidence_type": "institutional_portal_listing"
         }
       ],
@@ -4797,8 +4797,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-29T10:15:29+03:00",
-      "last_successful_fetch_at": "2026-07-29T10:15:29+03:00",
+      "last_checked_at": "2026-07-30T10:09:13+03:00",
+      "last_successful_fetch_at": "2026-07-30T10:09:13+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4816,8 +4816,8 @@
       "collector_type": "pscims_active_adverts_html_table",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-29T10:15:29+03:00",
-      "last_successful_fetch_at": "2026-07-29T10:15:29+03:00",
+      "last_checked_at": "2026-07-30T10:09:13+03:00",
+      "last_successful_fetch_at": "2026-07-30T10:09:13+03:00",
       "active_roles": 4,
       "discovery_items": 0,
       "last_error": null,
@@ -4835,8 +4835,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-07-29T10:15:29+03:00",
-      "last_successful_fetch_at": "2026-07-29T10:15:29+03:00",
+      "last_checked_at": "2026-07-30T10:09:13+03:00",
+      "last_successful_fetch_at": "2026-07-30T10:09:13+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4853,13 +4853,13 @@
       "base_url": "https://www.publicservice.go.ke/",
       "collector_type": "official_page_monitor",
       "coverage_priority": 1,
-      "status": "collector_error",
-      "last_checked_at": "2026-07-29T10:15:29+03:00",
-      "last_successful_fetch_at": null,
+      "status": "reachable_no_structured_roles_captured",
+      "last_checked_at": "2026-07-30T10:09:13+03:00",
+      "last_successful_fetch_at": "2026-07-30T10:09:13+03:00",
       "active_roles": 0,
       "discovery_items": 0,
-      "last_error": "ReadTimeout: HTTPSConnectionPool(host='www.publicservice.go.ke', port=443): Read timed out. (read timeout=20)",
-      "http_status": 0,
+      "last_error": null,
+      "http_status": 200,
       "notes": ""
     },
     {
@@ -5101,8 +5101,8 @@
       "collector_type": "mygov_job_adverts_discovery",
       "coverage_priority": 1,
       "status": "discovery_items_found_requires_review",
-      "last_checked_at": "2026-07-29T10:15:29+03:00",
-      "last_successful_fetch_at": "2026-07-29T10:15:29+03:00",
+      "last_checked_at": "2026-07-30T10:09:13+03:00",
+      "last_successful_fetch_at": "2026-07-30T10:09:13+03:00",
       "active_roles": 0,
       "discovery_items": 120,
       "last_error": null,
@@ -6146,8 +6146,8 @@
       "collector_type": "html_cards",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-07-29T10:15:29+03:00",
-      "last_successful_fetch_at": "2026-07-29T10:15:29+03:00",
+      "last_checked_at": "2026-07-30T10:09:13+03:00",
+      "last_successful_fetch_at": "2026-07-30T10:09:13+03:00",
       "active_roles": 39,
       "discovery_items": 0,
       "last_error": null,
