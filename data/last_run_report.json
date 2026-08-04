@@ -1,7 +1,7 @@
 {
-  "run_id": "2026-08-03T10:55:22+03:00",
-  "started_at": "2026-08-03T10:55:22+03:00",
-  "finished_at": "2026-08-03T10:55:22+03:00",
+  "run_id": "2026-08-04T10:09:05+03:00",
+  "started_at": "2026-08-04T10:09:05+03:00",
+  "finished_at": "2026-08-04T10:09:05+03:00",
   "implementation_phase": "Phase 3E — Reviewed promotion importer",
   "collect_central_requested": true,
   "vacancies_active": 43,
@@ -19,8 +19,9 @@
       "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
       "http_status": 200,
       "error": null,
-      "records_seen": 14,
-      "records_emitted": 4
+      "records_seen": 10,
+      "records_emitted": 0,
+      "preserved_existing_rows": true
     },
     {
       "source_id": "ksg_jobapplications",
@@ -28,9 +29,10 @@
       "url": "https://jobapplications.ke/",
       "http_status": 200,
       "error": null,
-      "records_seen": 40,
-      "records_emitted": 39,
-      "records_filtered_generic": 1
+      "records_seen": 0,
+      "records_emitted": 0,
+      "records_filtered_generic": 0,
+      "preserved_existing_rows": true
     },
     {
       "source_id": "mygov_government_advertising_agency",
@@ -58,15 +60,25 @@
   ],
   "change_summary": {
     "new_roles": 0,
-    "updated_roles": 0,
+    "updated_roles": 4,
     "removed_roles": 0,
-    "expired_roles": 0,
+    "expired_roles": 4,
     "county_rows_dropped": 0,
-    "unchanged_roles": 43,
+    "unchanged_roles": 39,
     "new_role_ids": [],
-    "updated_role_ids": [],
+    "updated_role_ids": [
+      "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29",
+      "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
+      "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
+      "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704"
+    ],
     "removed_role_ids": [],
-    "expired_role_ids": [],
+    "expired_role_ids": [
+      "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29",
+      "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
+      "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
+      "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704"
+    ],
     "genuine_new_roles": 0,
     "genuine_removed_roles": 0,
     "identity_reconciled_roles": 0,

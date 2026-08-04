@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed_version": "3.4-reviewed-promotion-importer-phase3e",
-    "generated_at": "2026-08-03T10:55:22+03:00",
-    "next_expected_update": "2026-08-04T10:55:36+03:00",
+    "generated_at": "2026-08-04T10:09:05+03:00",
+    "next_expected_update": "2026-08-05T10:09:38+03:00",
     "is_sample_data": false,
     "coverage_note": "Phase 3E adds a reviewed-promotion importer and manual review batch so confirmed discovery candidates can enter the open feed safely.",
     "vacancy_count": 43,
@@ -137,10 +137,10 @@
       "county_source_coverage_removed": true,
       "national_registry_phase3_sources": 239,
       "central_collectors_enabled": 5,
-      "expired_roles": 0,
+      "expired_roles": 4,
       "latest_ingestion_phase": "3E",
       "new_roles_last_run": 0,
-      "updated_roles_last_run": 0,
+      "updated_roles_last_run": 4,
       "discovery_items_last_run": 120,
       "identity_reconciled_roles_last_run": 0,
       "genuine_new_roles_last_run": 0,
@@ -163,15 +163,25 @@
     "scope_detail": "national_government_mdas_parastatals_public_institutions_only_no_counties",
     "change_summary": {
       "new_roles": 0,
-      "updated_roles": 0,
+      "updated_roles": 4,
       "removed_roles": 0,
-      "expired_roles": 0,
+      "expired_roles": 4,
       "county_rows_dropped": 0,
-      "unchanged_roles": 43,
+      "unchanged_roles": 39,
       "new_role_ids": [],
-      "updated_role_ids": [],
+      "updated_role_ids": [
+        "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29",
+        "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
+        "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
+        "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704"
+      ],
       "removed_role_ids": [],
-      "expired_role_ids": [],
+      "expired_role_ids": [
+        "pscims_d88_2026_artisan_iii_state_department_for_correctional_4f7a8f4aec29",
+        "pscims_d85_2026_cook_state_department_for_correctional_service_3dd932b7b75f",
+        "pscims_d86_2026_housekeeping_assistant_state_department_for_co_378b1512b62f",
+        "pscims_d87_2026_security_warden_state_department_for_correctio_d1b3e21be704"
+      ],
       "genuine_new_roles": 0,
       "genuine_removed_roles": 0,
       "identity_reconciled_roles": 0,
@@ -250,9 +260,11 @@
         "fee_required": false
       },
       "verification": {
-        "status": "verified",
-        "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "status": "expired",
+        "risk_flags": [
+          "expired_deadline"
+        ],
+        "notes": "Captured from official central-government source. Expired by automated deadline check."
       },
       "raw": {
         "html_hash": null,
@@ -353,9 +365,11 @@
         "fee_required": false
       },
       "verification": {
-        "status": "verified",
-        "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "status": "expired",
+        "risk_flags": [
+          "expired_deadline"
+        ],
+        "notes": "Captured from official central-government source. Expired by automated deadline check."
       },
       "raw": {
         "html_hash": null,
@@ -457,9 +471,11 @@
         "fee_required": false
       },
       "verification": {
-        "status": "verified",
-        "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "status": "expired",
+        "risk_flags": [
+          "expired_deadline"
+        ],
+        "notes": "Captured from official central-government source. Expired by automated deadline check."
       },
       "raw": {
         "html_hash": null,
@@ -560,9 +576,11 @@
         "fee_required": false
       },
       "verification": {
-        "status": "verified",
-        "risk_flags": [],
-        "notes": "Captured from official central-government source."
+        "status": "expired",
+        "risk_flags": [
+          "expired_deadline"
+        ],
+        "notes": "Captured from official central-government source. Expired by automated deadline check."
       },
       "raw": {
         "html_hash": null,
@@ -4797,8 +4815,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-08-03T10:55:22+03:00",
-      "last_successful_fetch_at": "2026-08-03T10:55:22+03:00",
+      "last_checked_at": "2026-08-04T10:09:05+03:00",
+      "last_successful_fetch_at": "2026-08-04T10:09:05+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4816,8 +4834,8 @@
       "collector_type": "pscims_active_adverts_html_table",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-08-03T10:55:22+03:00",
-      "last_successful_fetch_at": "2026-08-03T10:55:22+03:00",
+      "last_checked_at": "2026-08-04T10:09:05+03:00",
+      "last_successful_fetch_at": "2026-08-04T10:09:05+03:00",
       "active_roles": 4,
       "discovery_items": 0,
       "last_error": null,
@@ -4835,8 +4853,8 @@
       "collector_type": "portal_reference",
       "coverage_priority": 1,
       "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-08-03T10:55:22+03:00",
-      "last_successful_fetch_at": "2026-08-03T10:55:22+03:00",
+      "last_checked_at": "2026-08-04T10:09:05+03:00",
+      "last_successful_fetch_at": "2026-08-04T10:09:05+03:00",
       "active_roles": 0,
       "discovery_items": 0,
       "last_error": null,
@@ -4853,13 +4871,13 @@
       "base_url": "https://www.publicservice.go.ke/",
       "collector_type": "official_page_monitor",
       "coverage_priority": 1,
-      "status": "reachable_no_structured_roles_captured",
-      "last_checked_at": "2026-08-03T10:55:22+03:00",
-      "last_successful_fetch_at": "2026-08-03T10:55:22+03:00",
+      "status": "collector_error",
+      "last_checked_at": "2026-08-04T10:09:05+03:00",
+      "last_successful_fetch_at": null,
       "active_roles": 0,
       "discovery_items": 0,
-      "last_error": null,
-      "http_status": 200,
+      "last_error": "ReadTimeout: HTTPSConnectionPool(host='www.publicservice.go.ke', port=443): Read timed out. (read timeout=20)",
+      "http_status": 0,
       "notes": ""
     },
     {
@@ -5101,8 +5119,8 @@
       "collector_type": "mygov_job_adverts_discovery",
       "coverage_priority": 1,
       "status": "discovery_items_found_requires_review",
-      "last_checked_at": "2026-08-03T10:55:22+03:00",
-      "last_successful_fetch_at": "2026-08-03T10:55:22+03:00",
+      "last_checked_at": "2026-08-04T10:09:05+03:00",
+      "last_successful_fetch_at": "2026-08-04T10:09:05+03:00",
       "active_roles": 0,
       "discovery_items": 120,
       "last_error": null,
@@ -6146,8 +6164,8 @@
       "collector_type": "html_cards",
       "coverage_priority": 1,
       "status": "active_roles_found",
-      "last_checked_at": "2026-08-03T10:55:22+03:00",
-      "last_successful_fetch_at": "2026-08-03T10:55:22+03:00",
+      "last_checked_at": "2026-08-04T10:09:05+03:00",
+      "last_successful_fetch_at": "2026-08-04T10:09:05+03:00",
       "active_roles": 39,
       "discovery_items": 0,
       "last_error": null,

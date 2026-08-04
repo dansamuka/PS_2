@@ -8,8 +8,9 @@
       "url": "https://pscims.publicservice.go.ke/jobs/ActiveJobsAdverts.aspx",
       "http_status": 200,
       "error": null,
-      "records_seen": 14,
-      "records_emitted": 4
+      "records_seen": 10,
+      "records_emitted": 0,
+      "preserved_existing_rows": true
     },
     {
       "source_id": "ksg_jobapplications",
@@ -17,9 +18,10 @@
       "url": "https://jobapplications.ke/",
       "http_status": 200,
       "error": null,
-      "records_seen": 40,
-      "records_emitted": 39,
-      "records_filtered_generic": 1
+      "records_seen": 0,
+      "records_emitted": 0,
+      "records_filtered_generic": 0,
+      "preserved_existing_rows": true
     },
     {
       "source_id": "mygov_government_advertising_agency",
@@ -45,7 +47,7 @@
       "error": null
     }
   ],
-  "generated_at": "2026-08-03T10:55:22+03:00",
+  "generated_at": "2026-08-04T10:09:05+03:00",
   "discovery_items": 120,
   "health_items": 3
 }
