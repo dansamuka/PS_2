@@ -1,8 +1,30 @@
 {
-  "generated_at": "2026-08-05T10:10:16+03:00",
+  "generated_at": "2026-08-06T10:12:48+03:00",
   "items": [
     {
-      "id": "mygovdisc_principal_internal_auditor_position_at_the_public_servi_74e9bf35d01d",
+      "id": "mygovdisc_the_communications_authority_of_kenya_ca_cancellation_o_233dcf54f807",
+      "title": "The Communications Authority of Kenya (CA) Cancellation of Vacancy Notice",
+      "institution": "The Communications Authority of Kenya (CA)",
+      "source_id": "mygov_government_advertising_agency",
+      "source_name": "Government Advertising Agency / MyGov Job Adverts",
+      "source_url": "https://gaa.go.ke/index.php/node/445",
+      "source_confidence": "official_discovery",
+      "verification_status": "needs_review",
+      "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
+      "submission_date": null,
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/The%20Communications%20Authority%20of%20Kenya%20%28CA%29%20Cancellation%20of%20Vacancy%20Notice.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/The%20Communications%20Authority%20of%20Kenya%20%28CA%29%20Cancellation%20of%20Vacancy%20Notice.pdf",
+      "keywords": [
+        "communications",
+        "authority",
+        "kenya",
+        "cancellation",
+        "notice"
+      ],
+      "seen_at": "2026-08-06T10:12:55+03:00"
+    },
+    {
+      "id": "mygovdisc_principal_internal_auditor_position_at_the_public_servi_b8fb0289d84a",
       "title": "Principal Internal Auditor Position at the Public Service Superannuation Fund",
       "institution": "The Public Service Superannuation Fund (PSSF)",
       "source_id": "mygov_government_advertising_agency",
@@ -12,8 +34,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-18",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Principal%20Internal%20Auditor%20Position%20at%20the%20Public%20Service%20Superannuation%20Fund%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Principal%20Internal%20Auditor%20Position%20at%20the%20Public%20Service%20Superannuation%20Fund%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/Principal%20Internal%20Auditor%20Position%20at%20the%20Public%20Service%20Superannuation%20Fund%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/Principal%20Internal%20Auditor%20Position%20at%20the%20Public%20Service%20Superannuation%20Fund%20.pdf",
       "keywords": [
         "principal",
         "internal",
@@ -24,10 +46,10 @@
         "fund",
         "pssf"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_chief_executive_officer_fund_administrator_position_at_0412ac5d26e5",
+      "id": "mygovdisc_chief_executive_officer_fund_administrator_position_at_d52b9a71e096",
       "title": "Chief Executive Officer/Fund Administrator Position at The National Lottery Board",
       "institution": "The National Lottery Board (NLB)",
       "source_id": "mygov_government_advertising_agency",
@@ -37,8 +59,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/%20Chief%20Executive%20Officer%3AFund%20Administrator%20Position%20at%20The%20National%20Lottery%20Board.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/%20Chief%20Executive%20Officer%3AFund%20Administrator%20Position%20at%20The%20National%20Lottery%20Board.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/%20Chief%20Executive%20Officer%3AFund%20Administrator%20Position%20at%20The%20National%20Lottery%20Board.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/%20Chief%20Executive%20Officer%3AFund%20Administrator%20Position%20at%20The%20National%20Lottery%20Board.pdf",
       "keywords": [
         "chief",
         "executive",
@@ -50,10 +72,10 @@
         "board",
         "nlb"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_masinde_muliro_university_of_science_and_technology_ann_52dfeb7db711",
+      "id": "mygovdisc_masinde_muliro_university_of_science_and_technology_ann_d48edace93d8",
       "title": "Masinde Muliro University Of Science And Technology Announcement For African Development Fund (ADF) Support To Higher Education Science And Technology (HEST) Phase II Project Scholarships",
       "institution": "Masinde Muliro University Of Science And Technology",
       "source_id": "mygov_government_advertising_agency",
@@ -63,8 +85,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-08",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Masinde%20Muliro%20University%20Of%20Science%20And%20Technology%20Announcement%20For%20African%20Development%20Fund%20%28ADF%29%20Support%20To%20Higher%20Education%20Science%20And%20Technology%20%28HEST%29%20Phase%20II%20Project%20Scholarships.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Masinde%20Muliro%20University%20Of%20Science%20And%20Technology%20Announcement%20For%20African%20Development%20Fund%20%28ADF%29%20Support%20To%20Higher%20Education%20Science%20And%20Technology%20%28HEST%29%20Phase%20II%20Project%20Scholarships.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/Masinde%20Muliro%20University%20Of%20Science%20And%20Technology%20Announcement%20For%20African%20Development%20Fund%20%28ADF%29%20Support%20To%20Higher%20Education%20Science%20And%20Technology%20%28HEST%29%20Phase%20II%20Project%20Scholarships.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/Masinde%20Muliro%20University%20Of%20Science%20And%20Technology%20Announcement%20For%20African%20Development%20Fund%20%28ADF%29%20Support%20To%20Higher%20Education%20Science%20And%20Technology%20%28HEST%29%20Phase%20II%20Project%20Scholarships.pdf",
       "keywords": [
         "masinde",
         "muliro",
@@ -81,10 +103,10 @@
         "education",
         "hest"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_institute_of_special_education_kise_job_opportuni_a196d4bd8307",
+      "id": "mygovdisc_kenya_institute_of_special_education_kise_job_opportuni_ea2f8bb1c637",
       "title": "Kenya Institute of Special Education (KISE) Job Opportunities",
       "institution": "Kenya Institute of Special Education (KISE)",
       "source_id": "mygov_government_advertising_agency",
@@ -94,8 +116,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-14",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Kenya%20Institute%20of%20Special%20Education%20%28KISE%29%20Job%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Kenya%20Institute%20of%20Special%20Education%20%28KISE%29%20Job%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/Kenya%20Institute%20of%20Special%20Education%20%28KISE%29%20Job%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/Kenya%20Institute%20of%20Special%20Education%20%28KISE%29%20Job%20Opportunities%20.pdf",
       "keywords": [
         "kenya",
         "institute",
@@ -103,10 +125,10 @@
         "education",
         "kise"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_jkuat_enterprises_ltd_jkuates_career_opportunities_jkua_f79ac77676c3",
+      "id": "mygovdisc_jkuat_enterprises_ltd_jkuates_career_opportunities_jkua_52986f741452",
       "title": "JKUAT Enterprises Ltd (JKUATES) Career Opportunities",
       "institution": "JKUAT Enterprises Ltd (JKUATES)",
       "source_id": "mygov_government_advertising_agency",
@@ -116,18 +138,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-25",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/JKUAT%20Enterprises%20Ltd%20%28JKUATES%29%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/JKUAT%20Enterprises%20Ltd%20%28JKUATES%29%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/JKUAT%20Enterprises%20Ltd%20%28JKUATES%29%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/JKUAT%20Enterprises%20Ltd%20%28JKUATES%29%20Career%20Opportunities%20.pdf",
       "keywords": [
         "jkuat",
         "enterprises",
         "ltd",
         "jkuates"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_human_resource_manager_communications_and_public_affair_9c7509c93112",
+      "id": "mygovdisc_human_resource_manager_communications_and_public_affair_4cf2fdf6ae0a",
       "title": "Human Resource Manager & Communications and Public Affairs Manager Job Positions at the Kenya Railways",
       "institution": "Kenya Railways (KR)",
       "source_id": "mygov_government_advertising_agency",
@@ -137,8 +159,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Human%20Resource%20Manager%20%26%20Communications%20and%20Public%20Affairs%20Manager%20Job%20Positions%20at%20the%20Kenya%20Railways%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Human%20Resource%20Manager%20%26%20Communications%20and%20Public%20Affairs%20Manager%20Job%20Positions%20at%20the%20Kenya%20Railways%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/Human%20Resource%20Manager%20%26%20Communications%20and%20Public%20Affairs%20Manager%20Job%20Positions%20at%20the%20Kenya%20Railways%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/Human%20Resource%20Manager%20%26%20Communications%20and%20Public%20Affairs%20Manager%20Job%20Positions%20at%20the%20Kenya%20Railways%20.pdf",
       "keywords": [
         "human",
         "resource",
@@ -149,10 +171,10 @@
         "kenya",
         "railways"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_director_ceo_position_at_the_national_crime_research_ce_9e85129ce38b",
+      "id": "mygovdisc_director_ceo_position_at_the_national_crime_research_ce_b068e42e8c3a",
       "title": "Director/CEO Position at The National Crime Research Centre",
       "institution": "The National Crime Research Centre (NCRC)",
       "source_id": "mygov_government_advertising_agency",
@@ -162,8 +184,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Director%3ACEO%20Position%20at%20The%20National%20Crime%20Research%20Centre.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Director%3ACEO%20Position%20at%20The%20National%20Crime%20Research%20Centre.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/Director%3ACEO%20Position%20at%20The%20National%20Crime%20Research%20Centre.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/Director%3ACEO%20Position%20at%20The%20National%20Crime%20Research%20Centre.pdf",
       "keywords": [
         "director",
         "ceo",
@@ -173,10 +195,10 @@
         "centre",
         "ncrc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_coast_water_works_development_agency_employment_opportu_4424e6598627",
+      "id": "mygovdisc_coast_water_works_development_agency_employment_opportu_4d334d214c12",
       "title": "Coast Water Works Development Agency Employment Opportunities",
       "institution": "Coast Water Works Development Agency (CWWDA)",
       "source_id": "mygov_government_advertising_agency",
@@ -186,8 +208,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-04",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Coast%20Water%20Works%20Development%20Agency%20Employment%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Coast%20Water%20Works%20Development%20Agency%20Employment%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/Coast%20Water%20Works%20Development%20Agency%20Employment%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/Coast%20Water%20Works%20Development%20Agency%20Employment%20Opportunities%20.pdf",
       "keywords": [
         "coast",
         "water",
@@ -197,10 +219,10 @@
         "employment",
         "cwwda"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_driver_iii_regional_offices_headquaters_job_opportuniti_d8bd00abc005",
+      "id": "mygovdisc_driver_iii_regional_offices_headquaters_job_opportuniti_e8e6ed4e3b12",
       "title": "Driver III (Regional Offices & Headquaters) Job Opportunities at Communications Authority of Kenya (CA)",
       "institution": "Communications Authority of Kenya (CA)",
       "source_id": "mygov_government_advertising_agency",
@@ -210,8 +232,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Driver%20III%20%28Regional%20Offices%20%26%20Headquaters%29%20Job%20Opportunities%20at%20Communications%20Authority%20of%20Kenya%20%28CA%29%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-08/Driver%20III%20%28Regional%20Offices%20%26%20Headquaters%29%20Job%20Opportunities%20at%20Communications%20Authority%20of%20Kenya%20%28CA%29%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-08/Driver%20III%20%28Regional%20Offices%20%26%20Headquaters%29%20Job%20Opportunities%20at%20Communications%20Authority%20of%20Kenya%20%28CA%29%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-08/Driver%20III%20%28Regional%20Offices%20%26%20Headquaters%29%20Job%20Opportunities%20at%20Communications%20Authority%20of%20Kenya%20%28CA%29%20.pdf",
       "keywords": [
         "driver",
         "iii",
@@ -222,10 +244,10 @@
         "authority",
         "kenya"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_the_kenya_revenue_authority_kra_42d1a4ec2de8",
+      "id": "mygovdisc_career_opportunities_at_the_kenya_revenue_authority_kra_e81027b90939",
       "title": "Career Opportunities at The Kenya Revenue Authority (KRA) Staff Pension Scheme",
       "institution": "Kenya Revenue Authority (KRA) Staff Pension Scheme",
       "source_id": "mygov_government_advertising_agency",
@@ -235,8 +257,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-10",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20Revenue%20Authority%20%28KRA%29%20Staff%20Pension%20Scheme%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20Revenue%20Authority%20%28KRA%29%20Staff%20Pension%20Scheme%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20Revenue%20Authority%20%28KRA%29%20Staff%20Pension%20Scheme%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20Revenue%20Authority%20%28KRA%29%20Staff%20Pension%20Scheme%20Career%20Opportunities%20.pdf",
       "keywords": [
         "kenya",
         "revenue",
@@ -246,10 +268,10 @@
         "pension",
         "scheme"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_recruitment_of_independent_members_the_board_of_directo_7cd48545f763",
+      "id": "mygovdisc_recruitment_of_independent_members_the_board_of_directo_0a2e830794dd",
       "title": "Recruitment Of Independent Members The Board Of Directors Of The Kenya Civil Aviation Authority (KCAA)",
       "institution": "State Department For Aviation And Aerospace Development,",
       "source_id": "mygov_government_advertising_agency",
@@ -259,8 +281,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-04",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Recruitment%20Of%20Independent%20Members%20The%20Board%20Of%20Directors%20Of%20The%20Kenya%20Civil%20Aviation%20Authority%20%28KCAA%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Recruitment%20Of%20Independent%20Members%20The%20Board%20Of%20Directors%20Of%20The%20Kenya%20Civil%20Aviation%20Authority%20%28KCAA%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Recruitment%20Of%20Independent%20Members%20The%20Board%20Of%20Directors%20Of%20The%20Kenya%20Civil%20Aviation%20Authority%20%28KCAA%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Recruitment%20Of%20Independent%20Members%20The%20Board%20Of%20Directors%20Of%20The%20Kenya%20Civil%20Aviation%20Authority%20%28KCAA%29.pdf",
       "keywords": [
         "recruitment",
         "independent",
@@ -277,10 +299,10 @@
         "aerospace",
         "development"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacant_positions_in_the_public_service_public_service_c_ef210f1adc24",
+      "id": "mygovdisc_vacant_positions_in_the_public_service_public_service_c_dc571cd854ef",
       "title": "Vacant Positions In The Public Service",
       "institution": "Public Service Commission (PSC)",
       "source_id": "mygov_government_advertising_agency",
@@ -290,8 +312,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Vacant%20Positions%20In%20The%20Public%20Service%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Vacant%20Positions%20In%20The%20Public%20Service%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Vacant%20Positions%20In%20The%20Public%20Service%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Vacant%20Positions%20In%20The%20Public%20Service%20.pdf",
       "keywords": [
         "vacant",
         "public",
@@ -299,10 +321,10 @@
         "commission",
         "psc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_librarian_and_receptionist_iii_vacancies_announcement_a_4bd5d27136ce",
+      "id": "mygovdisc_librarian_and_receptionist_iii_vacancies_announcement_a_ab1ef1c40d97",
       "title": "Librarian and Receptionist III Vacancies Announcement at Nyandarua National Polytechnic",
       "institution": "The Nyandarua National Polytechnic",
       "source_id": "mygov_government_advertising_agency",
@@ -312,8 +334,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-04",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Librarian%20and%20Receptionist%20III%20Vacancies%20Announcement%20at%20Nyandarua%20National%20Polytechnic%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Librarian%20and%20Receptionist%20III%20Vacancies%20Announcement%20at%20Nyandarua%20National%20Polytechnic%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Librarian%20and%20Receptionist%20III%20Vacancies%20Announcement%20at%20Nyandarua%20National%20Polytechnic%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Librarian%20and%20Receptionist%20III%20Vacancies%20Announcement%20at%20Nyandarua%20National%20Polytechnic%20.pdf",
       "keywords": [
         "librarian",
         "receptionist",
@@ -323,10 +345,10 @@
         "national",
         "polytechnic"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_school_of_government_employment_opportunity_repla_4077c949497a",
+      "id": "mygovdisc_kenya_school_of_government_employment_opportunity_repla_fa2b8129508a",
       "title": "Kenya School Of Government Employment Opportunity - Replacements",
       "institution": "Kenya School of Government (KSG)",
       "source_id": "mygov_government_advertising_agency",
@@ -336,8 +358,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-11",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20School%20Of%20Government%20Employment%20Opportunity%20-%20Replacements.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20School%20Of%20Government%20Employment%20Opportunity%20-%20Replacements.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20School%20Of%20Government%20Employment%20Opportunity%20-%20Replacements.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20School%20Of%20Government%20Employment%20Opportunity%20-%20Replacements.pdf",
       "keywords": [
         "kenya",
         "school",
@@ -347,10 +369,10 @@
         "replacements",
         "ksg"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_nursing_council_of_kenya_jobs_advertisement_nursing_cou_9586a88e2a97",
+      "id": "mygovdisc_nursing_council_of_kenya_jobs_advertisement_nursing_cou_ada356473b20",
       "title": "Nursing Council of Kenya Jobs Advertisement",
       "institution": "Nursing Council of Kenya (NCK)",
       "source_id": "mygov_government_advertising_agency",
@@ -360,8 +382,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-10",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/%20Nursing%20Council%20of%20Kenya%20Jobs%20Advertisement%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/%20Nursing%20Council%20of%20Kenya%20Jobs%20Advertisement%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/%20Nursing%20Council%20of%20Kenya%20Jobs%20Advertisement%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/%20Nursing%20Council%20of%20Kenya%20Jobs%20Advertisement%20.pdf",
       "keywords": [
         "nursing",
         "council",
@@ -369,10 +391,10 @@
         "advertisement",
         "nck"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_agricultural_finance_corporatio_daf6d711a26f",
+      "id": "mygovdisc_career_opportunities_at_agricultural_finance_corporatio_c6471ffb24bf",
       "title": "Career Opportunities at Agricultural Finance Corporation (AFC)",
       "institution": "Agricultural Finance Corporation (AFC)",
       "source_id": "mygov_government_advertising_agency",
@@ -382,18 +404,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-03",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Career%20Opportunities%20at%20Agricultural%20Finance%20Corporation%20%28AFC%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Career%20Opportunities%20at%20Agricultural%20Finance%20Corporation%20%28AFC%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Career%20Opportunities%20at%20Agricultural%20Finance%20Corporation%20%28AFC%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Career%20Opportunities%20at%20Agricultural%20Finance%20Corporation%20%28AFC%29.pdf",
       "keywords": [
         "agricultural",
         "finance",
         "corporation",
         "afc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_school_of_government_employment_opportunity_kenya_1a7cff463224",
+      "id": "mygovdisc_kenya_school_of_government_employment_opportunity_kenya_3ef9d854049d",
       "title": "Kenya School of Government, Employment Opportunity",
       "institution": "Kenya School of Government (KSG)",
       "source_id": "mygov_government_advertising_agency",
@@ -403,8 +425,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-04",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20School%20of%20Government%2C%20Employment%20Opportunity%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20School%20of%20Government%2C%20Employment%20Opportunity%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20School%20of%20Government%2C%20Employment%20Opportunity%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20School%20of%20Government%2C%20Employment%20Opportunity%20.pdf",
       "keywords": [
         "kenya",
         "school",
@@ -413,10 +435,10 @@
         "opportunity",
         "ksg"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_deputy_director_legal_services_kenya_leather_developmen_442ffe73094f",
+      "id": "mygovdisc_deputy_director_legal_services_kenya_leather_developmen_d66637a6432e",
       "title": "Deputy Director, Legal Services Kenya Leather Development Council Vacancy Re-advertisement",
       "institution": "Kenya Leather Development Council (KLDC)",
       "source_id": "mygov_government_advertising_agency",
@@ -426,8 +448,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-03",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Deputy%20Director%2C%20Legal%20Services%20Kenya%20Leather%20Development%20Council%20Vacancy%20Re-advertisement%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Deputy%20Director%2C%20Legal%20Services%20Kenya%20Leather%20Development%20Council%20Vacancy%20Re-advertisement%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Deputy%20Director%2C%20Legal%20Services%20Kenya%20Leather%20Development%20Council%20Vacancy%20Re-advertisement%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Deputy%20Director%2C%20Legal%20Services%20Kenya%20Leather%20Development%20Council%20Vacancy%20Re-advertisement%20.pdf",
       "keywords": [
         "deputy",
         "director",
@@ -440,10 +462,10 @@
         "re-advertisement",
         "kldc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_trade_network_agency_career_opportunities_kenya_t_11e707582a37",
+      "id": "mygovdisc_kenya_trade_network_agency_career_opportunities_kenya_t_5729e128609f",
       "title": "Kenya Trade Network Agency Career Opportunities",
       "institution": "Kenya Trade Network Agency (KenTrade)",
       "source_id": "mygov_government_advertising_agency",
@@ -453,8 +475,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-08-04",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20Trade%20Network%20Agency%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-07/Kenya%20Trade%20Network%20Agency%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20Trade%20Network%20Agency%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-07/Kenya%20Trade%20Network%20Agency%20Career%20Opportunities%20.pdf",
       "keywords": [
         "kenya",
         "trade",
@@ -462,10 +484,10 @@
         "agency",
         "kentrade"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_mathari_national_teaching_and_referral_hospital_declara_1d95b95d99eb",
+      "id": "mygovdisc_mathari_national_teaching_and_referral_hospital_declara_47ff56bde984",
       "title": "Mathari National Teaching And Referral Hospital Declaration Of Vacancy – Chief Executive Officer",
       "institution": "Mathari National Teaching And Referral Hospital",
       "source_id": "mygov_government_advertising_agency",
@@ -475,8 +497,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-06/Mathari%20National%20Teaching%20And%20Referral%20Hospital%20Declaration%20Of%20Vacancy%20%E2%80%93%20Chief%20Executive%20Officer.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-06/Mathari%20National%20Teaching%20And%20Referral%20Hospital%20Declaration%20Of%20Vacancy%20%E2%80%93%20Chief%20Executive%20Officer.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-06/Mathari%20National%20Teaching%20And%20Referral%20Hospital%20Declaration%20Of%20Vacancy%20%E2%80%93%20Chief%20Executive%20Officer.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-06/Mathari%20National%20Teaching%20And%20Referral%20Hospital%20Declaration%20Of%20Vacancy%20%E2%80%93%20Chief%20Executive%20Officer.pdf",
       "keywords": [
         "mathari",
         "national",
@@ -488,10 +510,10 @@
         "executive",
         "officer"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_mombasa_water_supply_sanitation_be67d991a72b",
+      "id": "mygovdisc_career_opportunities_at_mombasa_water_supply_sanitation_85e9194ca03d",
       "title": "Career Opportunities at Mombasa Water Supply & Sanitation Co. Ltd",
       "institution": "Mombasa Water Supply & Sanitation Co. Ltd",
       "source_id": "mygov_government_advertising_agency",
@@ -501,8 +523,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-07-08",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-06/Career%20Opportunities%20at%20Mombasa%20Water%20Supply%20%26%20Sanitation%20Co.%20Ltd.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-06/Career%20Opportunities%20at%20Mombasa%20Water%20Supply%20%26%20Sanitation%20Co.%20Ltd.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-06/Career%20Opportunities%20at%20Mombasa%20Water%20Supply%20%26%20Sanitation%20Co.%20Ltd.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-06/Career%20Opportunities%20at%20Mombasa%20Water%20Supply%20%26%20Sanitation%20Co.%20Ltd.pdf",
       "keywords": [
         "mombasa",
         "water",
@@ -510,10 +532,10 @@
         "sanitation",
         "ltd"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_commission_for_university_education_vacancies_commissio_41b097342d6f",
+      "id": "mygovdisc_commission_for_university_education_vacancies_commissio_cbab26445d61",
       "title": "Commission for University Education Vacancies",
       "institution": "Commission for University Education (CUE)",
       "source_id": "mygov_government_advertising_agency",
@@ -523,18 +545,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-05/Commission%20for%20University%20Education%20Vacancies%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-05/Commission%20for%20University%20Education%20Vacancies%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-05/Commission%20for%20University%20Education%20Vacancies%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-05/Commission%20for%20University%20Education%20Vacancies%20.pdf",
       "keywords": [
         "commission",
         "university",
         "education",
         "cue"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_director_general_kenya_civil_aviation_authority_job_opp_685e8f38118f",
+      "id": "mygovdisc_director_general_kenya_civil_aviation_authority_job_opp_430ce3f054a8",
       "title": "Director General, Kenya Civil Aviation Authority Job Opportunity",
       "institution": "Kenya Civil Aviation Authority (KCAA)",
       "source_id": "mygov_government_advertising_agency",
@@ -544,8 +566,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-18",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%20General%2C%20Kenya%20Civil%20Aviation%20Authority%20Job%20Opportunity%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%20General%2C%20Kenya%20Civil%20Aviation%20Authority%20Job%20Opportunity%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%20General%2C%20Kenya%20Civil%20Aviation%20Authority%20Job%20Opportunity%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%20General%2C%20Kenya%20Civil%20Aviation%20Authority%20Job%20Opportunity%20.pdf",
       "keywords": [
         "director",
         "general",
@@ -556,10 +578,10 @@
         "opportunity",
         "kcaa"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_ministry_of_gender_culture_and_children_services_recrui_29e959ce3478",
+      "id": "mygovdisc_ministry_of_gender_culture_and_children_services_recrui_216814739ae0",
       "title": "Ministry of Gender, Culture and Children Services Recruitment Of The Ministerial Audit Committee",
       "institution": "Ministry of Gender, Culture and Children Services",
       "source_id": "mygov_government_advertising_agency",
@@ -569,8 +591,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-20",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Ministry%20of%20Gender%2C%20Culture%20and%20Children%20Services%20Recruitment%20Of%20The%20Ministerial%20Audit%20Committee.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Ministry%20of%20Gender%2C%20Culture%20and%20Children%20Services%20Recruitment%20Of%20The%20Ministerial%20Audit%20Committee.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Ministry%20of%20Gender%2C%20Culture%20and%20Children%20Services%20Recruitment%20Of%20The%20Ministerial%20Audit%20Committee.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Ministry%20of%20Gender%2C%20Culture%20and%20Children%20Services%20Recruitment%20Of%20The%20Ministerial%20Audit%20Committee.pdf",
       "keywords": [
         "ministry",
         "gender",
@@ -582,10 +604,10 @@
         "audit",
         "committee"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_director_corporate_services_position_at_kenya_national_6029ed44a688",
+      "id": "mygovdisc_director_corporate_services_position_at_kenya_national_4eca90d9b917",
       "title": "Director, Corporate Services Position at Kenya National Highways Authority (KeNHA)",
       "institution": "Kenya National Highways Authority (KeNHA)",
       "source_id": "mygov_government_advertising_agency",
@@ -595,8 +617,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-18",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20Position%20at%20Kenya%20National%20Highways%20Authority%20%28KeNHA%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20Position%20at%20Kenya%20National%20Highways%20Authority%20%28KeNHA%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20Position%20at%20Kenya%20National%20Highways%20Authority%20%28KeNHA%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20Position%20at%20Kenya%20National%20Highways%20Authority%20%28KeNHA%29.pdf",
       "keywords": [
         "director",
         "corporate",
@@ -607,10 +629,10 @@
         "authority",
         "kenha"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_invitation_for_applications_for_the_position_of_chairpe_41575d0dc860",
+      "id": "mygovdisc_invitation_for_applications_for_the_position_of_chairpe_670628f0c4d4",
       "title": "Invitation For Applications For The Position Of Chairperson Of Independent Policing Oversight Authority (IPOA)",
       "institution": "Selection Panel for Chairperson of the Independent Policing Oversight Authority (IPOA)",
       "source_id": "mygov_government_advertising_agency",
@@ -620,8 +642,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-19",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Invitation%20For%20Applications%20For%20The%20Position%20Of%20Chairperson%20Of%20Independent%20Policing%20Oversight%20Authority%20%28IPOA%29_0.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Invitation%20For%20Applications%20For%20The%20Position%20Of%20Chairperson%20Of%20Independent%20Policing%20Oversight%20Authority%20%28IPOA%29_0.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Invitation%20For%20Applications%20For%20The%20Position%20Of%20Chairperson%20Of%20Independent%20Policing%20Oversight%20Authority%20%28IPOA%29_0.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Invitation%20For%20Applications%20For%20The%20Position%20Of%20Chairperson%20Of%20Independent%20Policing%20Oversight%20Authority%20%28IPOA%29_0.pdf",
       "keywords": [
         "invitation",
         "applications",
@@ -634,10 +656,10 @@
         "selection",
         "panel"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancy_announcement_at_the_independent_policing_oversi_68730e082584",
+      "id": "mygovdisc_vacancy_announcement_at_the_independent_policing_oversi_55e5fde81a91",
       "title": "Vacancy Announcement at the Independent Policing Oversight Authority",
       "institution": "Independent Policing Oversight Authority (IPOA)",
       "source_id": "mygov_government_advertising_agency",
@@ -647,8 +669,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-18",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Announcement%20at%20the%20Independent%20Policing%20Oversight%20Authority.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Announcement%20at%20the%20Independent%20Policing%20Oversight%20Authority.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Announcement%20at%20the%20Independent%20Policing%20Oversight%20Authority.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Announcement%20at%20the%20Independent%20Policing%20Oversight%20Authority.pdf",
       "keywords": [
         "announcement",
         "independent",
@@ -657,10 +679,10 @@
         "authority",
         "ipoa"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_managing_director_chief_executive_officer_cancelled_the_4865c4bb2177",
+      "id": "mygovdisc_managing_director_chief_executive_officer_cancelled_the_537c2fceb337",
       "title": "Managing Director & Chief Executive Officer CANCELLED",
       "institution": "The Kenya Electricity Transmission Company Limited (KETRACO)",
       "source_id": "mygov_government_advertising_agency",
@@ -670,8 +692,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/MANAGING%20DIRECTOR%20%26%20CHIEF%20EXECUTIVE%20OFFICER%20CANCELLED.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/MANAGING%20DIRECTOR%20%26%20CHIEF%20EXECUTIVE%20OFFICER%20CANCELLED.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/MANAGING%20DIRECTOR%20%26%20CHIEF%20EXECUTIVE%20OFFICER%20CANCELLED.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/MANAGING%20DIRECTOR%20%26%20CHIEF%20EXECUTIVE%20OFFICER%20CANCELLED.pdf",
       "keywords": [
         "managing",
         "director",
@@ -686,10 +708,10 @@
         "limited",
         "ketraco"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_the_kenya_maritime_authority_kenya_maritim_6db3d4f98843",
+      "id": "mygovdisc_vacancies_at_the_kenya_maritime_authority_kenya_maritim_08af6e90cdc0",
       "title": "Vacancies at the Kenya Maritime Authority",
       "institution": "Kenya Maritime Authority (KMA)",
       "source_id": "mygov_government_advertising_agency",
@@ -699,18 +721,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-11",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Maritime%20Authority.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Maritime%20Authority.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Maritime%20Authority.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Maritime%20Authority.pdf",
       "keywords": [
         "kenya",
         "maritime",
         "authority",
         "kma"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_director_corporate_services_manager_buyer_power_vacanci_a67044226ad0",
+      "id": "mygovdisc_director_corporate_services_manager_buyer_power_vacanci_1381ee5c751b",
       "title": "Director, Corporate Services & Manager, Buyer Power Vacancies at the Competition Authority of Kenya",
       "institution": "Competition Authority of Kenya (CAK)",
       "source_id": "mygov_government_advertising_agency",
@@ -720,8 +742,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20%26%20Manager%2C%20Buyer%20Power%20Vacancies%20at%20the%20Competition%20Authority%20of%20Kenya.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20%26%20Manager%2C%20Buyer%20Power%20Vacancies%20at%20the%20Competition%20Authority%20of%20Kenya.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20%26%20Manager%2C%20Buyer%20Power%20Vacancies%20at%20the%20Competition%20Authority%20of%20Kenya.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%2C%20Corporate%20Services%20%26%20Manager%2C%20Buyer%20Power%20Vacancies%20at%20the%20Competition%20Authority%20of%20Kenya.pdf",
       "keywords": [
         "director",
         "corporate",
@@ -734,10 +756,10 @@
         "kenya",
         "cak"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_tender_notice_for_provision_of_ifrs_9_ecl_system_at_con_57a6fdd9ff05",
+      "id": "mygovdisc_tender_notice_for_provision_of_ifrs_9_ecl_system_at_con_178d50bedf87",
       "title": "Tender Notice for Provision of IFRS 9 ECL System at Consolidated Bank of Kenya",
       "institution": "Consolidated Bank of Kenya Ltd",
       "source_id": "mygov_government_advertising_agency",
@@ -747,8 +769,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-05",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Tender%20Notice%20for%20Provision%20of%20IFRS%209%20ECL%20System.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Tender%20Notice%20for%20Provision%20of%20IFRS%209%20ECL%20System.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Tender%20Notice%20for%20Provision%20of%20IFRS%209%20ECL%20System.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Tender%20Notice%20for%20Provision%20of%20IFRS%209%20ECL%20System.pdf",
       "keywords": [
         "tender",
         "notice",
@@ -761,10 +783,10 @@
         "kenya",
         "ltd"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancy_position_at_chevaywa_technical_and_vocational_c_659f3ea97f2f",
+      "id": "mygovdisc_vacancy_position_at_chevaywa_technical_and_vocational_c_5d5ab334e5c8",
       "title": "Vacancy Position at Chevaywa Technical And Vocational College",
       "institution": "Chevaywa Technical And Vocational College (CTVC)",
       "source_id": "mygov_government_advertising_agency",
@@ -774,8 +796,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-05",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Position%20at%20Chevaywa%20Technical%20And%20Vocational%20College.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Position%20at%20Chevaywa%20Technical%20And%20Vocational%20College.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Position%20at%20Chevaywa%20Technical%20And%20Vocational%20College.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Position%20at%20Chevaywa%20Technical%20And%20Vocational%20College.pdf",
       "keywords": [
         "chevaywa",
         "technical",
@@ -783,10 +805,10 @@
         "college",
         "ctvc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_declaration_for_the_selection_panel_for_the_r_b4cb2099bcc2",
+      "id": "mygovdisc_vacancies_declaration_for_the_selection_panel_for_the_r_c56c3827ed0b",
       "title": "Vacancies Declaration for The Selection Panel For The Recruitment Of Member Of The Intergovernmental Relations Technical Committee (IGRTC)",
       "institution": "Intergovernmental Relations Technical Committee",
       "source_id": "mygov_government_advertising_agency",
@@ -796,8 +818,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-05",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20In%20The%20Position%20Of%20Member%20Of%20The%20Intergovernmental%20Relations%20Technical%20Committee.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20In%20The%20Position%20Of%20Member%20Of%20The%20Intergovernmental%20Relations%20Technical%20Committee.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20In%20The%20Position%20Of%20Member%20Of%20The%20Intergovernmental%20Relations%20Technical%20Committee.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20In%20The%20Position%20Of%20Member%20Of%20The%20Intergovernmental%20Relations%20Technical%20Committee.pdf",
       "keywords": [
         "declaration",
         "selection",
@@ -810,10 +832,10 @@
         "committee",
         "igrtc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenyatta_university_career_opportunities_kenyatta_unive_1c4a807b5097",
+      "id": "mygovdisc_kenyatta_university_career_opportunities_kenyatta_unive_da441da2271b",
       "title": "Kenyatta University Career Opportunities",
       "institution": "Kenyatta University",
       "source_id": "mygov_government_advertising_agency",
@@ -823,16 +845,16 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/%20Kenyatta%20University%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/%20Kenyatta%20University%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/%20Kenyatta%20University%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/%20Kenyatta%20University%20Career%20Opportunities%20.pdf",
       "keywords": [
         "kenyatta",
         "university"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_cdl_job_advertisement_for_vacancies_in_the_water_sector_be907011d009",
+      "id": "mygovdisc_cdl_job_advertisement_for_vacancies_in_the_water_sector_7f56409bda23",
       "title": "CDL Job Advertisement for vacancies in the Water Sector under the Ministry of Water Sanitation and Irrigation",
       "institution": "CDL Africa",
       "source_id": "mygov_government_advertising_agency",
@@ -842,8 +864,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-05-05",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/CDL%20Job%20Advertisement%20for%20vacancies%20in%20the%20Water%20Sector%20under%20the%20Ministry%20of%20Water%20Sanitation%20and%20Irrigation.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/CDL%20Job%20Advertisement%20for%20vacancies%20in%20the%20Water%20Sector%20under%20the%20Ministry%20of%20Water%20Sanitation%20and%20Irrigation.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/CDL%20Job%20Advertisement%20for%20vacancies%20in%20the%20Water%20Sector%20under%20the%20Ministry%20of%20Water%20Sanitation%20and%20Irrigation.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/CDL%20Job%20Advertisement%20for%20vacancies%20in%20the%20Water%20Sector%20under%20the%20Ministry%20of%20Water%20Sanitation%20and%20Irrigation.pdf",
       "keywords": [
         "cdl",
         "advertisement",
@@ -855,10 +877,10 @@
         "irrigation",
         "africa"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacant_positions_in_the_health_information_technology_d_842250fc67af",
+      "id": "mygovdisc_vacant_positions_in_the_health_information_technology_d_c47e634a5456",
       "title": "Vacant Positions In The Health Information Technology, Digitization For Universal Healthcare Project",
       "institution": "Digital Health Agency (DHA)",
       "source_id": "mygov_government_advertising_agency",
@@ -868,8 +890,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-28",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacant%20Positions%20In%20Digitization%20For%20Universal%20Healthcare%20Project%20at%20Digital%20Health%20Agency%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacant%20Positions%20In%20Digitization%20For%20Universal%20Healthcare%20Project%20at%20Digital%20Health%20Agency%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacant%20Positions%20In%20Digitization%20For%20Universal%20Healthcare%20Project%20at%20Digital%20Health%20Agency%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacant%20Positions%20In%20Digitization%20For%20Universal%20Healthcare%20Project%20at%20Digital%20Health%20Agency%20.pdf",
       "keywords": [
         "vacant",
         "health",
@@ -883,10 +905,10 @@
         "agency",
         "dha"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_school_of_technical_vocational_education_and_trai_c9125957c437",
+      "id": "mygovdisc_kenya_school_of_technical_vocational_education_and_trai_20f75f47a9e4",
       "title": "Kenya School of Technical, Vocational, Education and Training Vacancies Advertisement",
       "institution": "Kenya School of Technical, Vocational, Education and Training (KSTVET)",
       "source_id": "mygov_government_advertising_agency",
@@ -896,8 +918,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-28",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Kenya%20School%20of%20Technical%2C%20Vocational%2C%20Education%20and%20Training%20Vacancies%20Advertisement.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Kenya%20School%20of%20Technical%2C%20Vocational%2C%20Education%20and%20Training%20Vacancies%20Advertisement.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Kenya%20School%20of%20Technical%2C%20Vocational%2C%20Education%20and%20Training%20Vacancies%20Advertisement.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Kenya%20School%20of%20Technical%2C%20Vocational%2C%20Education%20and%20Training%20Vacancies%20Advertisement.pdf",
       "keywords": [
         "kenya",
         "school",
@@ -908,10 +930,10 @@
         "advertisement",
         "kstvet"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_managing_director_chief_executive_officer_vacancy_at_ke_2d3fd97c5df3",
+      "id": "mygovdisc_managing_director_chief_executive_officer_vacancy_at_ke_1950ebb26fdd",
       "title": "Managing Director & Chief Executive Officer Vacancy at KETRACO",
       "institution": "Kenya Electricity Transmission Company Limited (KETRACO)",
       "source_id": "mygov_government_advertising_agency",
@@ -921,8 +943,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-27",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Managing%20Director%20%26%20Chief%20Executive%20Officer%20Vacancy%20at%20KETRACO.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Managing%20Director%20%26%20Chief%20Executive%20Officer%20Vacancy%20at%20KETRACO.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Managing%20Director%20%26%20Chief%20Executive%20Officer%20Vacancy%20at%20KETRACO.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Managing%20Director%20%26%20Chief%20Executive%20Officer%20Vacancy%20at%20KETRACO.pdf",
       "keywords": [
         "managing",
         "director",
@@ -936,10 +958,10 @@
         "company",
         "limited"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_general_manager_internal_audit_career_opportunity_at_ke_8da978123f71",
+      "id": "mygovdisc_general_manager_internal_audit_career_opportunity_at_ke_5f765f073878",
       "title": "General Manager, Internal Audit Career Opportunity at Kenya Electricity Transmission Company Limited",
       "institution": "Kenya Electricity Transmission Company Limited (KETRACO)",
       "source_id": "mygov_government_advertising_agency",
@@ -949,8 +971,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-27",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/General%20Manager%2C%20Internal%20Audit%20Career%20Opportunity%20at%20Kenya%20Electricity%20Transmission%20Company%20Limited%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/General%20Manager%2C%20Internal%20Audit%20Career%20Opportunity%20at%20Kenya%20Electricity%20Transmission%20Company%20Limited%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/General%20Manager%2C%20Internal%20Audit%20Career%20Opportunity%20at%20Kenya%20Electricity%20Transmission%20Company%20Limited%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/General%20Manager%2C%20Internal%20Audit%20Career%20Opportunity%20at%20Kenya%20Electricity%20Transmission%20Company%20Limited%20.pdf",
       "keywords": [
         "general",
         "manager",
@@ -964,10 +986,10 @@
         "limited",
         "ketraco"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_jaramogi_oginga_odinga_university_of_science_and_techno_d9fb63e9b337",
+      "id": "mygovdisc_jaramogi_oginga_odinga_university_of_science_and_techno_69f2169b3abf",
       "title": "Jaramogi Oginga Odinga University Of Science And Technology External Advertisement For Teaching And Administrative Vacancies",
       "institution": "Jaramogi Oginga Odinga University Of Science And Technology (JOOST)",
       "source_id": "mygov_government_advertising_agency",
@@ -977,8 +999,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-29",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Jaramogi%20Oginga%20Odinga%20University%20Of%20Science%20And%20Technology%20External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Jaramogi%20Oginga%20Odinga%20University%20Of%20Science%20And%20Technology%20External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Jaramogi%20Oginga%20Odinga%20University%20Of%20Science%20And%20Technology%20External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Jaramogi%20Oginga%20Odinga%20University%20Of%20Science%20And%20Technology%20External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20.pdf",
       "keywords": [
         "jaramogi",
         "oginga",
@@ -992,10 +1014,10 @@
         "administrative",
         "joost"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_railways_career_opportunities_kenya_railways_kr_h_d3bf3bc7e293",
+      "id": "mygovdisc_kenya_railways_career_opportunities_kenya_railways_kr_h_b01ddd36fcc7",
       "title": "Kenya Railways Career Opportunities",
       "institution": "Kenya Railways (KR)",
       "source_id": "mygov_government_advertising_agency",
@@ -1005,16 +1027,16 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-28",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Kenya%20Railways%20%28KR%29%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Kenya%20Railways%20%28KR%29%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Kenya%20Railways%20%28KR%29%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Kenya%20Railways%20%28KR%29%20Career%20Opportunities%20.pdf",
       "keywords": [
         "kenya",
         "railways"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_deputy_director_and_assistant_director_supply_chain_man_2d52109b6530",
+      "id": "mygovdisc_deputy_director_and_assistant_director_supply_chain_man_b19ee56b543a",
       "title": "Deputy Director and Assistant Director Supply Chain Management Employment Opportunity at RBA",
       "institution": "Retirement Benefits Authority (RBA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1024,8 +1046,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-22",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20Employment%20Opportunity%20at%20RBA.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20Employment%20Opportunity%20at%20RBA.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20Employment%20Opportunity%20at%20RBA.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20Employment%20Opportunity%20at%20RBA.pdf",
       "keywords": [
         "deputy",
         "director",
@@ -1040,10 +1062,10 @@
         "benefits",
         "authority"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_the_kenya_medical_supplies_authority_kenya_3248faf8628c",
+      "id": "mygovdisc_vacancies_at_the_kenya_medical_supplies_authority_kenya_721d5448c7f8",
       "title": "Vacancies at the Kenya Medical Supplies Authority",
       "institution": "Kenya Medical Supplies Authority (KEMSA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1053,8 +1075,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-22",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Medical%20Supplies%20Authority%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Medical%20Supplies%20Authority%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Medical%20Supplies%20Authority%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancies%20at%20the%20Kenya%20Medical%20Supplies%20Authority%20.pdf",
       "keywords": [
         "kenya",
         "medical",
@@ -1062,10 +1084,10 @@
         "authority",
         "kemsa"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_finance_officer_and_driver_ii_positions_at_the_office_o_4ae55717ac8d",
+      "id": "mygovdisc_finance_officer_and_driver_ii_positions_at_the_office_o_abbcba9f84ce",
       "title": "Finance Officer and Driver II Positions at the Office of the Director of Public Prosecutions",
       "institution": "The Office of the Director of Public Prosecutions",
       "source_id": "mygov_government_advertising_agency",
@@ -1075,8 +1097,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-06",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Finance%20Officer%20and%20Driver%20II%20Positions%20at%20the%20Office%20of%20the%20Director%20of%20Public%20Prosecutions%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Finance%20Officer%20and%20Driver%20II%20Positions%20at%20the%20Office%20of%20the%20Director%20of%20Public%20Prosecutions%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Finance%20Officer%20and%20Driver%20II%20Positions%20at%20the%20Office%20of%20the%20Director%20of%20Public%20Prosecutions%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Finance%20Officer%20and%20Driver%20II%20Positions%20at%20the%20Office%20of%20the%20Director%20of%20Public%20Prosecutions%20.pdf",
       "keywords": [
         "finance",
         "officer",
@@ -1086,10 +1108,10 @@
         "public",
         "prosecutions"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancy_announcement_for_the_position_of_managing_direc_b6d387ec842f",
+      "id": "mygovdisc_vacancy_announcement_for_the_position_of_managing_direc_cbad295a7e3a",
       "title": "Vacancy Announcement For The Position Of Managing Director Privatization Authority",
       "institution": "The Privatisation Authority",
       "source_id": "mygov_government_advertising_agency",
@@ -1099,8 +1121,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-20",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Announcement%20For%20The%20Position%20Of%20Managing%20Director%20Privatization%20Authority.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Announcement%20For%20The%20Position%20Of%20Managing%20Director%20Privatization%20Authority.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Announcement%20For%20The%20Position%20Of%20Managing%20Director%20Privatization%20Authority.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Announcement%20For%20The%20Position%20Of%20Managing%20Director%20Privatization%20Authority.pdf",
       "keywords": [
         "announcement",
         "managing",
@@ -1109,10 +1131,10 @@
         "authority",
         "privatisation"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_various_vacancies_at_the_kenya_institute_for_public_pol_7d52e6d3eeff",
+      "id": "mygovdisc_various_vacancies_at_the_kenya_institute_for_public_pol_72e56ef2dae5",
       "title": "Various Vacancies at the Kenya Institute for Public Policy Research and Analysis",
       "institution": "Kenya Institute for Public Policy Research and Analysis (KIPPRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1122,8 +1144,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-21",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancies%20at%20Kenya%20Institute%20for%20Public%20Policy%20Research%20and%20Analysis%20%28KIPPRA.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancies%20at%20Kenya%20Institute%20for%20Public%20Policy%20Research%20and%20Analysis%20%28KIPPRA.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancies%20at%20Kenya%20Institute%20for%20Public%20Policy%20Research%20and%20Analysis%20%28KIPPRA.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancies%20at%20Kenya%20Institute%20for%20Public%20Policy%20Research%20and%20Analysis%20%28KIPPRA.pdf",
       "keywords": [
         "various",
         "kenya",
@@ -1134,10 +1156,10 @@
         "analysis",
         "kippra"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_external_advertisement_for_teaching_and_administrative_05593d05e33b",
+      "id": "mygovdisc_external_advertisement_for_teaching_and_administrative_deea39657cd5",
       "title": "External Advertisement For Teaching And Administrative Vacancies at Kibabii University",
       "institution": "Kibabii University",
       "source_id": "mygov_government_advertising_agency",
@@ -1147,8 +1169,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20at%20Kibabii%20University.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20at%20Kibabii%20University.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20at%20Kibabii%20University.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/External%20Advertisement%20For%20Teaching%20And%20Administrative%20Vacancies%20at%20Kibabii%20University.pdf",
       "keywords": [
         "external",
         "advertisement",
@@ -1157,10 +1179,10 @@
         "kibabii",
         "university"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_director_to_the_international_civil_aviation_organizati_8524dea6e2e0",
+      "id": "mygovdisc_director_to_the_international_civil_aviation_organizati_062457e01190",
       "title": "Director To The International Civil Aviation Organization (ICAO) - Mission, Montreal Canada Job Opportunity at Kenya Civil Aviation Authority (KCAA)",
       "institution": "Kenya Civil Aviation Authority (KCAA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1170,8 +1192,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%20To%20The%20International%20Civil%20Aviation%20Organization%20%28ICAO%29%20-%20Mission%2C%20Montreal%20Canada%20Job%20at%20KAA.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Director%20To%20The%20International%20Civil%20Aviation%20Organization%20%28ICAO%29%20-%20Mission%2C%20Montreal%20Canada%20Job%20at%20KAA.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%20To%20The%20International%20Civil%20Aviation%20Organization%20%28ICAO%29%20-%20Mission%2C%20Montreal%20Canada%20Job%20at%20KAA.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Director%20To%20The%20International%20Civil%20Aviation%20Organization%20%28ICAO%29%20-%20Mission%2C%20Montreal%20Canada%20Job%20at%20KAA.pdf",
       "keywords": [
         "director",
         "international",
@@ -1187,10 +1209,10 @@
         "authority",
         "kcaa"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancy_positions_for_deputy_director_and_assistant_dir_b06d2c6ec4fc",
+      "id": "mygovdisc_vacancy_positions_for_deputy_director_and_assistant_dir_3fc2ff361763",
       "title": "Vacancy Positions for Deputy Director and Assistant Director Supply Chain Management at Retirement Benefits Authority",
       "institution": "Retirement Benefits Authority (RBA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1200,8 +1222,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-15",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Positions%20for%20Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20at%20Retirement%20Benefits%20Authority%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Vacancy%20Positions%20for%20Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20at%20Retirement%20Benefits%20Authority%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Positions%20for%20Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20at%20Retirement%20Benefits%20Authority%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Vacancy%20Positions%20for%20Deputy%20Director%20and%20Assistant%20Director%20Supply%20Chain%20Management%20at%20Retirement%20Benefits%20Authority%20.pdf",
       "keywords": [
         "deputy",
         "director",
@@ -1214,10 +1236,10 @@
         "authority",
         "rba"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_chief_executive_officer_manager_human_resource_administ_649a0663c3ab",
+      "id": "mygovdisc_chief_executive_officer_manager_human_resource_administ_9b62793ecd03",
       "title": "Chief Executive Officer & Manager, Human Resource & Administration Vacancy Announcement at The Commission on Revenue Allocation",
       "institution": "Commission on Revenue Allocation",
       "source_id": "mygov_government_advertising_agency",
@@ -1227,8 +1249,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-13",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Chief%20Executive%20Officer%20%26%20Manager%2C%20Human%20Resource%20%26%20Administration%20Vacancy%20Announcement%20at%20The%20Commission%20on%20Revenue%20Allocation%20%28CRA%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-04/Chief%20Executive%20Officer%20%26%20Manager%2C%20Human%20Resource%20%26%20Administration%20Vacancy%20Announcement%20at%20The%20Commission%20on%20Revenue%20Allocation%20%28CRA%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-04/Chief%20Executive%20Officer%20%26%20Manager%2C%20Human%20Resource%20%26%20Administration%20Vacancy%20Announcement%20at%20The%20Commission%20on%20Revenue%20Allocation%20%28CRA%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-04/Chief%20Executive%20Officer%20%26%20Manager%2C%20Human%20Resource%20%26%20Administration%20Vacancy%20Announcement%20at%20The%20Commission%20on%20Revenue%20Allocation%20%28CRA%29.pdf",
       "keywords": [
         "chief",
         "executive",
@@ -1242,10 +1264,10 @@
         "revenue",
         "allocation"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_young_professional_officer_opportunity_in_the_green_fin_ca3dadba4e4a",
+      "id": "mygovdisc_young_professional_officer_opportunity_in_the_green_fin_994c0f7ba9dd",
       "title": "Young Professional Officer opportunity in the Green Finance for Youth Employment Project",
       "institution": "The National Treasury",
       "source_id": "mygov_government_advertising_agency",
@@ -1255,8 +1277,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-07",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Young%20Professional%20Officer%20Vacancy%20in%20the%20Green%20Finance%20for%20Youth%20Employment%20Project%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Young%20Professional%20Officer%20Vacancy%20in%20the%20Green%20Finance%20for%20Youth%20Employment%20Project%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Young%20Professional%20Officer%20Vacancy%20in%20the%20Green%20Finance%20for%20Youth%20Employment%20Project%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Young%20Professional%20Officer%20Vacancy%20in%20the%20Green%20Finance%20for%20Youth%20Employment%20Project%20.pdf",
       "keywords": [
         "young",
         "professional",
@@ -1270,10 +1292,10 @@
         "national",
         "treasury"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_tom_mboya_university_tom_mboya_university_597caaab5bc0",
+      "id": "mygovdisc_vacancies_at_tom_mboya_university_tom_mboya_university_930591fb3d66",
       "title": "Vacancies at Tom Mboya University",
       "institution": "Tom Mboya University",
       "source_id": "mygov_government_advertising_agency",
@@ -1283,17 +1305,17 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-14",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Vacancies%20at%20Tom%20Mboya%20University.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Vacancies%20at%20Tom%20Mboya%20University.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Vacancies%20at%20Tom%20Mboya%20University.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Vacancies%20at%20Tom%20Mboya%20University.pdf",
       "keywords": [
         "tom",
         "mboya",
         "university"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_supply_chain_manager_position_nyeri_water_and_sanitatio_4b0ccb530eab",
+      "id": "mygovdisc_supply_chain_manager_position_nyeri_water_and_sanitatio_17e47a35bca5",
       "title": "Supply Chain Manager Position Nyeri Water and Sanitation Company (NYEWASCO)",
       "institution": "Kenya School of Government, Embu Campus",
       "source_id": "mygov_government_advertising_agency",
@@ -1303,8 +1325,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-07",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29.pdf",
       "keywords": [
         "supply",
         "chain",
@@ -1320,10 +1342,10 @@
         "embu",
         "campus"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_supply_chain_manager_position_nyeri_water_and_sanitatio_8aee7b83351a",
+      "id": "mygovdisc_supply_chain_manager_position_nyeri_water_and_sanitatio_0dcaaea8fc08",
       "title": "Supply Chain Manager Position Nyeri Water and Sanitation Company (NYEWASCO)",
       "institution": "Kenya School of Government, Embu Campus",
       "source_id": "mygov_government_advertising_agency",
@@ -1333,8 +1355,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-07",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29_0.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29_0.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29_0.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Supply%20Chain%20Manager%20Position%20Nyeri%20Water%20and%20Sanitation%20Company%20%28NYEWASCO%29_0.pdf",
       "keywords": [
         "supply",
         "chain",
@@ -1350,10 +1372,10 @@
         "embu",
         "campus"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_deputy_director_legal_services_vacancy_at_kemsa_kenya_m_653c7bd26190",
+      "id": "mygovdisc_deputy_director_legal_services_vacancy_at_kemsa_kenya_m_cca18ad10d49",
       "title": "Deputy Director Legal Services Vacancy at KEMSA",
       "institution": "Kenya Medical Supplies Authority (KEMSA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1363,8 +1385,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-14",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Deputy%20Director%20Legal%20Services%20Vacancy%20at%20KEMSA.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Deputy%20Director%20Legal%20Services%20Vacancy%20at%20KEMSA.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Deputy%20Director%20Legal%20Services%20Vacancy%20at%20KEMSA.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Deputy%20Director%20Legal%20Services%20Vacancy%20at%20KEMSA.pdf",
       "keywords": [
         "deputy",
         "director",
@@ -1376,10 +1398,10 @@
         "supplies",
         "authority"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_national_quality_control_laboratory_various_career_oppo_16b7b08aa13b",
+      "id": "mygovdisc_national_quality_control_laboratory_various_career_oppo_ade4d8a6a098",
       "title": "National Quality Control Laboratory Various Career Opportunities",
       "institution": "National Quality Control Laboratory",
       "source_id": "mygov_government_advertising_agency",
@@ -1389,8 +1411,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-04-14",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/%20National%20Quality%20Control%20Laboratory%20Various%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/%20National%20Quality%20Control%20Laboratory%20Various%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/%20National%20Quality%20Control%20Laboratory%20Various%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/%20National%20Quality%20Control%20Laboratory%20Various%20Career%20Opportunities%20.pdf",
       "keywords": [
         "national",
         "quality",
@@ -1398,10 +1420,10 @@
         "laboratory",
         "various"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_recruitment_of_nys_volunteer_servicemen_and_servicewome_4ab205ee8636",
+      "id": "mygovdisc_recruitment_of_nys_volunteer_servicemen_and_servicewome_0a18529ab6e7",
       "title": "Recruitment Of NYS Volunteer Servicemen And Servicewomen",
       "institution": "National Youth Service (NYS)",
       "source_id": "mygov_government_advertising_agency",
@@ -1411,8 +1433,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Recruitment%20Of%20Nys%20Volunteer%20Servicemen%20And%20Servicewomen.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Recruitment%20Of%20Nys%20Volunteer%20Servicemen%20And%20Servicewomen.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Recruitment%20Of%20Nys%20Volunteer%20Servicemen%20And%20Servicewomen.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Recruitment%20Of%20Nys%20Volunteer%20Servicemen%20And%20Servicewomen.pdf",
       "keywords": [
         "recruitment",
         "nys",
@@ -1423,10 +1445,10 @@
         "youth",
         "service"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_recruitment_of_privates_and_cadets_into_the_national_yo_01fce0170d7b",
+      "id": "mygovdisc_recruitment_of_privates_and_cadets_into_the_national_yo_b2145896dc29",
       "title": "Recruitment Of Privates And Cadets Into The National Youth Service",
       "institution": "National Youth Service (NYS)",
       "source_id": "mygov_government_advertising_agency",
@@ -1436,8 +1458,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-18",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Advertisement%20For%20Recruitment%20Of%20Privates%20And%20Cadets%20Into%20The%20National%20Youth%20Service.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Advertisement%20For%20Recruitment%20Of%20Privates%20And%20Cadets%20Into%20The%20National%20Youth%20Service.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Advertisement%20For%20Recruitment%20Of%20Privates%20And%20Cadets%20Into%20The%20National%20Youth%20Service.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Advertisement%20For%20Recruitment%20Of%20Privates%20And%20Cadets%20Into%20The%20National%20Youth%20Service.pdf",
       "keywords": [
         "recruitment",
         "privates",
@@ -1447,10 +1469,10 @@
         "service",
         "nys"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_nairobi_rivers_commission_advertisement_for_internship_d14f827ecbba",
+      "id": "mygovdisc_nairobi_rivers_commission_advertisement_for_internship_1ef432858a48",
       "title": "Nairobi Rivers Commission Advertisement For Internship Opportunities (Clerks Of Works)",
       "institution": "Nairobi Rivers Commission (NRC)",
       "source_id": "mygov_government_advertising_agency",
@@ -1460,8 +1482,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Nairobi%20Rivers%20Commission%20Advertisement%20For%20Internship%20Opportunities%20%28Clerks%20Of%20Works%29%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Nairobi%20Rivers%20Commission%20Advertisement%20For%20Internship%20Opportunities%20%28Clerks%20Of%20Works%29%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Nairobi%20Rivers%20Commission%20Advertisement%20For%20Internship%20Opportunities%20%28Clerks%20Of%20Works%29%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Nairobi%20Rivers%20Commission%20Advertisement%20For%20Internship%20Opportunities%20%28Clerks%20Of%20Works%29%20.pdf",
       "keywords": [
         "nairobi",
         "rivers",
@@ -1472,10 +1494,10 @@
         "works",
         "nrc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_manager_positions_at_kenya_revenue_authority_kenya_reve_5955354a2f95",
+      "id": "mygovdisc_manager_positions_at_kenya_revenue_authority_kenya_reve_36ea2823742a",
       "title": "Manager Positions at Kenya Revenue Authority",
       "institution": "Kenya Revenue Authority (KRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1485,8 +1507,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Manager%20Positions%20at%20Kenya%20Revenue%20Authority%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Manager%20Positions%20at%20Kenya%20Revenue%20Authority%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Manager%20Positions%20at%20Kenya%20Revenue%20Authority%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Manager%20Positions%20at%20Kenya%20Revenue%20Authority%20.pdf",
       "keywords": [
         "manager",
         "kenya",
@@ -1494,10 +1516,10 @@
         "authority",
         "kra"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_re_advertisement_of_deputy_commissioner_performance_man_9a289e4a0f4b",
+      "id": "mygovdisc_re_advertisement_of_deputy_commissioner_performance_man_148710f0a257",
       "title": "Re-Advertisement of Deputy Commissioner – Performance Management at KRA",
       "institution": "Kenya Revenue Authority (KRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1507,8 +1529,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Re-Advertisement%20of%20Deputy%20Commissioner%20%E2%80%93%20Performance%20Management%20at%20KRA%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Re-Advertisement%20of%20Deputy%20Commissioner%20%E2%80%93%20Performance%20Management%20at%20KRA%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Re-Advertisement%20of%20Deputy%20Commissioner%20%E2%80%93%20Performance%20Management%20at%20KRA%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Re-Advertisement%20of%20Deputy%20Commissioner%20%E2%80%93%20Performance%20Management%20at%20KRA%20.pdf",
       "keywords": [
         "re-advertisement",
         "deputy",
@@ -1520,10 +1542,10 @@
         "revenue",
         "authority"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_deputy_commissioners_job_opportunities_at_kenya_revenue_88fc210abbf3",
+      "id": "mygovdisc_deputy_commissioners_job_opportunities_at_kenya_revenue_ec7417319e33",
       "title": "Deputy Commissioners Job Opportunities at Kenya Revenue Authority",
       "institution": "Kenya Revenue Authority (KRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1533,8 +1555,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Deputy%20Commissioners%20Job%20Opportunities%20at%20Kenya%20Revenue%20Authority.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Deputy%20Commissioners%20Job%20Opportunities%20at%20Kenya%20Revenue%20Authority.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Deputy%20Commissioners%20Job%20Opportunities%20at%20Kenya%20Revenue%20Authority.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Deputy%20Commissioners%20Job%20Opportunities%20at%20Kenya%20Revenue%20Authority.pdf",
       "keywords": [
         "deputy",
         "commissioners",
@@ -1543,10 +1565,10 @@
         "authority",
         "kra"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_revenue_authority_career_opportunities_kenya_reve_22cd6861e55f",
+      "id": "mygovdisc_kenya_revenue_authority_career_opportunities_kenya_reve_8f9c915e54dd",
       "title": "Kenya Revenue Authority Career Opportunities",
       "institution": "Kenya Revenue Authority (KRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1556,18 +1578,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/%20Kenya%20Revenue%20Authority%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/%20Kenya%20Revenue%20Authority%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/%20Kenya%20Revenue%20Authority%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/%20Kenya%20Revenue%20Authority%20Career%20Opportunities%20.pdf",
       "keywords": [
         "kenya",
         "revenue",
         "authority",
         "kra"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_deputy_director_strategy_planning_research_vacancy_posi_050af3bf1703",
+      "id": "mygovdisc_deputy_director_strategy_planning_research_vacancy_posi_c1179e1cc561",
       "title": "Deputy Director, Strategy, Planning & Research Vacancy Position at Kenya Institute of Supplies Management",
       "institution": "Kenya Institute of Supplies Management (KISM)",
       "source_id": "mygov_government_advertising_agency",
@@ -1577,8 +1599,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Deputy%20Director%2C%20Strategy%2C%20Planning%20%26%20Research%20Vacancy%20Position%20at%20Kenya%20Institute%20of%20Supplies%20Management.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Deputy%20Director%2C%20Strategy%2C%20Planning%20%26%20Research%20Vacancy%20Position%20at%20Kenya%20Institute%20of%20Supplies%20Management.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Deputy%20Director%2C%20Strategy%2C%20Planning%20%26%20Research%20Vacancy%20Position%20at%20Kenya%20Institute%20of%20Supplies%20Management.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Deputy%20Director%2C%20Strategy%2C%20Planning%20%26%20Research%20Vacancy%20Position%20at%20Kenya%20Institute%20of%20Supplies%20Management.pdf",
       "keywords": [
         "deputy",
         "director",
@@ -1591,10 +1613,10 @@
         "management",
         "kism"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_kenya_accreditation_service_ken_58e51cbf7a17",
+      "id": "mygovdisc_career_opportunities_at_kenya_accreditation_service_ken_ce5a087173f3",
       "title": "Career Opportunities at Kenya Accreditation Service (KENAS)",
       "institution": "Kenya Accreditation Service (KENAS)",
       "source_id": "mygov_government_advertising_agency",
@@ -1604,18 +1626,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Kenya%20Accreditation%20Service.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Kenya%20Accreditation%20Service.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Kenya%20Accreditation%20Service.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Kenya%20Accreditation%20Service.pdf",
       "keywords": [
         "kenya",
         "accreditation",
         "service",
         "kenas"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kasneb_call_for_expression_of_interest_to_be_a_marker_k_64d5169d4d1b",
+      "id": "mygovdisc_kasneb_call_for_expression_of_interest_to_be_a_marker_k_58b8d405d0ec",
       "title": "KASNEB Call For Expression Of Interest To Be A Marker",
       "institution": "KASNEB",
       "source_id": "mygov_government_advertising_agency",
@@ -1625,8 +1647,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-20",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/KASNEB%20Call%20For%20Expression%20Of%20Interest%20To%20Be%20A%20Marker_0.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/KASNEB%20Call%20For%20Expression%20Of%20Interest%20To%20Be%20A%20Marker_0.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/KASNEB%20Call%20For%20Expression%20Of%20Interest%20To%20Be%20A%20Marker_0.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/KASNEB%20Call%20For%20Expression%20Of%20Interest%20To%20Be%20A%20Marker_0.pdf",
       "keywords": [
         "kasneb",
         "call",
@@ -1634,10 +1656,10 @@
         "interest",
         "marker"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_advertisement_of_vacant_positions_at_garissa_university_2d8478bcee06",
+      "id": "mygovdisc_advertisement_of_vacant_positions_at_garissa_university_472f2c16bbbf",
       "title": "Advertisement Of Vacant Positions At Garissa University",
       "institution": "Garissa University",
       "source_id": "mygov_government_advertising_agency",
@@ -1647,18 +1669,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-20",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Advertisement%20Of%20Vacant%20Positions%20At%20Garissa%20University%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Advertisement%20Of%20Vacant%20Positions%20At%20Garissa%20University%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Advertisement%20Of%20Vacant%20Positions%20At%20Garissa%20University%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Advertisement%20Of%20Vacant%20Positions%20At%20Garissa%20University%20.pdf",
       "keywords": [
         "advertisement",
         "vacant",
         "garissa",
         "university"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_the_affordable_housing_board_af_bcaa7ec6348b",
+      "id": "mygovdisc_career_opportunities_at_the_affordable_housing_board_af_4762ae9f875a",
       "title": "Career Opportunities at the Affordable Housing Board",
       "institution": "Affordable Housing Board (AHB)",
       "source_id": "mygov_government_advertising_agency",
@@ -1668,18 +1690,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Affordable%20Housing%20Board%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Affordable%20Housing%20Board%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Affordable%20Housing%20Board%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-03/Career%20Opportunities%20at%20the%20Affordable%20Housing%20Board%20.pdf",
       "keywords": [
         "affordable",
         "housing",
         "board",
         "ahb"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_teachers_service_commission_career_opportunities_teache_852d8fa1c539",
+      "id": "mygovdisc_teachers_service_commission_career_opportunities_teache_955e4c626f95",
       "title": "Teachers Service Commission Career Opportunities",
       "institution": "Teachers Service Commission (TSC)",
       "source_id": "mygov_government_advertising_agency",
@@ -1689,18 +1711,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-09",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Teachers%20Service%20Commission%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Teachers%20Service%20Commission%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Teachers%20Service%20Commission%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Teachers%20Service%20Commission%20Career%20Opportunities%20.pdf",
       "keywords": [
         "teachers",
         "service",
         "commission",
         "tsc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_taita_taveta_university_announcement_for_vacancies_febr_caf7a19c2842",
+      "id": "mygovdisc_taita_taveta_university_announcement_for_vacancies_febr_cb1376aad603",
       "title": "Taita Taveta University Announcement for Vacancies February 2026",
       "institution": "Taita Taveta University",
       "source_id": "mygov_government_advertising_agency",
@@ -1710,8 +1732,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Taita%20Taveta%20University%20Announcement%20for%20Vacancies%20February%202026.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Taita%20Taveta%20University%20Announcement%20for%20Vacancies%20February%202026.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Taita%20Taveta%20University%20Announcement%20for%20Vacancies%20February%202026.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Taita%20Taveta%20University%20Announcement%20for%20Vacancies%20February%202026.pdf",
       "keywords": [
         "taita",
         "taveta",
@@ -1719,10 +1741,10 @@
         "announcement",
         "february"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_sacco_societies_regulatory_authority_sasra_chief_execut_9f79155b577b",
+      "id": "mygovdisc_sacco_societies_regulatory_authority_sasra_chief_execut_dbeeaee4ddb5",
       "title": "Sacco Societies Regulatory Authority (SASRA) Chief Executive Officer Vacancy Announcement",
       "institution": "Sacco Societies Regulatory Authority (SASRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1732,8 +1754,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-18",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Sacco%20Societies%20Regulatory%20Authority%20%28SASRA%29%20Chief%20Executive%20Officer%20Vacancy%20Announcement%20_0.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Sacco%20Societies%20Regulatory%20Authority%20%28SASRA%29%20Chief%20Executive%20Officer%20Vacancy%20Announcement%20_0.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Sacco%20Societies%20Regulatory%20Authority%20%28SASRA%29%20Chief%20Executive%20Officer%20Vacancy%20Announcement%20_0.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Sacco%20Societies%20Regulatory%20Authority%20%28SASRA%29%20Chief%20Executive%20Officer%20Vacancy%20Announcement%20_0.pdf",
       "keywords": [
         "sacco",
         "societies",
@@ -1745,10 +1767,10 @@
         "officer",
         "announcement"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_internal_auditor_information_systems_vacancy_at_kenya_t_8f0a5fcb30ee",
+      "id": "mygovdisc_internal_auditor_information_systems_vacancy_at_kenya_t_8f547174890f",
       "title": "Internal Auditor – Information Systems Vacancy at Kenya Trade Network Agency (KenTrade)",
       "institution": "Kenya Trade Network Agency (KenTrade)",
       "source_id": "mygov_government_advertising_agency",
@@ -1758,8 +1780,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Internal%20Auditor%20%E2%80%93%20Information%20Systems%20Vacancy%20at%20Kenya%20Trade%20Network%20Agency%20%28KenTrade%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Internal%20Auditor%20%E2%80%93%20Information%20Systems%20Vacancy%20at%20Kenya%20Trade%20Network%20Agency%20%28KenTrade%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Internal%20Auditor%20%E2%80%93%20Information%20Systems%20Vacancy%20at%20Kenya%20Trade%20Network%20Agency%20%28KenTrade%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Internal%20Auditor%20%E2%80%93%20Information%20Systems%20Vacancy%20at%20Kenya%20Trade%20Network%20Agency%20%28KenTrade%29.pdf",
       "keywords": [
         "internal",
         "auditor",
@@ -1771,10 +1793,10 @@
         "agency",
         "kentrade"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_state_department_for_science_research_and_innovation_de_6a214b80257c",
+      "id": "mygovdisc_state_department_for_science_research_and_innovation_de_a593c5c088f9",
       "title": "State Department for Science,Research And Innovation Declaration of Vacancy for Selection Panel for the Recruitment of the Board of Trustee of the Kenya National Innovation Agency (KENIA)",
       "institution": "State Departmentfor Science,Research And Innovation, Office Of The Prime Cabinet Secretary And Ministry Of Foreign & Diaspora Affairs",
       "source_id": "mygov_government_advertising_agency",
@@ -1784,8 +1806,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/State%20Department%20for%20Science%2CResearch%20And%20Innovation%20Declaration%20of%20Vacancy%20for%20Selection%20Panel%20for%20the%20Recruitment%20of%20the%20Board%20of%20Trustee%20of%20the%20Kenya%20National%20Innovation%20Agency%20%28KENIA%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/State%20Department%20for%20Science%2CResearch%20And%20Innovation%20Declaration%20of%20Vacancy%20for%20Selection%20Panel%20for%20the%20Recruitment%20of%20the%20Board%20of%20Trustee%20of%20the%20Kenya%20National%20Innovation%20Agency%20%28KENIA%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/State%20Department%20for%20Science%2CResearch%20And%20Innovation%20Declaration%20of%20Vacancy%20for%20Selection%20Panel%20for%20the%20Recruitment%20of%20the%20Board%20of%20Trustee%20of%20the%20Kenya%20National%20Innovation%20Agency%20%28KENIA%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/State%20Department%20for%20Science%2CResearch%20And%20Innovation%20Declaration%20of%20Vacancy%20for%20Selection%20Panel%20for%20the%20Recruitment%20of%20the%20Board%20of%20Trustee%20of%20the%20Kenya%20National%20Innovation%20Agency%20%28KENIA%29.pdf",
       "keywords": [
         "state",
         "department",
@@ -1802,10 +1824,10 @@
         "national",
         "agency"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_airports_authority_managing_director_chief_execut_0293a61c70bf",
+      "id": "mygovdisc_kenya_airports_authority_managing_director_chief_execut_66d30e5d6331",
       "title": "Kenya Airports Authority Managing Director / Chief Executive Officer Position",
       "institution": "Kenya Airports Authority Managing Director / Chief Executive Officer Position",
       "source_id": "mygov_government_advertising_agency",
@@ -1815,8 +1837,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-09",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Kenya%20Airports%20Authority%20Managing%20Director%20%3A%20Chief%20Executive%20Officer%20Position%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Kenya%20Airports%20Authority%20Managing%20Director%20%3A%20Chief%20Executive%20Officer%20Position%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Kenya%20Airports%20Authority%20Managing%20Director%20%3A%20Chief%20Executive%20Officer%20Position%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Kenya%20Airports%20Authority%20Managing%20Director%20%3A%20Chief%20Executive%20Officer%20Position%20.pdf",
       "keywords": [
         "kenya",
         "airports",
@@ -1827,10 +1849,10 @@
         "executive",
         "officer"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_chief_executive_officer_vacancy_at_affordable_housing_b_d641bec219ec",
+      "id": "mygovdisc_chief_executive_officer_vacancy_at_affordable_housing_b_a37af8c19248",
       "title": "Chief Executive Officer Vacancy at Affordable Housing Board",
       "institution": "Affordable Housing Board (AHB)",
       "source_id": "mygov_government_advertising_agency",
@@ -1840,8 +1862,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-10",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Chief%20Executive%20Officer%20Vacancy%20at%20Affordable%20Housing%20Board%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Chief%20Executive%20Officer%20Vacancy%20at%20Affordable%20Housing%20Board%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Chief%20Executive%20Officer%20Vacancy%20at%20Affordable%20Housing%20Board%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Chief%20Executive%20Officer%20Vacancy%20at%20Affordable%20Housing%20Board%20.pdf",
       "keywords": [
         "chief",
         "executive",
@@ -1851,10 +1873,10 @@
         "board",
         "ahb"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_senior_legal_officer_re_advertisement_vacancy_at_commis_4eb752682fe1",
+      "id": "mygovdisc_senior_legal_officer_re_advertisement_vacancy_at_commis_c37a1a211dee",
       "title": "Senior Legal Officer (Re- advertisement) Vacancy at Commission on Administrative Justice (Office of the Ombudsman)",
       "institution": "Commission on Administrative Justice (Office of the Ombudsman)",
       "source_id": "mygov_government_advertising_agency",
@@ -1864,8 +1886,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-02",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Senior%20Legal%20Officer%20%28Re-%20advertisement%29%20Vacancy%20at%20Commission%20on%20Administrative%20Justice%20%28Office%20of%20the%20Ombudsman%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Senior%20Legal%20Officer%20%28Re-%20advertisement%29%20Vacancy%20at%20Commission%20on%20Administrative%20Justice%20%28Office%20of%20the%20Ombudsman%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Senior%20Legal%20Officer%20%28Re-%20advertisement%29%20Vacancy%20at%20Commission%20on%20Administrative%20Justice%20%28Office%20of%20the%20Ombudsman%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Senior%20Legal%20Officer%20%28Re-%20advertisement%29%20Vacancy%20at%20Commission%20on%20Administrative%20Justice%20%28Office%20of%20the%20Ombudsman%29.pdf",
       "keywords": [
         "senior",
         "legal",
@@ -1878,10 +1900,10 @@
         "office",
         "ombudsman"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_declaration_of_a_vacancy_for_selection_panel_for_the_ap_d26281ede005",
+      "id": "mygovdisc_declaration_of_a_vacancy_for_selection_panel_for_the_ap_5913a93fd058",
       "title": "Declaration Of A Vacancy For Selection Panel For The Appointment Of Chairperson And Members Of The Board Of Trustees Of The National Research Fund",
       "institution": "Office Of The Prime Cabinet Secretary And Ministry Of Foreign And Diaspora Affairs",
       "source_id": "mygov_government_advertising_agency",
@@ -1891,8 +1913,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-10",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Declaration%20Of%20A%20Vacancy%20For%20Selection%20Panel%20For%20The%20Appointment%20Of%20Chairperson%20And%20Members%20Of%20The%20Board%20Of%20Trustees%20Of%20The%20National%20Research%20Fund.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Declaration%20Of%20A%20Vacancy%20For%20Selection%20Panel%20For%20The%20Appointment%20Of%20Chairperson%20And%20Members%20Of%20The%20Board%20Of%20Trustees%20Of%20The%20National%20Research%20Fund.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Declaration%20Of%20A%20Vacancy%20For%20Selection%20Panel%20For%20The%20Appointment%20Of%20Chairperson%20And%20Members%20Of%20The%20Board%20Of%20Trustees%20Of%20The%20National%20Research%20Fund.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Declaration%20Of%20A%20Vacancy%20For%20Selection%20Panel%20For%20The%20Appointment%20Of%20Chairperson%20And%20Members%20Of%20The%20Board%20Of%20Trustees%20Of%20The%20National%20Research%20Fund.pdf",
       "keywords": [
         "declaration",
         "selection",
@@ -1909,10 +1931,10 @@
         "prime",
         "cabinet"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_employment_opportunities_at_laikipia_university_laikipi_7bc5dad73dd9",
+      "id": "mygovdisc_employment_opportunities_at_laikipia_university_laikipi_ba028f899e02",
       "title": "Employment Opportunities at Laikipia University",
       "institution": "Laikipia University",
       "source_id": "mygov_government_advertising_agency",
@@ -1922,17 +1944,17 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-03",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Declaration%20of%20Employmment%20Opportunities%20at%20Laikipia%20University.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Declaration%20of%20Employmment%20Opportunities%20at%20Laikipia%20University.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Declaration%20of%20Employmment%20Opportunities%20at%20Laikipia%20University.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Declaration%20of%20Employmment%20Opportunities%20at%20Laikipia%20University.pdf",
       "keywords": [
         "employment",
         "laikipia",
         "university"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_insurance_regulatory_authority_4760200b79d4",
+      "id": "mygovdisc_career_opportunities_at_insurance_regulatory_authority_768938ce255c",
       "title": "Career Opportunities at Insurance Regulatory Authority (IRA)",
       "institution": "Insurance Regulatory Authority (IRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -1942,18 +1964,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-09",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority%20%28IRA%29%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority%20%28IRA%29%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority%20%28IRA%29%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority%20%28IRA%29%20.pdf",
       "keywords": [
         "insurance",
         "regulatory",
         "authority",
         "ira"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_in_the_integrated_natural_resource_ace8337c07fb",
+      "id": "mygovdisc_career_opportunities_in_the_integrated_natural_resource_28d31b3ce56a",
       "title": "Career Opportunities in the Integrated Natural Resources Management Programme (INReMP) at the State Department for Agriculture",
       "institution": "State Department for Agriculture, Ministry of Agriculture and Livestock Development",
       "source_id": "mygov_government_advertising_agency",
@@ -1963,8 +1985,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20in%20the%20Integrated%20Natural%20Resources%20Management%20Programme%20%28INReMP%29%20at%20the%20State%20Department%20for%20Agriculture.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20in%20the%20Integrated%20Natural%20Resources%20Management%20Programme%20%28INReMP%29%20at%20the%20State%20Department%20for%20Agriculture.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20in%20the%20Integrated%20Natural%20Resources%20Management%20Programme%20%28INReMP%29%20at%20the%20State%20Department%20for%20Agriculture.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20in%20the%20Integrated%20Natural%20Resources%20Management%20Programme%20%28INReMP%29%20at%20the%20State%20Department%20for%20Agriculture.pdf",
       "keywords": [
         "integrated",
         "natural",
@@ -1979,10 +2001,10 @@
         "livestock",
         "development"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_environmental_safeguards_specialist_vacancy_at_the_stat_177a0600e4cc",
+      "id": "mygovdisc_environmental_safeguards_specialist_vacancy_at_the_stat_6a33fe913311",
       "title": "Environmental Safeguards Specialist Vacancy at the State Department for Basic Education",
       "institution": "State Department for Basic Education, Ministry of Education",
       "source_id": "mygov_government_advertising_agency",
@@ -1992,8 +2014,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-02",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Environmental%20Safeguards%20Specialist%20Vacancy%20for%20the%20Secondary%20Education%20Equity%20and%20Quality%20Improvement%20Program%20%28SEEQIP%29%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Environmental%20Safeguards%20Specialist%20Vacancy%20for%20the%20Secondary%20Education%20Equity%20and%20Quality%20Improvement%20Program%20%28SEEQIP%29%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Environmental%20Safeguards%20Specialist%20Vacancy%20for%20the%20Secondary%20Education%20Equity%20and%20Quality%20Improvement%20Program%20%28SEEQIP%29%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Environmental%20Safeguards%20Specialist%20Vacancy%20for%20the%20Secondary%20Education%20Equity%20and%20Quality%20Improvement%20Program%20%28SEEQIP%29%20.pdf",
       "keywords": [
         "environmental",
         "safeguards",
@@ -2004,10 +2026,10 @@
         "education",
         "ministry"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_the_rural_kenya_financial_inclusion_facili_eb6cc3bfd485",
+      "id": "mygovdisc_vacancies_at_the_rural_kenya_financial_inclusion_facili_7e5f563c34f6",
       "title": "Vacancies at the Rural Kenya Financial Inclusion Facility (RK-FINFA)",
       "institution": "National Treasury-Rural Kenya Financial Inclusion Facility (RK-FINFA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2017,8 +2039,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20.pdf",
       "keywords": [
         "rural",
         "kenya",
@@ -2029,10 +2051,10 @@
         "national",
         "treasury-rural"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_the_rural_kenya_financial_inclusion_facili_8570c16d0a67",
+      "id": "mygovdisc_vacancies_at_the_rural_kenya_financial_inclusion_facili_1e37844af577",
       "title": "Vacancies at the Rural Kenya Financial Inclusion Facility (RK-FINFA)",
       "institution": "National Treasury-Rural Kenya Financial Inclusion Facility (RK-FINFA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2042,8 +2064,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20_0.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20_0.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20_0.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Vacancies%20at%20the%20Rural%20Kenya%20Financial%20Inclusion%20Facility%2C%20National%20Treasury%20_0.pdf",
       "keywords": [
         "rural",
         "kenya",
@@ -2054,10 +2076,10 @@
         "national",
         "treasury-rural"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_the_national_syndemic_diseases_e4c160f2af4e",
+      "id": "mygovdisc_career_opportunities_at_the_national_syndemic_diseases_f5fe750d7868",
       "title": "Career Opportunities at The National Syndemic Diseases Control Council",
       "institution": "The National Syndemic Diseases Control Council (NSDCC)",
       "source_id": "mygov_government_advertising_agency",
@@ -2067,8 +2089,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-04",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council.pdf",
       "keywords": [
         "national",
         "syndemic",
@@ -2077,10 +2099,10 @@
         "council",
         "nsdcc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_chief_executive_officer_position_at_the_national_syndem_115cf6363c28",
+      "id": "mygovdisc_chief_executive_officer_position_at_the_national_syndem_221457cc14f5",
       "title": "Chief Executive Officer Position at The National Syndemic Diseases Control Council",
       "institution": "The National Syndemic Diseases Control Council (NSDCC)",
       "source_id": "mygov_government_advertising_agency",
@@ -2090,8 +2112,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-04",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/CEO%20Position%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/CEO%20Position%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/CEO%20Position%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/CEO%20Position%20at%20The%20National%20Syndemic%20Diseases%20Control%20Council%20.pdf",
       "keywords": [
         "chief",
         "executive",
@@ -2103,10 +2125,10 @@
         "council",
         "nsdcc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_assistant_director_internal_audit_position_at_the_natio_645d72e129b7",
+      "id": "mygovdisc_assistant_director_internal_audit_position_at_the_natio_ad4b9ad14111",
       "title": "Assistant Director-Internal Audit Position at The National Council for Persons with Disabilities (NCPWD)",
       "institution": "The National Council for Persons with Disabilities (NCPWD)",
       "source_id": "mygov_government_advertising_agency",
@@ -2116,8 +2138,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-02",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Employment%20Opportunity%20at%20The%20National%20Council%20for%20Persons%20with%20Disabilities%20%28NCPWD%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Employment%20Opportunity%20at%20The%20National%20Council%20for%20Persons%20with%20Disabilities%20%28NCPWD%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Employment%20Opportunity%20at%20The%20National%20Council%20for%20Persons%20with%20Disabilities%20%28NCPWD%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Employment%20Opportunity%20at%20The%20National%20Council%20for%20Persons%20with%20Disabilities%20%28NCPWD%29.pdf",
       "keywords": [
         "assistant",
         "director-internal",
@@ -2128,10 +2150,10 @@
         "disabilities",
         "ncpwd"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_employment_opportunities_at_national_crime_research_cen_7b41d2db1df3",
+      "id": "mygovdisc_employment_opportunities_at_national_crime_research_cen_1759a54f2c81",
       "title": "Employment Opportunities at National Crime Research Centre",
       "institution": "National Crime Research Centre (NCRC)",
       "source_id": "mygov_government_advertising_agency",
@@ -2141,8 +2163,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-02",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Employment%20Opportunities%20at%20National%20Crime%20Research%20Centre.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Employment%20Opportunities%20at%20National%20Crime%20Research%20Centre.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Employment%20Opportunities%20at%20National%20Crime%20Research%20Centre.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Employment%20Opportunities%20at%20National%20Crime%20Research%20Centre.pdf",
       "keywords": [
         "employment",
         "national",
@@ -2151,10 +2173,10 @@
         "centre",
         "ncrc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_the_kenya_national_highways_authority_kenh_ef215bf3e6e2",
+      "id": "mygovdisc_vacancies_at_the_kenya_national_highways_authority_kenh_e6455b015df3",
       "title": "Vacancies at the Kenya National Highways Authority (KeNHA)",
       "institution": "Kenya National Highways Authority (KENHA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2164,8 +2186,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-03-02",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Various%20Vacancies%20at%20the%20Kenya%20National%20Highways%20Authority%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Various%20Vacancies%20at%20the%20Kenya%20National%20Highways%20Authority%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Various%20Vacancies%20at%20the%20Kenya%20National%20Highways%20Authority%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Various%20Vacancies%20at%20the%20Kenya%20National%20Highways%20Authority%20.pdf",
       "keywords": [
         "kenya",
         "national",
@@ -2173,10 +2195,10 @@
         "authority",
         "kenha"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_university_of_eldoret_deputy_finance_officer_vacant_pos_23d75dd7699e",
+      "id": "mygovdisc_university_of_eldoret_deputy_finance_officer_vacant_pos_bd70286f34a2",
       "title": "University of Eldoret Deputy Finance Officer Vacant Position (External Advertisement)",
       "institution": "University of Eldoret",
       "source_id": "mygov_government_advertising_agency",
@@ -2186,8 +2208,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": null,
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/University%20of%20Eldoret%20Deputy%20Finance%20Officer%20Vacant%20Position%20%28External%20Advertisement%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/University%20of%20Eldoret%20Deputy%20Finance%20Officer%20Vacant%20Position%20%28External%20Advertisement%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/University%20of%20Eldoret%20Deputy%20Finance%20Officer%20Vacant%20Position%20%28External%20Advertisement%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/University%20of%20Eldoret%20Deputy%20Finance%20Officer%20Vacant%20Position%20%28External%20Advertisement%29.pdf",
       "keywords": [
         "university",
         "eldoret",
@@ -2198,10 +2220,10 @@
         "external",
         "advertisement"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_human_resource_officer_senior_administrative_assistant_ee8e2d94f5c2",
+      "id": "mygovdisc_human_resource_officer_senior_administrative_assistant_5da9e37503a0",
       "title": "Human Resource Officer/Senior Administrative Assistant II (HR),SCALE X Vacancy at Turkana University College (External Advertisement)",
       "institution": "Turkana University College",
       "source_id": "mygov_government_advertising_agency",
@@ -2211,8 +2233,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Human%20Resource%20Officer%3ASenior%20Administrative%20Assistant%20II%20%28HR%29%2CSCALE%20X%20Vacancy%20at%20Turkana%20University%20College%20%28External%20Advertisement%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Human%20Resource%20Officer%3ASenior%20Administrative%20Assistant%20II%20%28HR%29%2CSCALE%20X%20Vacancy%20at%20Turkana%20University%20College%20%28External%20Advertisement%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Human%20Resource%20Officer%3ASenior%20Administrative%20Assistant%20II%20%28HR%29%2CSCALE%20X%20Vacancy%20at%20Turkana%20University%20College%20%28External%20Advertisement%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Human%20Resource%20Officer%3ASenior%20Administrative%20Assistant%20II%20%28HR%29%2CSCALE%20X%20Vacancy%20at%20Turkana%20University%20College%20%28External%20Advertisement%29.pdf",
       "keywords": [
         "human",
         "resource",
@@ -2227,10 +2249,10 @@
         "external",
         "advertisement"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_state_department_for_livestock_development_vacancies_st_b90922602458",
+      "id": "mygovdisc_state_department_for_livestock_development_vacancies_st_49aefcbb893a",
       "title": "State Department for Livestock Development Vacancies",
       "institution": "State Department Of Livestock Development, Ministry Of Agriculture And Livestock Development",
       "source_id": "mygov_government_advertising_agency",
@@ -2240,8 +2262,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-28",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/State%20Department%20Of%20Livestock%20Development%20%20Ministry%20Of%20Agriculture%20And%20Livestock%20Development%20Job%20Vacancies.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/State%20Department%20Of%20Livestock%20Development%20%20Ministry%20Of%20Agriculture%20And%20Livestock%20Development%20Job%20Vacancies.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/State%20Department%20Of%20Livestock%20Development%20%20Ministry%20Of%20Agriculture%20And%20Livestock%20Development%20Job%20Vacancies.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/State%20Department%20Of%20Livestock%20Development%20%20Ministry%20Of%20Agriculture%20And%20Livestock%20Development%20Job%20Vacancies.pdf",
       "keywords": [
         "state",
         "department",
@@ -2250,10 +2272,10 @@
         "ministry",
         "agriculture"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_national_social_security_fund_vacancy_announcement_nati_bee3b07021e7",
+      "id": "mygovdisc_national_social_security_fund_vacancy_announcement_nati_beb2e0ac65fe",
       "title": "National Social Security Fund Vacancy Announcement",
       "institution": "National Social Security Fund (NSSF)",
       "source_id": "mygov_government_advertising_agency",
@@ -2263,8 +2285,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/National%20Social%20Security%20Fund%20Vacancy%20Announcement%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/National%20Social%20Security%20Fund%20Vacancy%20Announcement%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/National%20Social%20Security%20Fund%20Vacancy%20Announcement%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/National%20Social%20Security%20Fund%20Vacancy%20Announcement%20.pdf",
       "keywords": [
         "national",
         "social",
@@ -2273,10 +2295,10 @@
         "announcement",
         "nssf"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_institute_of_curriculum_development_external_adve_85f4d492463d",
+      "id": "mygovdisc_kenya_institute_of_curriculum_development_external_adve_d153717aee86",
       "title": "Kenya Institute of Curriculum Development External Advertisement on Job Vacancy",
       "institution": "Kenya Institute of Curriculum Development (KICD)",
       "source_id": "mygov_government_advertising_agency",
@@ -2286,8 +2308,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-27",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Kenya%20Institute%20of%20Curriculum%20Development%20External%20Advertisement%20on%20Job%20Vacancy.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Kenya%20Institute%20of%20Curriculum%20Development%20External%20Advertisement%20on%20Job%20Vacancy.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Kenya%20Institute%20of%20Curriculum%20Development%20External%20Advertisement%20on%20Job%20Vacancy.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Kenya%20Institute%20of%20Curriculum%20Development%20External%20Advertisement%20on%20Job%20Vacancy.pdf",
       "keywords": [
         "kenya",
         "institute",
@@ -2297,10 +2319,10 @@
         "advertisement",
         "kicd"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_system_administrator_and_human_resource_officer_career_ce66d5bb5e4c",
+      "id": "mygovdisc_system_administrator_and_human_resource_officer_career_7143339f64de",
       "title": "System Administrator and Human Resource Officer Career Opportunities at Kenya Power Pension Fund",
       "institution": "Kenya Power Pension Fund (KPPF)",
       "source_id": "mygov_government_advertising_agency",
@@ -2310,8 +2332,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-16",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/System%20Administrator%20and%20Human%20Resource%20Officer%20Career%20Opportunities%20at%20Kenya%20Power%20Pension%20Fund%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/System%20Administrator%20and%20Human%20Resource%20Officer%20Career%20Opportunities%20at%20Kenya%20Power%20Pension%20Fund%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/System%20Administrator%20and%20Human%20Resource%20Officer%20Career%20Opportunities%20at%20Kenya%20Power%20Pension%20Fund%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/System%20Administrator%20and%20Human%20Resource%20Officer%20Career%20Opportunities%20at%20Kenya%20Power%20Pension%20Fund%20.pdf",
       "keywords": [
         "system",
         "administrator",
@@ -2324,10 +2346,10 @@
         "fund",
         "kppf"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_civil_aviation_authority_job_opportunity_kenya_ci_16aefa2b8d52",
+      "id": "mygovdisc_kenya_civil_aviation_authority_job_opportunity_kenya_ci_5df6380a1986",
       "title": "Kenya Civil Aviation Authority, Job Opportunity",
       "institution": "Kenya Civil Aviation Authority (KCAA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2337,8 +2359,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Kenya%20Civil%20Aviation%20Authority%2C%20Job%20Opportunity%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Kenya%20Civil%20Aviation%20Authority%2C%20Job%20Opportunity%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Kenya%20Civil%20Aviation%20Authority%2C%20Job%20Opportunity%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Kenya%20Civil%20Aviation%20Authority%2C%20Job%20Opportunity%20.pdf",
       "keywords": [
         "kenya",
         "civil",
@@ -2347,10 +2369,10 @@
         "opportunity",
         "kcaa"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_bandari_maritime_academy_bandar_7d846f394cfd",
+      "id": "mygovdisc_career_opportunities_at_bandari_maritime_academy_bandar_09b75edb1937",
       "title": "Career Opportunities at Bandari Maritime Academy",
       "institution": "Bandari Maritime Academy",
       "source_id": "mygov_government_advertising_agency",
@@ -2360,17 +2382,17 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-02-24",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20at%20Bandari%20Maritime%20Academy.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-02/Career%20Opportunities%20at%20Bandari%20Maritime%20Academy.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20at%20Bandari%20Maritime%20Academy.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-02/Career%20Opportunities%20at%20Bandari%20Maritime%20Academy.pdf",
       "keywords": [
         "bandari",
         "maritime",
         "academy"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_job_vacancies_at_higher_education_loans_board_helb_high_ed091a858ec8",
+      "id": "mygovdisc_job_vacancies_at_higher_education_loans_board_helb_high_d0e5c005360e",
       "title": "Job vacancies at Higher Education Loans Board (HELB)",
       "institution": "Higher Education Loans Board (HELB)",
       "source_id": "mygov_government_advertising_agency",
@@ -2380,8 +2402,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-16",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Job%20vacancies%20at%20Higher%20Education%20Loans%20Board%20%28HELB%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Job%20vacancies%20at%20Higher%20Education%20Loans%20Board%20%28HELB%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Job%20vacancies%20at%20Higher%20Education%20Loans%20Board%20%28HELB%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Job%20vacancies%20at%20Higher%20Education%20Loans%20Board%20%28HELB%29.pdf",
       "keywords": [
         "higher",
         "education",
@@ -2389,10 +2411,10 @@
         "board",
         "helb"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_call_for_nomination_of_candidates_to_the_convention_on_aaee560dad66",
+      "id": "mygovdisc_call_for_nomination_of_candidates_to_the_convention_on_f51ead5e58aa",
       "title": "Call For Nomination Of Candidates To The Convention On The Rights Of Persons With Disabilities (CRPD) Committee",
       "institution": "State Department For Social Protection And Senior Citizen Affairs, Ministry of Labour and Social Protection",
       "source_id": "mygov_government_advertising_agency",
@@ -2402,8 +2424,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-01-28",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Call%20For%20Nomination%20Of%20Candidates%20To%20The%20Convention%20On%20The%20Rights%20Of%20Persons%20With%20Disabilities%20%28CRPD%29%20Committee.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Call%20For%20Nomination%20Of%20Candidates%20To%20The%20Convention%20On%20The%20Rights%20Of%20Persons%20With%20Disabilities%20%28CRPD%29%20Committee.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Call%20For%20Nomination%20Of%20Candidates%20To%20The%20Convention%20On%20The%20Rights%20Of%20Persons%20With%20Disabilities%20%28CRPD%29%20Committee.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Call%20For%20Nomination%20Of%20Candidates%20To%20The%20Convention%20On%20The%20Rights%20Of%20Persons%20With%20Disabilities%20%28CRPD%29%20Committee.pdf",
       "keywords": [
         "call",
         "nomination",
@@ -2420,10 +2442,10 @@
         "protection",
         "senior"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_registration_and_clerical_officers_job_vacancies_in_the_f0d282e6c93d",
+      "id": "mygovdisc_registration_and_clerical_officers_job_vacancies_in_the_899b5e38844e",
       "title": "Registration and Clerical Officers Job Vacancies In The Office Of The Registrar Of Political Parties",
       "institution": "Office Of The Registrar Of Political Parties (ORPP)",
       "source_id": "mygov_government_advertising_agency",
@@ -2433,8 +2455,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Job%20Vacancies%20In%20The%20Office%20Of%20The%20Registrar%20Of%20Political%20Parties%20%28ORPP%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Job%20Vacancies%20In%20The%20Office%20Of%20The%20Registrar%20Of%20Political%20Parties%20%28ORPP%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Job%20Vacancies%20In%20The%20Office%20Of%20The%20Registrar%20Of%20Political%20Parties%20%28ORPP%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Job%20Vacancies%20In%20The%20Office%20Of%20The%20Registrar%20Of%20Political%20Parties%20%28ORPP%29.pdf",
       "keywords": [
         "registration",
         "clerical",
@@ -2445,10 +2467,10 @@
         "parties",
         "orpp"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_re_advertisement_of_vacant_positions_at_the_national_re_03fc92232084",
+      "id": "mygovdisc_re_advertisement_of_vacant_positions_at_the_national_re_71e3e08b7dc1",
       "title": "Re-Advertisement Of Vacant Positions at the National Research Fund (NRF)",
       "institution": "National Research Fund (NRF)",
       "source_id": "mygov_government_advertising_agency",
@@ -2458,8 +2480,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Re-Advertisement%20Of%20Vacant%20Positions%20at%20the%20National%20Research%20Fund%20%28NRF%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Re-Advertisement%20Of%20Vacant%20Positions%20at%20the%20National%20Research%20Fund%20%28NRF%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Re-Advertisement%20Of%20Vacant%20Positions%20at%20the%20National%20Research%20Fund%20%28NRF%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Re-Advertisement%20Of%20Vacant%20Positions%20at%20the%20National%20Research%20Fund%20%28NRF%29.pdf",
       "keywords": [
         "re-advertisement",
         "vacant",
@@ -2468,10 +2490,10 @@
         "fund",
         "nrf"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_deputy_commissioner_audit_risk_and_deputy_commissioner_bcc478fa4c71",
+      "id": "mygovdisc_deputy_commissioner_audit_risk_and_deputy_commissioner_2ecdb345ccc9",
       "title": "Deputy Commissioner - Audit & Risk and Deputy Commissioner – International Tax Career Opportunity at KRA",
       "institution": "Kenya Revenue Authority (KRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2481,8 +2503,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Deputy%20Commissioner%20Audit%20%26%20Risk%20and%20Deputy%20Commissioner%20International%20Tax%20Career%20Opportunity%20at%20KRA.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Deputy%20Commissioner%20Audit%20%26%20Risk%20and%20Deputy%20Commissioner%20International%20Tax%20Career%20Opportunity%20at%20KRA.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Deputy%20Commissioner%20Audit%20%26%20Risk%20and%20Deputy%20Commissioner%20International%20Tax%20Career%20Opportunity%20at%20KRA.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Deputy%20Commissioner%20Audit%20%26%20Risk%20and%20Deputy%20Commissioner%20International%20Tax%20Career%20Opportunity%20at%20KRA.pdf",
       "keywords": [
         "deputy",
         "commissioner",
@@ -2496,10 +2518,10 @@
         "revenue",
         "authority"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_deputy_director_legal_services_vacancy_replacement_at_k_38ace916e7c4",
+      "id": "mygovdisc_deputy_director_legal_services_vacancy_replacement_at_k_dd38c36f1f22",
       "title": "Deputy Director, Legal Services Vacancy Replacement at Kenya Leather Development Council",
       "institution": "Kenya Leather Development Council (KLDC)",
       "source_id": "mygov_government_advertising_agency",
@@ -2509,8 +2531,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-16",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Deputy%20Director%2C%20Legal%20Services%20Vacancy%20Replacement%20at%20Kenya%20Leather%20Development%20Council.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Deputy%20Director%2C%20Legal%20Services%20Vacancy%20Replacement%20at%20Kenya%20Leather%20Development%20Council.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Deputy%20Director%2C%20Legal%20Services%20Vacancy%20Replacement%20at%20Kenya%20Leather%20Development%20Council.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Deputy%20Director%2C%20Legal%20Services%20Vacancy%20Replacement%20at%20Kenya%20Leather%20Development%20Council.pdf",
       "keywords": [
         "deputy",
         "director",
@@ -2523,10 +2545,10 @@
         "council",
         "kldc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_managing_director_position_at_kenya_dairy_board_kenya_d_834adc088265",
+      "id": "mygovdisc_managing_director_position_at_kenya_dairy_board_kenya_d_bc1616dd43dd",
       "title": "Managing Director Position at Kenya Dairy Board",
       "institution": "Kenya Dairy Board (KDB)",
       "source_id": "mygov_government_advertising_agency",
@@ -2536,8 +2558,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-17",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Managing%20Director%20Position%20at%20Kenya%20Dairy%20Board%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Managing%20Director%20Position%20at%20Kenya%20Dairy%20Board%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Managing%20Director%20Position%20at%20Kenya%20Dairy%20Board%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Managing%20Director%20Position%20at%20Kenya%20Dairy%20Board%20.pdf",
       "keywords": [
         "managing",
         "director",
@@ -2546,10 +2568,10 @@
         "board",
         "kdb"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kasneb_career_opportunities_for_external_advertisement_d043e599748e",
+      "id": "mygovdisc_kasneb_career_opportunities_for_external_advertisement_e67282bf57f6",
       "title": "KASNEB Career Opportunities For External Advertisement For Vacant Positions",
       "institution": "KASNEB",
       "source_id": "mygov_government_advertising_agency",
@@ -2559,18 +2581,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/KASNEB%20Career%20Opportunities%20For%20External%20Advertisement%20For%20Vacant%20Positions.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/KASNEB%20Career%20Opportunities%20For%20External%20Advertisement%20For%20Vacant%20Positions.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/KASNEB%20Career%20Opportunities%20For%20External%20Advertisement%20For%20Vacant%20Positions.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/KASNEB%20Career%20Opportunities%20For%20External%20Advertisement%20For%20Vacant%20Positions.pdf",
       "keywords": [
         "kasneb",
         "external",
         "advertisement",
         "vacant"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_insurance_regulatory_authority_a2719cdd27f4",
+      "id": "mygovdisc_career_opportunities_at_insurance_regulatory_authority_578a3be3ad7f",
       "title": "Career Opportunities at Insurance Regulatory Authority",
       "institution": "Insurance Regulatory Authority (IRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2580,18 +2602,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-16",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Career%20Opportunities%20at%20Insurance%20Regulatory%20Authority.pdf",
       "keywords": [
         "insurance",
         "regulatory",
         "authority",
         "ira"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_career_opportunities_at_national_irrigation_authority_n_1eed950ec097",
+      "id": "mygovdisc_career_opportunities_at_national_irrigation_authority_n_7725c977548d",
       "title": "Career Opportunities at National Irrigation Authority",
       "institution": "National Irrigation Authority (NIA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2601,18 +2623,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2026-02-10",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Various%20Career%20Opportunities%20at%20National%20Irrigation%20Authority%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2026-01/Various%20Career%20Opportunities%20at%20National%20Irrigation%20Authority%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2026-01/Various%20Career%20Opportunities%20at%20National%20Irrigation%20Authority%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2026-01/Various%20Career%20Opportunities%20at%20National%20Irrigation%20Authority%20.pdf",
       "keywords": [
         "national",
         "irrigation",
         "authority",
         "nia"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kengen_career_opportunities_kenya_electricity_generatin_6e4942b84f83",
+      "id": "mygovdisc_kengen_career_opportunities_kenya_electricity_generatin_75e1746ea447",
       "title": "KenGen Career Opportunities",
       "institution": "Kenya Electricity Generating Company PLC",
       "source_id": "mygov_government_advertising_agency",
@@ -2622,8 +2644,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-10-07",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/KenGen%20Career%20Opportunities%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/KenGen%20Career%20Opportunities%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/KenGen%20Career%20Opportunities%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/KenGen%20Career%20Opportunities%20.pdf",
       "keywords": [
         "kengen",
         "kenya",
@@ -2632,10 +2654,10 @@
         "company",
         "plc"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_chemususu_water_company_limited_vacancy_announcement_ch_fa84503a0361",
+      "id": "mygovdisc_chemususu_water_company_limited_vacancy_announcement_ch_992ed3a2a84b",
       "title": "Chemususu Water Company limited Vacancy Announcement",
       "institution": "Chemususu Water Company limited",
       "source_id": "mygov_government_advertising_agency",
@@ -2645,8 +2667,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-30",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Chemususu%20Water%20Company%20limited%20Vacancy%20Announcement.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Chemususu%20Water%20Company%20limited%20Vacancy%20Announcement.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Chemususu%20Water%20Company%20limited%20Vacancy%20Announcement.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Chemususu%20Water%20Company%20limited%20Vacancy%20Announcement.pdf",
       "keywords": [
         "chemususu",
         "water",
@@ -2654,10 +2676,10 @@
         "limited",
         "announcement"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_director_general_vacancy_at_national_industrial_trainin_69afe24a24e1",
+      "id": "mygovdisc_director_general_vacancy_at_national_industrial_trainin_e24faa7dd8ba",
       "title": "Director General Vacancy at National Industrial Training Authority (NITA)",
       "institution": "National Industrial Training Authority (NITA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2667,8 +2689,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-30",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Director%20General%20Vacancy%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Director%20General%20Vacancy%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Director%20General%20Vacancy%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Director%20General%20Vacancy%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
       "keywords": [
         "director",
         "general",
@@ -2678,10 +2700,10 @@
         "authority",
         "nita"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancy_announcement_for_director_position_at_macroecon_2466bd157ffb",
+      "id": "mygovdisc_vacancy_announcement_for_director_position_at_macroecon_2979fefb6c1c",
       "title": "Vacancy Announcement for Director Position at Macroeconomic and Financial Management Institute of Eastern and Southern Africa (MEFMI)",
       "institution": "Macroeconomic and Financial Management Institute of Eastern and Southern Africa (MEFMI)",
       "source_id": "mygov_government_advertising_agency",
@@ -2691,8 +2713,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-30",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Vacancy%20Announcement%20for%20Director%20Position%20at%20Macroeconomic%20and%20Financial%20Management%20Institute%20of%20Eastern%20and%20Southern%20Africa%20%28MEFMI%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Vacancy%20Announcement%20for%20Director%20Position%20at%20Macroeconomic%20and%20Financial%20Management%20Institute%20of%20Eastern%20and%20Southern%20Africa%20%28MEFMI%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Vacancy%20Announcement%20for%20Director%20Position%20at%20Macroeconomic%20and%20Financial%20Management%20Institute%20of%20Eastern%20and%20Southern%20Africa%20%28MEFMI%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Vacancy%20Announcement%20for%20Director%20Position%20at%20Macroeconomic%20and%20Financial%20Management%20Institute%20of%20Eastern%20and%20Southern%20Africa%20%28MEFMI%29.pdf",
       "keywords": [
         "announcement",
         "director",
@@ -2705,10 +2727,10 @@
         "africa",
         "mefmi"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_information_and_communication_technology_authority_icta_750ec3c35915",
+      "id": "mygovdisc_information_and_communication_technology_authority_icta_6f81d909f3ea",
       "title": "Information and Communication Technology Authority (ICTA) CEO Job Position Re-advertisement",
       "institution": "Information and Communication Technology Authority (ICTA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2718,8 +2740,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-26",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Information%20and%20Communication%20Technology%20Authority%20%28ICTA%29%20CEO%20Job%20Position%20Re-advertisement.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Information%20and%20Communication%20Technology%20Authority%20%28ICTA%29%20CEO%20Job%20Position%20Re-advertisement.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Information%20and%20Communication%20Technology%20Authority%20%28ICTA%29%20CEO%20Job%20Position%20Re-advertisement.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Information%20and%20Communication%20Technology%20Authority%20%28ICTA%29%20CEO%20Job%20Position%20Re-advertisement.pdf",
       "keywords": [
         "information",
         "communication",
@@ -2729,10 +2751,10 @@
         "ceo",
         "re-advertisement"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_scheme_trust_secretary_opportunity_at_the_university_of_bdc2a8f8c177",
+      "id": "mygovdisc_scheme_trust_secretary_opportunity_at_the_university_of_8fb5eb9f657b",
       "title": "Scheme Trust Secretary Opportunity at The University of Nairobi Pension Scheme",
       "institution": "University of Nairobi Pension Scheme",
       "source_id": "mygov_government_advertising_agency",
@@ -2742,8 +2764,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Scheme%20Trust%20Secretary%20Opportunity%20at%20The%20University%20of%20Nairobi%20Pension%20Scheme%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Scheme%20Trust%20Secretary%20Opportunity%20at%20The%20University%20of%20Nairobi%20Pension%20Scheme%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Scheme%20Trust%20Secretary%20Opportunity%20at%20The%20University%20of%20Nairobi%20Pension%20Scheme%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Scheme%20Trust%20Secretary%20Opportunity%20at%20The%20University%20of%20Nairobi%20Pension%20Scheme%20.pdf",
       "keywords": [
         "scheme",
         "trust",
@@ -2753,10 +2775,10 @@
         "nairobi",
         "pension"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_southern_eastern_kenya_university_vacancy_announcement_4e8866eef03c",
+      "id": "mygovdisc_southern_eastern_kenya_university_vacancy_announcement_e042cbfc0d73",
       "title": "Southern Eastern Kenya University Vacancy Announcement",
       "institution": "Southern Eastern Kenya University",
       "source_id": "mygov_government_advertising_agency",
@@ -2766,8 +2788,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-22",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Southern%20Eastern%20Kenya%20University%20Vacancy%20Announcement.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Southern%20Eastern%20Kenya%20University%20Vacancy%20Announcement.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Southern%20Eastern%20Kenya%20University%20Vacancy%20Announcement.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Southern%20Eastern%20Kenya%20University%20Vacancy%20Announcement.pdf",
       "keywords": [
         "southern",
         "eastern",
@@ -2775,10 +2797,10 @@
         "university",
         "announcement"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_public_procurement_regulatory_authority_pp_8e33c46bdb9a",
+      "id": "mygovdisc_vacancies_at_public_procurement_regulatory_authority_pp_a9b6b723fb40",
       "title": "Vacancies at Public Procurement Regulatory Authority (PPRA)",
       "institution": "Public Procurement Regulatory Authority (PPRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2788,8 +2810,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-26",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Vacant%20positions%20at%20Public%20Procurement%20Regulatory%20Authority%20%28PPRA%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Vacant%20positions%20at%20Public%20Procurement%20Regulatory%20Authority%20%28PPRA%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Vacant%20positions%20at%20Public%20Procurement%20Regulatory%20Authority%20%28PPRA%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Vacant%20positions%20at%20Public%20Procurement%20Regulatory%20Authority%20%28PPRA%29.pdf",
       "keywords": [
         "public",
         "procurement",
@@ -2797,10 +2819,10 @@
         "authority",
         "ppra"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_vacancies_at_national_industrial_training_authority_nit_13a6469cb166",
+      "id": "mygovdisc_vacancies_at_national_industrial_training_authority_nit_edb4ab1937af",
       "title": "Vacancies at National Industrial Training Authority (NITA)",
       "institution": "National Industrial Training Authority (NITA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2810,8 +2832,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Various%20vacancies%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Various%20vacancies%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Various%20vacancies%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Various%20vacancies%20at%20National%20Industrial%20Training%20Authority%20%28NITA%29.pdf",
       "keywords": [
         "national",
         "industrial",
@@ -2819,10 +2841,10 @@
         "authority",
         "nita"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kenya_school_of_law_job_advertisement_kenya_school_of_l_fc98b1532485",
+      "id": "mygovdisc_kenya_school_of_law_job_advertisement_kenya_school_of_l_2cb40dfe18d1",
       "title": "Kenya School of Law Job Advertisement",
       "institution": "Kenya School of Law",
       "source_id": "mygov_government_advertising_agency",
@@ -2832,18 +2854,18 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-30",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Kenya%20School%20of%20Law%20Job%20Advertisement%20.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Kenya%20School%20of%20Law%20Job%20Advertisement%20.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Kenya%20School%20of%20Law%20Job%20Advertisement%20.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Kenya%20School%20of%20Law%20Job%20Advertisement%20.pdf",
       "keywords": [
         "kenya",
         "school",
         "law",
         "advertisement"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_kra_career_opportunity_for_commissioner_large_and_mediu_591ac2d3549b",
+      "id": "mygovdisc_kra_career_opportunity_for_commissioner_large_and_mediu_c6216cc8f173",
       "title": "KRA Career Opportunity for Commissioner, Large and Medium Taxpayers",
       "institution": "Kenya Revenue Authority (KRA)",
       "source_id": "mygov_government_advertising_agency",
@@ -2853,8 +2875,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-23",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Career%20Opportunity%20for%20Commissioner%2C%20Large%20and%20Medium%20Taxpayers.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Career%20Opportunity%20for%20Commissioner%2C%20Large%20and%20Medium%20Taxpayers.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Career%20Opportunity%20for%20Commissioner%2C%20Large%20and%20Medium%20Taxpayers.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Career%20Opportunity%20for%20Commissioner%2C%20Large%20and%20Medium%20Taxpayers.pdf",
       "keywords": [
         "kra",
         "opportunity",
@@ -2866,10 +2888,10 @@
         "revenue",
         "authority"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_supply_chain_management_officer_vacancy_at_human_resour_10148d778169",
+      "id": "mygovdisc_supply_chain_management_officer_vacancy_at_human_resour_21e5e97c4fe2",
       "title": "Supply Chain Management Officer Vacancy at Human Resource Management Professionals Examinations Board (HRMPEB)",
       "institution": "Human Resource Management Professionals Examinations Board (HRMPEB)",
       "source_id": "mygov_government_advertising_agency",
@@ -2879,8 +2901,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-15",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Supply%20Chain%20Management%20Officer%20Vacancy%20at%20Human%20Resource%20Management%20Professionals%20Examinations%20Board%20%28HRMPEB%29.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Supply%20Chain%20Management%20Officer%20Vacancy%20at%20Human%20Resource%20Management%20Professionals%20Examinations%20Board%20%28HRMPEB%29.pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Supply%20Chain%20Management%20Officer%20Vacancy%20at%20Human%20Resource%20Management%20Professionals%20Examinations%20Board%20%28HRMPEB%29.pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Supply%20Chain%20Management%20Officer%20Vacancy%20at%20Human%20Resource%20Management%20Professionals%20Examinations%20Board%20%28HRMPEB%29.pdf",
       "keywords": [
         "supply",
         "chain",
@@ -2893,10 +2915,10 @@
         "board",
         "hrmpeb"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     },
     {
-      "id": "mygovdisc_senior_vacant_positions_at_kenya_utalii_college_kenya_u_ec100d554615",
+      "id": "mygovdisc_senior_vacant_positions_at_kenya_utalii_college_kenya_u_58a48362e663",
       "title": "Senior Vacant Positions at Kenya Utalii College.",
       "institution": "Kenya Utalii College",
       "source_id": "mygov_government_advertising_agency",
@@ -2906,8 +2928,8 @@
       "verification_status": "needs_review",
       "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
       "submission_date": "2025-09-26",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Senior%20Vacant%20Positions%20at%20Kenya%20Utalii%20College..pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-09/Senior%20Vacant%20Positions%20at%20Kenya%20Utalii%20College..pdf",
+      "attachment_url": "https://gaa.go.ke/sites/default/files/2025-09/Senior%20Vacant%20Positions%20at%20Kenya%20Utalii%20College..pdf",
+      "view_original_url": "https://gaa.go.ke/sites/default/files/2025-09/Senior%20Vacant%20Positions%20at%20Kenya%20Utalii%20College..pdf",
       "keywords": [
         "senior",
         "vacant",
@@ -2915,30 +2937,7 @@
         "utalii",
         "college"
       ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
-    },
-    {
-      "id": "mygovdisc_tsc_re_advertisement_of_internship_opportunities_teache_84fb2a23dd93",
-      "title": "TSC Re-advertisement of Internship Opportunities",
-      "institution": "Teachers Service Commission (TSC)",
-      "source_id": "mygov_government_advertising_agency",
-      "source_name": "Government Advertising Agency / MyGov Job Adverts",
-      "source_url": "https://gaa.go.ke/index.php/node/445",
-      "source_confidence": "official_discovery",
-      "verification_status": "needs_review",
-      "review_reason": "MyGov/GAA discovery item. Cross-check the PDF and hiring institution before adding to open roles.",
-      "submission_date": "2025-09-09",
-      "attachment_url": "https://gaa.go.ke/index.php/sites/default/files/2025-08/TSC%20Re-advertisement%20of%20Internship%20Opportunities%20copy.pdf",
-      "view_original_url": "https://gaa.go.ke/index.php/sites/default/files/2025-08/TSC%20Re-advertisement%20of%20Internship%20Opportunities%20copy.pdf",
-      "keywords": [
-        "tsc",
-        "re-advertisement",
-        "internship",
-        "teachers",
-        "service",
-        "commission"
-      ],
-      "seen_at": "2026-08-05T10:10:29+03:00"
+      "seen_at": "2026-08-06T10:12:55+03:00"
     }
   ]
 }
